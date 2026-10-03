@@ -9,7 +9,7 @@ const index = [
 export default function Home() {
   return (
     <section className="wrap pt-16 pb-24 md:pt-28 md:pb-36">
-      <h1 className="display text-hero max-w-3xl">Welcome to my sandbox</h1>
+      <h1 className="display text-hero max-w-3xl">Welcome to my sandbox.</h1>
 
       <ul className="mt-16 md:mt-24">
         {index.map((item, i) => (
