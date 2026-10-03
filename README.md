@@ -57,7 +57,19 @@ tags: ["technology", "law"]
 Write in Markdown.
 ```
 
-Reading time is calculated automatically. The RSS feed (`/feed.xml`), sitemap and social-share image update on their own. Frontmatter is validated at build time (`src/lib/schema.ts`), so a typo fails the build with the file name and field instead of shipping broken.
+Reading time is calculated automatically. The RSS feed (`/feed.xml`, password-protected), sitemap and social-share image update on their own. Frontmatter is validated at build time (`src/lib/schema.ts`), so a typo fails the build with the file name and field instead of shipping broken.
+
+## Password protection
+
+Projects, Writing and the RSS feed (`/feed.xml`) require a password. Everything else is public. The password is **not** in the code. It is read from an environment variable named `SITE_PASSWORD`.
+
+- **Set or change it:** Vercel project → **Settings → Environment Variables** → add `SITE_PASSWORD` (Production), then redeploy. Changing it signs everyone out.
+- **If it isn't set, those pages stay locked for everyone**, including you.
+- **Run locally with a password:** create a file named `.env.local` containing `SITE_PASSWORD=choose-something` (it is git-ignored).
+- Visitors who enter it stay signed in for 30 days on that browser. Protected pages are left out of the sitemap and `robots.txt` asks search engines to skip them.
+- This is a single shared password, fine for keeping a personal area private. It is not a per-user login system.
+
+The rules live in `src/proxy.ts` (which paths) and `src/lib/auth.ts` (the check).
 
 ## Deploy
 

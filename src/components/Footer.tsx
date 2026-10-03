@@ -13,7 +13,6 @@ export function Footer() {
               <a href={href} className="label link" rel="me noopener">{name}</a>
             </li>
           ))}
-          <li><a href="/feed.xml" className="label link">RSS</a></li>
         </ul>
       </div>
     </footer>

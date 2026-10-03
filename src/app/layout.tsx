@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url.includes("[") ? "http://localhost:3000" : site.url),
   title: { default: site.name, template: `%s — ${site.name}` },
   description: site.description,
-  alternates: { canonical: "./", types: { "application/rss+xml": "/feed.xml" } },
+  alternates: { canonical: "./" },
   openGraph: { siteName: site.name, type: "website", locale: "en_US" },
   twitter: { card: "summary_large_image" },
 };
