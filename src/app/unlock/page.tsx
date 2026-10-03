@@ -41,7 +41,17 @@ export default async function Unlock({ searchParams }: { searchParams: Promise<{
           <SidePicture
             src="/projects/skyline.webp"
             alt="Painted view of the New York City skyline with the Empire State Building in soft evening light"
+            cropTop={10}
             className="-mt-[20%]"
+          />
+        )}
+        {title === "Writing" && (
+          <SidePicture
+            src="/writing/painted-ladies.webp"
+            alt="Painted view of San Francisco's Painted Ladies Victorian houses, with the city skyline behind a cypress tree"
+            width={900}
+            height={1064}
+            className="-mt-[12%]"
           />
         )}
       </div>

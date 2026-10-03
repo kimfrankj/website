@@ -13,7 +13,7 @@ export const site = {
   ).replace(/\/$/, ""),
   email: "kimfrancisj@gmail.com",
   links: {
-    linkedin: "[LINKEDIN-URL]",
+    linkedin: "https://www.linkedin.com/in/francis-j-kim/",
     x: "[X-URL]",
   },
 } as const;
