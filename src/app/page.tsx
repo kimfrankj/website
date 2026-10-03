@@ -16,7 +16,7 @@ export default function Home() {
         <p className="label mb-8">Yale Law School · Emerging technology · Startups</p>
 
         {/* Memorable moment 1: type at architectural scale, with the image slot tucked beneath it */}
-        <div className="relative">
+        <div className="relative md:min-h-[38vw]">
           <h1 className="display text-hero relative z-10">
             Studying <em className="text-accent">law.</em>
             <br />
@@ -24,12 +24,12 @@ export default function Home() {
             <br />
             <span className="md:ml-[4vw]">comes next.</span>
           </h1>
-          <div className="mt-10 md:absolute md:right-0 md:top-[18%] md:mt-0 md:w-[34%]">
+          <div className="mt-10 md:absolute md:right-0 md:top-[4%] md:mt-0 md:w-[28%]">
             <ImageFrame
-              label="Hero image, 3:4. Replace with your own, e.g. /public/about/hero.jpg"
-              ratio="3 / 4"
+              label="Hero image, 4:5. Replace with your own, e.g. /public/about/hero.jpg"
+              ratio="4 / 5"
               priority
-              sizes="(min-width: 768px) 34vw, 100vw"
+              sizes="(min-width: 768px) 28vw, 100vw"
             />
           </div>
         </div>
