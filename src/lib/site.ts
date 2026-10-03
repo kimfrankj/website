@@ -13,7 +13,6 @@ export const site = {
   ).replace(/\/$/, ""),
   email: "kimfrancisj@gmail.com",
   links: {
-    github: "https://github.com/kimfrankj",
     linkedin: "[LINKEDIN-URL]",
     x: "[X-URL]",
   },

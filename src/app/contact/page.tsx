@@ -11,7 +11,6 @@ export default function Contact() {
     ["Email", site.email, `mailto:${site.email}`],
     ["LinkedIn", site.links.linkedin, site.links.linkedin],
     ["X", site.links.x, site.links.x],
-    ["GitHub", site.links.github, site.links.github],
   ];
 
   const rows = all.filter(([, text]) => !isPlaceholder(text));
