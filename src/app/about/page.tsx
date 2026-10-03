@@ -9,35 +9,33 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <div className="wrap pt-16 md:pt-28">
-      <div className="grid gap-12 md:grid-cols-12 md:gap-8">
-        {/* Words on the left: heading at the top, the rest settling toward the portrait's base */}
-        <div className="flex flex-col justify-between gap-16 md:col-span-6">
-          <h1 className="display text-title">About</h1>
+      <h1 className="display text-title">About</h1>
 
-          <div className="md:pb-16">
-            <p className="display text-[length:var(--text-hero)]">Frolicking through life.</p>
+      {/* The words and the portrait share one row: portrait to the right of the words,
+          at every screen size. The portrait's soft left edge tucks under the text. */}
+      <div className="mt-12 grid grid-cols-12 items-center md:mt-16">
+        <div className="relative z-10 col-span-7 col-start-1 row-start-1 md:col-span-6">
+          <p className="display text-3xl sm:text-5xl md:text-[length:var(--text-hero)]">Frolicking through life.</p>
 
-            <dl className="ruled ruled-last mt-12 grid max-w-md grid-cols-3 gap-4 py-6 md:mt-16">
-              <dt className="label pt-1">Currently</dt>
-              <dd className="col-span-2">
-                New Haven &amp; New York.
-                <br />
-                Building something new.
-              </dd>
-            </dl>
-          </div>
+          <dl className="ruled ruled-last mt-8 gap-1 py-5 text-sm sm:grid sm:grid-cols-3 sm:gap-4 sm:text-base md:mt-16 md:max-w-md md:py-6">
+            <dt className="label sm:pt-1">Currently</dt>
+            <dd className="sm:col-span-2">
+              New Haven &amp; New York.
+              <br />
+              Building something new.
+            </dd>
+          </dl>
         </div>
 
-        {/* Portrait to the right of the words, cut out so it sits directly on the page */}
-        <div className="md:col-span-6 md:col-start-7 md:-mt-12">
+        <div className="col-span-6 col-start-7 row-start-1 -ml-4 md:col-span-5 md:col-start-8 md:ml-0">
           <Image
-            src="/about/portrait-painted.png"
-            alt="Painted portrait of Frank Kim, arms crossed, in a white shirt"
-            width={780}
-            height={1270}
+            src="/about/portrait-wall.png"
+            alt="Painted portrait of Frank Kim, arms crossed, in a white shirt, leaning against a stone archway"
+            width={940}
+            height={1500}
             priority
-            sizes="(min-width: 768px) 46vw, 100vw"
-            className="portrait-cutout mx-auto h-auto w-full max-w-[34rem]"
+            sizes="(min-width: 768px) 42vw, 55vw"
+            className="portrait-cutout h-auto w-full"
           />
         </div>
       </div>
