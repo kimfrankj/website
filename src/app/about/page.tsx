@@ -14,8 +14,8 @@ export default function About() {
       <div className="grid grid-cols-12">
         <div className="relative z-10 col-span-7 col-start-1 row-start-1 flex flex-col md:col-span-6">
           <div className="flex flex-1 flex-col justify-center py-10">
-            {/* The page has no "About" title; this line is the page heading */}
-            <h1 className="display text-balance text-[length:clamp(1.375rem,4.4vw,3.25rem)]">The biggest risk is not taking any risk.</h1>
+            {/* Screen-reader-only page heading; nothing is shown visually */}
+            <h1 className="sr-only">About</h1>
 
             <dl className="ruled ruled-last mt-8 gap-1 py-5 text-sm sm:grid sm:grid-cols-3 sm:gap-4 sm:text-base md:mt-16 md:max-w-md md:py-6">
               <dt className="label sm:pt-1">Currently</dt>
@@ -30,15 +30,18 @@ export default function About() {
 
         {/* The portrait reaches up close to the nav bar. Its top edge is transparent, and it ignores clicks so the nav links stay usable */}
         <div className="pointer-events-none col-span-6 col-start-7 row-start-1 -ml-4 -mt-[28%] self-start md:col-span-5 md:col-start-8 md:ml-0">
-          <Image
-            src="/about/portrait-wall.png"
-            alt="Painted portrait of Frank Kim, arms crossed, in a white shirt, leaning against a stone archway"
-            width={940}
-            height={1500}
-            priority
-            sizes="(min-width: 768px) 42vw, 55vw"
-            className="portrait-cutout h-auto w-full"
-          />
+          {/* The wrapper crops 10px off the bottom (negative margin + overflow hidden); the fade lives on the wrapper so it ends at the new bottom */}
+          <div className="portrait-cutout overflow-hidden">
+            <Image
+              src="/about/portrait-wall.png"
+              alt="Painted portrait of Frank Kim, arms crossed, in a white shirt, leaning against a stone archway"
+              width={940}
+              height={1500}
+              priority
+              sizes="(min-width: 768px) 42vw, 55vw"
+              className="block h-auto w-full -mb-[10px]"
+            />
+          </div>
         </div>
       </div>
     </div>
