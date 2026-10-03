@@ -1,0 +1,131 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* Travertine palette. Light is default; dark follows the OS unless the
+   visitor picks a theme (data-theme on <html>). */
+:root {
+  --bg: #efe9df;
+  --surface: #e6ded1;
+  --ink: #1b1814;
+  --muted: #62594e;
+  --line: #cfc5b5;
+  --accent: #a8401f;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #161310;
+    --surface: #1f1b17;
+    --ink: #ede6da;
+    --muted: #a39a8c;
+    --line: #352f28;
+    --accent: #e0775a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #161310;
+  --surface: #1f1b17;
+  --ink: #ede6da;
+  --muted: #a39a8c;
+  --line: #352f28;
+  --accent: #e0775a;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --font-display: var(--font-instrument), "Times New Roman", serif;
+  --font-sans: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
+  --text-hero: clamp(3.5rem, 11.5vw, 11rem);
+  --text-title: clamp(2.75rem, 8vw, 7rem);
+  --text-lead: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+html {
+  background: var(--bg);
+  scroll-behavior: smooth;
+}
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+::selection { background: var(--accent); color: var(--bg); }
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+.display {
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: 0.92;
+  letter-spacing: -0.03em;
+}
+.label {
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.wrap {
+  width: 100%;
+  max-width: 96rem;
+  margin-inline: auto;
+  padding-inline: clamp(1.25rem, 4vw, 4rem);
+}
+
+/* Link with an underline that draws in on hover */
+.link {
+  background: linear-gradient(currentColor, currentColor) 0 100% / 100% 1px no-repeat;
+  transition: background-size 0.4s cubic-bezier(0.2, 0.7, 0.2, 1), color 0.2s;
+}
+.link:hover { color: var(--accent); background-size: 0% 1px; background-position: 100% 100%; }
+
+/* Film grain, painted once into a tiled SVG so it costs nothing at runtime */
+.grain {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  opacity: 0.07;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+:root[data-theme="dark"] .grain { mix-blend-mode: screen; opacity: 0.05; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .grain { mix-blend-mode: screen; opacity: 0.05; }
+}
+
+/* Placeholder image frames: hatched, labelled, obviously not real */
+.placeholder {
+  background-color: var(--surface);
+  background-image: repeating-linear-gradient(135deg, transparent 0 14px, var(--line) 14px 15px);
+}
+
+.skip {
+  position: absolute;
+  left: 1rem;
+  top: -4rem;
+  z-index: 100;
+  background: var(--ink);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+}
+.skip:focus { top: 1rem; }
