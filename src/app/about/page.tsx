@@ -15,7 +15,7 @@ export default function About() {
         <div className="relative z-10 col-span-7 col-start-1 row-start-1 flex flex-col md:col-span-6">
           <div className="flex flex-1 flex-col justify-center py-10">
             {/* The page has no "About" title; this line is the page heading */}
-            <h1 className="display text-3xl sm:text-5xl md:text-[length:var(--text-hero)]">Frolicking through life.</h1>
+            <h1 className="display whitespace-nowrap text-[length:clamp(1.5rem,5.8vw,4.5rem)]">Frolicking through life.</h1>
 
             <dl className="ruled ruled-last mt-8 gap-1 py-5 text-sm sm:grid sm:grid-cols-3 sm:gap-4 sm:text-base md:mt-16 md:max-w-md md:py-6">
               <dt className="label sm:pt-1">Currently</dt>
