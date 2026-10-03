@@ -2,14 +2,13 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Frank Kim is a Navy veteran from Houston, Texas, studying at Yale Law School.",
+  description: "About Frank Kim: from Houston, Texas, Navy veteran, U.S. Naval Academy and Stanford MBA.",
 };
 
 const facts: [string, string][] = [
   ["From", "Houston, Texas"],
   ["Service", "U.S. Navy veteran"],
   ["Education", "U.S. Naval Academy · Stanford MBA"],
-  ["Now", "Yale Law School"],
 ];
 
 export default function About() {

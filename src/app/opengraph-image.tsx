@@ -6,5 +6,5 @@ export const contentType = "image/png";
 export const alt = site.name;
 
 export default function Image() {
-  return ogImage({ title: site.tagline, kicker: site.name });
+  return ogImage({ title: site.name, kicker: "Projects and writing" });
 }

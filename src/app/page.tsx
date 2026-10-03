@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { site } from "@/lib/site";
 import { getPosts, getProjects } from "@/lib/content";
 import { ProjectRow } from "@/components/ProjectRow";
 import { PostRow } from "@/components/PostRow";
@@ -17,12 +18,7 @@ export default function Home() {
   return (
     <>
       <section className="wrap pt-16 pb-24 md:pt-28 md:pb-36">
-        <p className="label mb-10">Yale Law School</p>
-        <h1 className="display text-hero max-w-4xl">
-          Studying law.
-          <br />
-          <span className="text-muted">Building…</span>
-        </h1>
+        <h1 className="display text-hero">{site.name}</h1>
         <ul className="mt-16 md:mt-24">
           {index.map((item, i) => (
             <li key={item.href} className="border-t border-line last:border-b">

@@ -4,12 +4,7 @@
  */
 export const site = {
   name: "Frank Kim",
-  // Draft positioning line. Edit freely.
-  tagline: "Studying law. Building…",
-  intro:
-    "I’m a student at Yale Law School, drawn to emerging technology and always looking for new ways to improve people’s lives. This is where I’ll share the startups I’m building and, in time, what I’m thinking.",
-  description:
-    "Frank Kim — Yale Law student, Navy veteran and builder of startups, interested in emerging technology.",
+  description: "Frank Kim. Projects and writing.",
   // Set NEXT_PUBLIC_SITE_URL in Vercel once the GoDaddy domain is connected.
   // Until then Vercel's own production URL is used, then a placeholder.
   url: (

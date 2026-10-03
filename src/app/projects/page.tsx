@@ -4,7 +4,7 @@ import { ProjectRow } from "@/components/ProjectRow";
 
 export const metadata: Metadata = {
   title: "Projects",
-  description: "Ventures and projects Frank Kim is building.",
+  description: "Projects by Frank Kim.",
 };
 
 export default function Projects() {

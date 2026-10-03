@@ -15,7 +15,7 @@ Other scripts: `npm run lint`, `npm run typecheck`, `npm run build`, `npm start`
 
 Everything marked `[LIKE THIS]` is a placeholder. Search the project for `[` to find them.
 
-- **Name, tagline, intro, email, social links:** `src/lib/site.ts`
+- **Name, email, social links:** `src/lib/site.ts`
 - **Bio:** `src/app/about/page.tsx`
 - **Photos:** images only appear when you provide one. Drop a file in `public/projects/` and set `image:` in a project's frontmatter.
 

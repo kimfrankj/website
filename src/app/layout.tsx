@@ -18,7 +18,7 @@ const sans = Geist({ subsets: ["latin"], variable: "--font-geist", display: "swa
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url.includes("[") ? "http://localhost:3000" : site.url),
-  title: { default: `${site.name} — ${site.tagline}`, template: `%s — ${site.name}` },
+  title: { default: site.name, template: `%s — ${site.name}` },
   description: site.description,
   alternates: { canonical: "./", types: { "application/rss+xml": "/feed.xml" } },
   openGraph: { siteName: site.name, type: "website", locale: "en_US" },
