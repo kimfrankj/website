@@ -140,3 +140,28 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .page-enter { animation: none; }
 }
+
+/* About portrait: an offset outline behind the picture (like a gallery mount)
+   and a slow unveil when the page loads. */
+.portrait { position: relative; }
+.portrait::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translate(14px, 14px);
+  border: 1px solid color-mix(in srgb, var(--ink) 35%, transparent);
+  pointer-events: none;
+}
+@keyframes unveil {
+  from { clip-path: inset(100% 0 0 0); }
+  to { clip-path: inset(0 0 0 0); }
+}
+@keyframes settle {
+  from { transform: scale(1.08); }
+  to { transform: scale(1); }
+}
+.unveil { animation: unveil 1.4s cubic-bezier(0.2, 0.7, 0.2, 1) 0.2s both; }
+.unveil img { animation: settle 2s cubic-bezier(0.2, 0.7, 0.2, 1) 0.2s both; }
+@media (prefers-reduced-motion: reduce) {
+  .unveil, .unveil img { animation: none; }
+}
