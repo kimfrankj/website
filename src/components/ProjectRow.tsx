@@ -4,7 +4,8 @@ import type { ProjectMeta } from "@/lib/schema";
 import { ImageFrame } from "./ImageFrame";
 import { Reveal } from "./Reveal";
 
-export function ProjectRow({ project, index }: { project: Entry<ProjectMeta>; index: number }) {
+export function ProjectRow({ project, index, level = 2 }: { project: Entry<ProjectMeta>; index: number; level?: 2 | 3 }) {
+  const Heading = level === 2 ? "h2" : "h3";
   return (
     <Reveal>
       <Link href={`/projects/${project.slug}`} className="group block border-t border-line pt-6 pb-12 md:pb-20">
@@ -23,10 +24,10 @@ export function ProjectRow({ project, index }: { project: Entry<ProjectMeta>; in
           />
         </div>
         <div className="mt-6 grid gap-3 md:grid-cols-12">
-          <h3 className="display text-4xl md:col-span-7 md:text-6xl">
+          <Heading className="display text-4xl md:col-span-7 md:text-6xl">
             {project.title}
             <span aria-hidden="true" className="ml-3 inline-block text-accent transition-transform duration-500 group-hover:translate-x-2">→</span>
-          </h3>
+          </Heading>
           <p className="max-w-md text-muted md:col-span-4 md:col-start-9">{project.summary}</p>
         </div>
       </Link>

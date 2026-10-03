@@ -56,7 +56,7 @@ export default function Home() {
             <h2 id="projects-h" className="label">Selected projects</h2>
             <Link href="/projects" className="label link !text-ink">All projects</Link>
           </div>
-          {projects.map((p, i) => <ProjectRow key={p.slug} project={p} index={i} />)}
+          {projects.map((p, i) => <ProjectRow key={p.slug} project={p} index={i} level={3} />)}
         </section>
       )}
 
@@ -67,7 +67,7 @@ export default function Home() {
               <h2 id="writing-h" className="label">Writing</h2>
               <Link href="/writing" className="label link !text-ink">All writing</Link>
             </div>
-            <ul>{posts.map((p) => <PostRow key={p.slug} post={p} />)}</ul>
+            <ul>{posts.map((p) => <PostRow key={p.slug} post={p} level={3} />)}</ul>
           </Reveal>
         </section>
       )}

@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { formatDate, type Post } from "@/lib/content";
 
-export function PostRow({ post }: { post: Post }) {
+export function PostRow({ post, level = 2 }: { post: Post; level?: 2 | 3 }) {
+  const Heading = level === 2 ? "h2" : "h3";
   return (
     <li className="border-t border-line">
       <Link href={`/writing/${post.slug}`} className="group grid gap-2 py-8 md:grid-cols-12 md:gap-6">
@@ -9,7 +10,7 @@ export function PostRow({ post }: { post: Post }) {
           {formatDate(post.date)}
         </time>
         <div className="md:col-span-7">
-          <h3 className="display text-3xl transition-colors group-hover:text-accent md:text-5xl">{post.title}</h3>
+          <Heading className="display text-3xl transition-colors group-hover:text-accent md:text-5xl">{post.title}</Heading>
           <p className="mt-3 max-w-xl text-muted">{post.summary}</p>
         </div>
         <p className="label md:col-span-2 md:pt-3 md:text-right">
