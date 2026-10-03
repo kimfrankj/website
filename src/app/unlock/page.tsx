@@ -8,12 +8,15 @@ export const metadata: Metadata = {
 
 export default async function Unlock({ searchParams }: { searchParams: Promise<{ next?: string; error?: string }> }) {
   const { next, error } = await searchParams;
+  // Title the page after where the visitor was headed
+  const target = safeNext(next);
+  const title = target.startsWith("/writing") || target.startsWith("/feed") ? "Writing" : target.startsWith("/projects") ? "Projects" : "Private";
 
   return (
     <div className="wrap pt-16 md:pt-28">
-      <h1 className="display text-title mb-16 md:mb-24">Private</h1>
+      <h1 className="display text-title mb-16 md:mb-24">{title}</h1>
       <form action="/api/unlock" method="post" className="max-w-sm">
-        <input type="hidden" name="next" value={safeNext(next)} />
+        <input type="hidden" name="next" value={target} />
         <label htmlFor="password" className="label block">Password</label>
         <input
           id="password"

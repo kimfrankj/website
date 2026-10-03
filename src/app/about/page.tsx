@@ -13,8 +13,10 @@ export default function About() {
           The portrait's soft left edge tucks under the text at every screen size. */}
       <div className="grid grid-cols-12">
         <div className="relative z-10 col-span-7 col-start-1 row-start-1 flex flex-col md:col-span-6">
+          <h1 className="display text-title">About</h1>
+
           <div className="flex flex-1 flex-col justify-center py-10">
-            <h1 className="display whitespace-nowrap text-[length:clamp(1.5rem,5.8vw,4.5rem)]">Building something new.</h1>
+            <p className="display whitespace-nowrap text-[length:clamp(1.5rem,5.8vw,4.5rem)]">Building something new.</p>
 
             <dl className="mt-8 text-sm sm:text-base md:mt-16 md:max-w-md">
               {[
