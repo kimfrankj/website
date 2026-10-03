@@ -13,7 +13,7 @@ export function ThemeToggle() {
   }
 
   return (
-    <button type="button" onClick={toggle} className="label link py-1.5" aria-label="Toggle light and dark mode">
+    <button type="button" onClick={toggle} className="label link-quiet py-1.5" aria-label="Toggle light and dark mode">
       Theme
     </button>
   );

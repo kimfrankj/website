@@ -7,6 +7,7 @@ export function Footer() {
       <div className="flex flex-col justify-between gap-4 sm:flex-row">
         <p className="label">© {new Date().getFullYear()} {site.name}</p>
         <ul className="flex gap-6">
+          <li><a href={`mailto:${site.email}`} className="label link">Email</a></li>
           {links.map(([name, href]) => (
             <li key={name}>
               <a href={href} className="label link" rel="me noopener">{name}</a>

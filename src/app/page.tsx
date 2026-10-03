@@ -29,7 +29,7 @@ export default function Home() {
         <ul className="mt-20 md:mt-28">
           {index.map((item, i) => (
             <li key={item.href} className="border-t border-line last:border-b">
-              <Link href={item.href} className="group grid grid-cols-12 items-baseline gap-4 py-5">
+              <Link href={item.href} className="group -mx-4 grid grid-cols-12 items-baseline gap-4 px-4 py-6 transition-colors hover:bg-surface">
                 <span className="label col-span-2 md:col-span-1">{String(i + 1).padStart(2, "0")}</span>
                 <span className="display col-span-6 text-2xl transition-colors group-hover:text-accent md:col-span-7 md:text-3xl">
                   {item.label}

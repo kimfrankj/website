@@ -4,32 +4,32 @@
 /* Travertine palette. Light is default; dark follows the OS unless the
    visitor picks a theme (data-theme on <html>). */
 :root {
-  --bg: #efe9df;
-  --surface: #e6ded1;
-  --ink: #1b1814;
-  --muted: #62594e;
-  --line: #cfc5b5;
-  --accent: #a8401f;
+  --bg: #f4efe6;
+  --surface: #ebe4d8;
+  --ink: #221e19;
+  --muted: #655c50;
+  --line: #d6ccbc;
+  --accent: #9c4426;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #161310;
-    --surface: #1f1b17;
-    --ink: #ede6da;
-    --muted: #a39a8c;
-    --line: #352f28;
-    --accent: #e0775a;
+    --bg: #17130f;
+    --surface: #201b16;
+    --ink: #efe8dc;
+    --muted: #a89f91;
+    --line: #3a332b;
+    --accent: #e08a6a;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #161310;
-  --surface: #1f1b17;
-  --ink: #ede6da;
-  --muted: #a39a8c;
-  --line: #352f28;
-  --accent: #e0775a;
+  --bg: #17130f;
+  --surface: #201b16;
+  --ink: #efe8dc;
+  --muted: #a89f91;
+  --line: #3a332b;
+  --accent: #e08a6a;
   color-scheme: dark;
 }
 
@@ -42,7 +42,7 @@
   --color-accent: var(--accent);
   --font-display: var(--font-instrument), "Times New Roman", serif;
   --font-sans: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
-  --text-hero: clamp(2.5rem, 6vw, 5rem);
+  --text-hero: clamp(2.75rem, 6.5vw, 5.5rem);
   --text-title: clamp(2.25rem, 4.5vw, 3.75rem);
   --text-lead: clamp(1.25rem, 2vw, 1.625rem);
 }
@@ -96,6 +96,12 @@ body {
   background: linear-gradient(currentColor, currentColor) 0 100% / 100% 1px no-repeat;
   transition: background-size 0.4s cubic-bezier(0.2, 0.7, 0.2, 1), color 0.2s;
 }
+/* Quiet nav links: no resting underline, drawn in on hover */
+.link-quiet {
+  background: linear-gradient(currentColor, currentColor) 0 100% / 0% 1px no-repeat;
+  transition: background-size 0.35s cubic-bezier(0.2, 0.7, 0.2, 1), color 0.2s;
+}
+.link-quiet:hover, .link-quiet:focus-visible { background-size: 100% 1px; }
 .link:hover { color: var(--accent); background-size: 0% 1px; background-position: 100% 100%; }
 
 .skip {

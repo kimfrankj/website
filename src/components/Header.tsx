@@ -12,7 +12,7 @@ export function Header() {
         <ul className="flex gap-4 sm:gap-8">
           {nav.map((n) => (
             <li key={n.href}>
-              <Link href={n.href} className="label link inline-block py-1.5 !text-ink">
+              <Link href={n.href} className="label link-quiet inline-block py-1.5 !text-ink">
                 {n.label}
               </Link>
             </li>
