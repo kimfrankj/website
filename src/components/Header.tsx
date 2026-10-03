@@ -3,7 +3,7 @@ import { nav, site } from "@/lib/site";
 
 export function Header() {
   return (
-    <header className="wrap flex flex-col gap-4 py-6 sm:flex-row sm:items-baseline sm:justify-between sm:gap-6 md:py-8">
+    <header className="wrap relative z-20 flex flex-col gap-4 py-6 sm:flex-row sm:items-baseline sm:justify-between sm:gap-6 md:py-8">
       <Link href="/" className="inline-block py-1 font-display text-2xl leading-none tracking-tight">
         {site.name}
       </Link>
