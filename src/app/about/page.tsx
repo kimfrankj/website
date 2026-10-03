@@ -16,7 +16,7 @@ export default function About() {
         <dd className="col-span-2">
           New Haven &amp; New York.
           <br />
-          Building something new!
+          Building something new.
         </dd>
       </dl>
     </div>
