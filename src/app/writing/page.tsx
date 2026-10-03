@@ -30,9 +30,7 @@ export default function Writing() {
         <SidePicture
           src="/writing/painted-ladies.webp"
           alt="Painted view of San Francisco's Painted Ladies Victorian houses, with the city skyline behind a cypress tree"
-          width={900}
-          height={1064}
-          className="-mt-[12%]"
+          position="50% 50%"
         />
       </div>
     </div>

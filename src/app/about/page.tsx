@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import { SidePicture } from "@/components/SidePicture";
 
 export const metadata: Metadata = {
   title: "About",
@@ -32,21 +32,11 @@ export default function About() {
           </div>
         </div>
 
-        {/* The portrait reaches up close to the nav bar. Its top edge is transparent, and it ignores clicks so the nav links stay usable */}
-        <div className="pointer-events-none col-span-6 col-start-7 row-start-1 -ml-4 -mt-[28%] self-start md:col-span-5 md:col-start-8 md:ml-0">
-          {/* The wrapper crops 25px off the bottom (negative margin + overflow hidden); the fade lives on the wrapper so it ends at the new bottom */}
-          <div className="portrait-cutout overflow-hidden">
-            <Image
-              src="/about/portrait-wall.png"
-              alt="Painted portrait of Frank Kim, arms crossed, in a white shirt, leaning against a stone archway"
-              width={940}
-              height={1500}
-              priority
-              sizes="(min-width: 768px) 42vw, 55vw"
-              className="block h-auto w-full -mb-[25px]"
-            />
-          </div>
-        </div>
+        <SidePicture
+          src="/about/portrait-wall.png"
+          alt="Painted portrait of Frank Kim, arms crossed, in a white shirt, leaning against a stone archway"
+          position="50% 34%"
+        />
       </div>
     </div>
   );

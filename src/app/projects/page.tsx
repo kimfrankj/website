@@ -30,8 +30,7 @@ export default function Projects() {
         <SidePicture
           src="/projects/skyline.webp"
           alt="Painted view of the New York City skyline with the Empire State Building in soft evening light"
-          cropTop={10}
-          className="-mt-[20%]"
+          position="50% 65%"
         />
       </div>
     </div>

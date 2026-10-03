@@ -141,10 +141,10 @@ body {
   .page-enter { animation: none; }
 }
 
-/* About portrait: a cut-out that rises in gently and dissolves into the page at the bottom */
+/* Side pictures: rise in gently and dissolve into the page at the top and bottom */
 .portrait-cutout {
-  -webkit-mask-image: linear-gradient(to bottom, #000 78%, transparent 100%);
-  mask-image: linear-gradient(to bottom, #000 78%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 12%, #000 78%, transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent 0%, #000 12%, #000 78%, transparent 100%);
   animation: rise 1.2s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s both;
 }
 @keyframes rise {
