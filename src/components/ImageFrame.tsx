@@ -1,35 +1,25 @@
 import Image from "next/image";
 
-/**
- * Renders a real image when `src` is given, otherwise a hatched placeholder
- * that says exactly what to replace. Never a stock photo.
- */
+/** Renders the image when `src` is set; renders nothing otherwise (no filler boxes). */
 export function ImageFrame({
   src,
   alt = "",
-  label,
-  ratio = "16 / 10",
+  ratio = "16 / 9",
   priority = false,
   sizes = "(min-width: 1024px) 60vw, 100vw",
   className = "",
 }: {
   src?: string;
   alt?: string;
-  label: string;
   ratio?: string;
   priority?: boolean;
   sizes?: string;
   className?: string;
 }) {
+  if (!src) return null;
   return (
-    <div className={`relative overflow-hidden ${src ? "bg-surface" : "placeholder"} ${className}`} style={{ aspectRatio: ratio }}>
-      {src ? (
-        <Image src={src} alt={alt} fill sizes={sizes} priority={priority} className="object-cover" />
-      ) : (
-        <div className="absolute inset-0 flex items-end p-4">
-          <p className="label bg-bg px-2 py-1">[IMAGE] {label}</p>
-        </div>
-      )}
+    <div className={`relative overflow-hidden bg-surface ${className}`} style={{ aspectRatio: ratio }}>
+      <Image src={src} alt={alt} fill sizes={sizes} priority={priority} className="object-cover" />
     </div>
   );
 }

@@ -5,18 +5,18 @@
 export const site = {
   name: "Frank Kim",
   // Draft positioning line. Edit freely.
-  tagline: "Studying law. Building what comes next.",
+  tagline: "Studying law. Building…",
   intro:
-    "I’m a student at Yale Law School, fascinated by emerging technology and always looking for new ways to improve people’s lives. This is where I build startups and, eventually, share what I’m thinking.",
+    "I’m a student at Yale Law School, drawn to emerging technology and always looking for new ways to improve people’s lives. This is where I’ll share the startups I’m building and, in time, what I’m thinking.",
   description:
-    "Frank Kim — Yale Law student, builder of startups, writing about emerging technology.",
+    "Frank Kim — Yale Law student, Navy veteran and builder of startups, interested in emerging technology.",
   // Set NEXT_PUBLIC_SITE_URL in Vercel once the GoDaddy domain is connected.
   // Until then Vercel's own production URL is used, then a placeholder.
   url: (
     process.env.NEXT_PUBLIC_SITE_URL ??
     (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : "https://[YOUR-DOMAIN].com")
   ).replace(/\/$/, ""),
-  email: "[YOUR-EMAIL]",
+  email: "kimfrancisj@gmail.com",
   links: {
     github: "https://github.com/kimfrankj",
     linkedin: "[LINKEDIN-URL]",

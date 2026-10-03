@@ -28,10 +28,10 @@ export default async function ProjectPage({ params }: Props) {
   const links = project.links.filter((l) => !isPlaceholder(l.url));
 
   return (
-    <article className="wrap pt-10 md:pt-20">
+    <article className="wrap pt-16 md:pt-28">
       <Link href="/projects" className="label link">← Projects</Link>
       <h1 className="display text-title mt-8">{project.title}</h1>
-      <p className="mt-6 max-w-2xl font-display text-[length:var(--text-lead)] leading-tight">{project.summary}</p>
+      <p className="mt-6 max-w-2xl font-display text-[length:var(--text-lead)] leading-snug">{project.summary}</p>
 
       <dl className="mt-12 grid grid-cols-2 gap-6 border-t border-line pt-6 md:grid-cols-4">
         <div><dt className="label">Status</dt><dd className="capitalize">{project.status}</dd></div>
@@ -49,14 +49,7 @@ export default async function ProjectPage({ params }: Props) {
       </dl>
 
       <div className="mt-12">
-        <ImageFrame
-          src={project.image}
-          alt={project.imageAlt}
-          label={`Project image, 16:9. Set "image" in content/projects/${project.slug}.mdx`}
-          ratio="16 / 9"
-          priority
-          sizes="100vw"
-        />
+        <ImageFrame src={project.image} alt={project.imageAlt} ratio="16 / 9" priority sizes="(min-width: 1152px) 1100px, 100vw" />
       </div>
 
       <div className="mx-auto mt-16 max-w-2xl"><Prose source={project.body} /></div>

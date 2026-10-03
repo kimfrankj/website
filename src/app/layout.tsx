@@ -4,7 +4,6 @@ import { Analytics } from "@vercel/analytics/next";
 import { site } from "@/lib/site";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { Grain } from "@/components/Grain";
 import { Motion } from "@/components/Motion";
 import "./globals.css";
 
@@ -49,7 +48,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main id="main" className="flex-1">{children}</main>
           <Footer />
         </Motion>
-        <Grain />
         <Analytics />
       </body>
     </html>

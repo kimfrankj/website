@@ -43,10 +43,10 @@ export default async function PostPage({ params }: Props) {
   };
 
   return (
-    <article className="wrap pt-10 md:pt-20">
+    <article className="wrap pt-16 md:pt-28">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
       <Link href="/writing" className="label link">← Writing</Link>
-      <h1 className="display text-title mt-8 max-w-5xl">{post.title}</h1>
+      <h1 className="display text-title mt-8 max-w-3xl">{post.title}</h1>
       <p className="label mt-8 flex flex-wrap gap-x-6">
         <time dateTime={post.date.toISOString()}>{formatDate(post.date)}</time>
         <span>{post.readingMinutes} min read</span>

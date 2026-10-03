@@ -42,9 +42,9 @@
   --color-accent: var(--accent);
   --font-display: var(--font-instrument), "Times New Roman", serif;
   --font-sans: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
-  --text-hero: clamp(3.5rem, 11.5vw, 11rem);
-  --text-title: clamp(2.75rem, 8vw, 7rem);
-  --text-lead: clamp(1.5rem, 3vw, 2.5rem);
+  --text-hero: clamp(2.5rem, 6vw, 5rem);
+  --text-title: clamp(2.25rem, 4.5vw, 3.75rem);
+  --text-lead: clamp(1.25rem, 2vw, 1.625rem);
 }
 
 html {
@@ -75,8 +75,8 @@ body {
 .display {
   font-family: var(--font-display);
   font-weight: 400;
-  line-height: 0.92;
-  letter-spacing: -0.03em;
+  line-height: 1.02;
+  letter-spacing: -0.02em;
 }
 .label {
   font-size: 0.75rem;
@@ -86,7 +86,7 @@ body {
 }
 .wrap {
   width: 100%;
-  max-width: 96rem;
+  max-width: 72rem;
   margin-inline: auto;
   padding-inline: clamp(1.25rem, 4vw, 4rem);
 }
@@ -97,27 +97,6 @@ body {
   transition: background-size 0.4s cubic-bezier(0.2, 0.7, 0.2, 1), color 0.2s;
 }
 .link:hover { color: var(--accent); background-size: 0% 1px; background-position: 100% 100%; }
-
-/* Film grain, painted once into a tiled SVG so it costs nothing at runtime */
-.grain {
-  pointer-events: none;
-  position: fixed;
-  inset: 0;
-  z-index: 50;
-  opacity: 0.07;
-  mix-blend-mode: multiply;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
-}
-:root[data-theme="dark"] .grain { mix-blend-mode: screen; opacity: 0.05; }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .grain { mix-blend-mode: screen; opacity: 0.05; }
-}
-
-/* Placeholder image frames: hatched, labelled, obviously not real */
-.placeholder {
-  background-color: var(--surface);
-  background-image: repeating-linear-gradient(135deg, transparent 0 14px, var(--line) 14px 15px);
-}
 
 .skip {
   position: absolute;
@@ -148,8 +127,8 @@ body {
   --tw-prose-pre-bg: var(--surface);
   --tw-prose-th-borders: var(--line);
   --tw-prose-td-borders: var(--line);
-  font-size: 1.1875rem;
-  line-height: 1.75;
+  font-size: 1.0625rem;
+  line-height: 1.8;
 }
 .prose-site :where(h2, h3) {
   font-family: var(--font-display);
@@ -157,11 +136,11 @@ body {
   letter-spacing: -0.02em;
   line-height: 1.05;
 }
-.prose-site :where(h2) { font-size: 2.5rem; margin-top: 2.5em; }
+.prose-site :where(h2) { font-size: 1.75rem; margin-top: 2.5em; }
 .prose-site :where(blockquote) {
   font-family: var(--font-display);
-  font-size: 1.75rem;
-  line-height: 1.25;
+  font-size: 1.375rem;
+  line-height: 1.35;
   font-style: normal;
 }
 .prose-site :where(blockquote p:first-of-type)::before,

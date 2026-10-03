@@ -10,9 +10,10 @@ export const metadata: Metadata = {
 export default function Projects() {
   const projects = getProjects();
   return (
-    <div className="wrap pt-10 md:pt-20">
+    <div className="wrap pt-16 md:pt-28">
       <h1 className="display text-title mb-6">Projects</h1>
-      <p className="mb-20 max-w-xl text-lg text-muted">Ventures and experiments, from first idea to launch.</p>
+      <p className="mb-16 max-w-md text-muted md:mb-24">Ventures and experiments, from first idea to launch.</p>
+      {projects.length === 0 && <p className="border-t border-line py-8 text-muted">Coming soon.</p>}
       {projects.map((p, i) => <ProjectRow key={p.slug} project={p} index={i} />)}
     </div>
   );

@@ -17,7 +17,7 @@ Everything marked `[LIKE THIS]` is a placeholder. Search the project for `[` to 
 
 - **Name, tagline, intro, email, social links:** `src/lib/site.ts`
 - **Bio:** `src/app/about/page.tsx`
-- **Photos:** drop files in `public/about/` and pass them as `src` to the `ImageFrame` components. Placeholder frames say what to replace.
+- **Photos:** images only appear when you provide one. Drop a file in `public/projects/` and set `image:` in a project's frontmatter.
 
 ## Add a project
 
@@ -40,7 +40,7 @@ links:
 Write the page body here in Markdown.
 ```
 
-Set `draft: true` to hide it from the live site (drafts still show in `npm run dev`).
+Set `draft: true` to hide it from the live site (drafts still show in `npm run dev`). The included `placeholder-project.mdx` is a hidden template: copy it, rename it and delete the `draft: true` line.
 
 ## Publish an essay
 

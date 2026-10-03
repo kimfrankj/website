@@ -7,35 +7,30 @@ export const metadata: Metadata = {
 };
 
 export default function Contact() {
-  const rows: [string, string, string][] = [
+  const all: [string, string, string][] = [
     ["Email", site.email, `mailto:${site.email}`],
     ["LinkedIn", site.links.linkedin, site.links.linkedin],
     ["X", site.links.x, site.links.x],
     ["GitHub", site.links.github, site.links.github],
   ];
 
+  const rows = all.filter(([, text]) => !isPlaceholder(text));
+
   return (
-    <div className="wrap pt-10 md:pt-20">
-      <h1 className="display text-title">Say hello</h1>
-      <p className="mt-6 max-w-xl text-lg text-muted">
+    <div className="wrap pt-16 md:pt-28">
+      <h1 className="display text-title">Contact</h1>
+      <p className="mt-6 max-w-md text-muted">
         Founders, investors, collaborators, curious people: I’d like to hear from you.
       </p>
-      <ul className="mt-20">
+      <ul className="mt-16 md:mt-24">
         {rows.map(([label, text, href]) => (
-          <li key={label} className="border-t border-line">
-            {isPlaceholder(text) ? (
-              <div className="flex items-baseline justify-between gap-6 py-6 text-muted">
-                <span className="label">{label}</span>
-                <span className="font-display text-3xl md:text-5xl">{text}</span>
-              </div>
-            ) : (
-              <a href={href} rel="noopener" className="group flex items-baseline justify-between gap-6 py-6">
-                <span className="label">{label}</span>
-                <span className="font-display text-3xl transition-colors group-hover:text-accent md:text-5xl">
-                  {text.replace(/^https?:\/\/(www\.)?/, "")} <span aria-hidden="true">↗</span>
-                </span>
-              </a>
-            )}
+          <li key={label} className="border-t border-line last:border-b">
+            <a href={href} rel="noopener" className="group flex items-baseline justify-between gap-6 py-5">
+              <span className="label">{label}</span>
+              <span className="font-display text-2xl transition-colors group-hover:text-accent md:text-3xl">
+                {text.replace(/^https?:\/\/(www\.)?/, "")} <span aria-hidden="true">↗</span>
+              </span>
+            </a>
           </li>
         ))}
       </ul>
