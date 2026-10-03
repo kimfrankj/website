@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
-/* Travertine palette. Light by default; dark follows the visitor's device setting. */
+/* Travertine palette. Light only. */
 :root {
   --bg: #f4efe6;
   --surface: #ebe4d8;
@@ -10,17 +10,6 @@
   --line: #d6ccbc;
   --accent: #9c4426;
   color-scheme: light;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #17130f;
-    --surface: #201b16;
-    --ink: #efe8dc;
-    --muted: #a89f91;
-    --line: #3a332b;
-    --accent: #e08a6a;
-    color-scheme: dark;
-  }
 }
 
 @theme inline {
