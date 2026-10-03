@@ -16,7 +16,7 @@ export default function About() {
           <h1 className="display text-title">About</h1>
 
           <div className="flex flex-1 flex-col justify-center py-10">
-            <p className="display whitespace-nowrap text-[length:clamp(1.5rem,5.8vw,4.5rem)]">Building.</p>
+            <p className="display whitespace-nowrap text-[length:clamp(1.5rem,5.8vw,4.5rem)]">Building…</p>
 
             <dl className="mt-8 text-sm sm:text-base md:mt-16 md:max-w-md">
               {[
