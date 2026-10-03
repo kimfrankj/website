@@ -30,7 +30,7 @@ export default function About() {
         </div>
 
         {/* The image fades in at its top; a small nudge puts the visible arch level with the heading */}
-        <div className="col-span-6 col-start-7 row-start-1 -ml-4 -mt-[5%] self-start md:col-span-5 md:col-start-8 md:ml-0">
+        <div className="col-span-6 col-start-7 row-start-1 -ml-4 -mt-[9%] self-start md:col-span-5 md:col-start-8 md:ml-0">
           <Image
             src="/about/portrait-wall.png"
             alt="Painted portrait of Frank Kim, arms crossed, in a white shirt, leaning against a stone archway"
