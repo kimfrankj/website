@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { nav, site } from "@/lib/site";
-import { ThemeToggle } from "./ThemeToggle";
 
 export function Header() {
   return (
@@ -18,7 +17,6 @@ export function Header() {
             </li>
           ))}
         </ul>
-        <ThemeToggle />
       </nav>
     </header>
   );
