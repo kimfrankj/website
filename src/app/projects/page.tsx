@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import { getProjects } from "@/lib/content";
 import { ProjectRow } from "@/components/ProjectRow";
+import { SidePicture } from "@/components/SidePicture";
 
 export const metadata: Metadata = {
   title: "Projects",
@@ -27,19 +27,11 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="pointer-events-none col-span-6 col-start-7 row-start-1 -ml-4 -mt-[20%] self-start md:col-span-5 md:col-start-8 md:ml-0">
-          <div className="portrait-cutout overflow-hidden">
-            <Image
-              src="/projects/skyline.webp"
-              alt="Painted view of the New York City skyline with the Empire State Building in soft evening light"
-              width={1000}
-              height={1498}
-              priority
-              sizes="(min-width: 768px) 42vw, 55vw"
-              className="block h-auto w-full"
-            />
-          </div>
-        </div>
+        <SidePicture
+          src="/projects/skyline.webp"
+          alt="Painted view of the New York City skyline with the Empire State Building in soft evening light"
+          className="-mt-[20%]"
+        />
       </div>
     </div>
   );
