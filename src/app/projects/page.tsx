@@ -11,8 +11,7 @@ export default function Projects() {
   const projects = getProjects();
   return (
     <div className="wrap pt-16 md:pt-28">
-      <h1 className="display text-title mb-6">Projects</h1>
-      <p className="mb-16 max-w-md text-muted md:mb-24">Ventures and experiments, from first idea to launch.</p>
+      <h1 className="display text-title mb-16 md:mb-24">Projects</h1>
       {projects.length === 0 && <p className="border-t border-line py-8 text-muted">Coming soon.</p>}
       {projects.map((p, i) => <ProjectRow key={p.slug} project={p} index={i} />)}
     </div>

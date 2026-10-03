@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { site } from "@/lib/site";
 import { getPosts, getProjects } from "@/lib/content";
 import { ProjectRow } from "@/components/ProjectRow";
 import { PostRow } from "@/components/PostRow";
@@ -24,9 +23,7 @@ export default function Home() {
           <br />
           <span className="text-muted">Building…</span>
         </h1>
-        <p className="mt-12 max-w-md text-lg text-muted md:mt-16">{site.intro}</p>
-
-        <ul className="mt-20 md:mt-28">
+        <ul className="mt-16 md:mt-24">
           {index.map((item, i) => (
             <li key={item.href} className="border-t border-line last:border-b">
               <Link href={item.href} className="group -mx-4 grid grid-cols-12 items-baseline gap-4 px-4 py-6 transition-colors hover:bg-surface">

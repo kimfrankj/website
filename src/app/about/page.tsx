@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "About",
@@ -19,9 +18,7 @@ export default function About() {
       <h1 className="display text-title">About</h1>
 
       <div className="mt-16 grid gap-12 md:mt-24 md:grid-cols-12">
-        <p className="font-display text-[length:var(--text-lead)] leading-snug md:col-span-6">{site.intro}</p>
-
-        <dl className="md:col-span-4 md:col-start-9">
+        <dl className="md:col-span-7">
           {facts.map(([k, v]) => (
             <div key={k} className="grid grid-cols-3 gap-4 border-t border-line py-4 last:border-b">
               <dt className="label pt-1">{k}</dt>

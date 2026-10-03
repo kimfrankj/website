@@ -19,9 +19,6 @@ export default function Contact() {
   return (
     <div className="wrap pt-16 md:pt-28">
       <h1 className="display text-title">Contact</h1>
-      <p className="mt-6 max-w-md text-muted">
-        Founders, investors, collaborators, curious people: I’d like to hear from you.
-      </p>
       <ul className="mt-16 md:mt-24">
         {rows.map(([label, text, href]) => (
           <li key={label} className="border-t border-line last:border-b">
