@@ -52,6 +52,7 @@ export default async function Unlock({ searchParams }: { searchParams: Promise<{
             src="/writing/painted-ladies.webp"
             alt="Painted view of San Francisco's Painted Ladies Victorian houses, with the city skyline behind a cypress tree"
             position="50% 50%"
+            fadeSides={26}
           />
         )}
       </div>
