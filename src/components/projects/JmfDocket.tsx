@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { getJmfDocket, getJmfPosture } from "@/lib/jmfDocket";
 
 const fmt = (d: string | null | undefined) =>
@@ -57,7 +58,7 @@ export function JmfDocket() {
                 <tr key={c.id} className="border-b border-line align-top">
                   <td className="whitespace-nowrap py-3 pr-4 text-muted">{fmt(c.dateFiled)}</td>
                   <td className="py-3 pr-4">
-                    <a href={c.url} className="link" rel="noopener" target="_blank">{c.caseName}</a>
+                    <Link href={`/projects/jmf-docket/${c.id}`} className="link">{c.caseName}</Link>
                     <div className="mt-1 text-xs text-muted">
                       <span className="font-mono">{c.docketNumber}</span>
                       {(c.suitNature ?? c.cause) && <> · {c.suitNature ?? c.cause}</>}

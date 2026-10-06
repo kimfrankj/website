@@ -1,20 +1,17 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getProject, getProjects } from "@/lib/content";
-import { isPlaceholder } from "@/lib/site";
-import { ImageFrame } from "@/components/ImageFrame";
-import { Prose } from "@/components/Prose";
-import { JmfDocket } from "@/components/projects/JmfDocket";
-
-// Projects with an extra section under their write-up, keyed by slug
-const extras: Record<string, (() => React.ReactNode) | undefined> = {
-  "jmf-docket": JmfDocket,
-};
+import { ProjectArticle } from "@/components/ProjectArticle";
 
 type Props = { params: Promise<{ slug: string }> };
 
-export const generateStaticParams = () => getProjects().map((p) => ({ slug: p.slug }));
+// Projects with their own route folder (e.g. app/projects/jmf-docket) are rendered there instead.
+const OWN_ROUTE = new Set(["jmf-docket"]);
+
+export const generateStaticParams = () =>
+  getProjects()
+    .filter((p) => !OWN_ROUTE.has(p.slug))
+    .map((p) => ({ slug: p.slug }));
 export const dynamicParams = false;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -31,36 +28,5 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function ProjectPage({ params }: Props) {
   const project = getProject((await params).slug);
   if (!project) notFound();
-  const links = project.links.filter((l) => !isPlaceholder(l.url));
-  const Extra = extras[project.slug];
-
-  return (
-    <article className="wrap pt-16 md:pt-28">
-      <Link href="/projects" className="label link">← Projects</Link>
-      <h1 className="display text-title mt-8">{project.title}</h1>
-
-      <dl className="mt-12 grid grid-cols-2 gap-6 border-t border-line pt-6 md:grid-cols-4">
-        <div><dt className="label">Status</dt><dd className="capitalize">{project.status}</dd></div>
-        <div><dt className="label">Year</dt><dd>{project.year}</dd></div>
-        {links.length > 0 && (
-          <div className="col-span-2">
-            <dt className="label">Links</dt>
-            <dd className="flex flex-wrap gap-x-5">
-              {links.map((l) => (
-                <a key={l.url} href={l.url} className="link" rel="noopener">{l.label} ↗</a>
-              ))}
-            </dd>
-          </div>
-        )}
-      </dl>
-
-      <div className="mt-12">
-        <ImageFrame src={project.image} alt={project.imageAlt} ratio="16 / 9" priority sizes="(min-width: 1152px) 1100px, 100vw" />
-      </div>
-
-      <div className="mx-auto mt-16 max-w-2xl"><Prose source={project.body} /></div>
-
-      {Extra && <Extra />}
-    </article>
-  );
+  return <ProjectArticle project={project} />;
 }

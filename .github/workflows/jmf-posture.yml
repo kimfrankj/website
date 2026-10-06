@@ -35,7 +35,7 @@ jobs:
         run: |
           git config user.name "jmf-docket-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/jmf-posture.json
+          git add data/jmf-posture.json data/jmf-entries
           if git diff --cached --quiet; then
             echo "No changes."
           else

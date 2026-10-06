@@ -11,9 +11,19 @@ export type Docket = {
   id: number;
   caseName: string;
   docketNumber: string;
+  courtCitation?: string;
   dateFiled: string | null;
-  suitNature: string | null;
+  assignedTo?: string | null;
+  referredTo?: string | null;
   cause: string | null;
+  suitNature: string | null;
+  juryDemand?: string | null;
+  jurisdictionType?: string | null;
+  /** When CourtListener last updated its record of the case */
+  lastUpdated?: string | null;
+  parties?: string[];
+  attorneys?: string[];
+  firms?: string[];
   url: string;
 };
 
@@ -30,7 +40,22 @@ export type Posture = {
   stage?: string;
   latest?: { date: string | null; number: number | null; text: string } | null;
   error?: string;
+  /** Date of the newest docket entry collected */
+  lastFiling?: string | null;
+  entries?: number;
+  /** True once the case's full history has been collected */
+  complete?: boolean;
 };
+
+export type DocketEntry = { id: number; date: string | null; number: number | null; text: string };
+
+/** Every docket entry collected so far for one case, newest first. */
+export function getJmfEntries(id: number | string): { complete: boolean; entries: DocketEntry[] } | null {
+  const file = path.join(process.cwd(), "data", "jmf-entries", `${id}.json`);
+  if (!fs.existsSync(file)) return null;
+  const h = JSON.parse(fs.readFileSync(file, "utf8")) as { complete: boolean; entries: DocketEntry[] };
+  return { complete: h.complete, entries: h.entries };
+}
 
 /** Estimated procedural posture per case (keyed by docket id), refreshed in rotation by scripts/fetch-jmf-posture.mjs. */
 export function getJmfPosture(): Record<string, Posture> {
