@@ -1,0 +1,126 @@
+{
+ "complete": false,
+ "nextUrl": "https://www.courtlistener.com/api/rest/v4/docket-entries/?docket=73675246&fields=id%2Cdate_filed%2Centry_number%2Cdescription%2Crecap_documents__description&order_by=-date_filed%2C-entry_number&page=2&page_size=100",
+ "entries": [
+  {
+   "id": 479919146,
+   "date": "2026-09-30",
+   "number": null,
+   "text": "Mailing Receipt"
+  },
+  {
+   "id": 480067031,
+   "date": "2026-09-30",
+   "number": 45,
+   "text": "Certificate of Service Other"
+  },
+  {
+   "id": 479804381,
+   "date": "2026-09-29",
+   "number": null,
+   "text": "Notice to Court Regarding Proposed Order"
+  },
+  {
+   "id": 479773508,
+   "date": "2026-09-29",
+   "number": 44,
+   "text": "Order to Show Cause AND ~Util - Set Deadlines/Hearings"
+  },
+  {
+   "id": 479498594,
+   "date": "2026-09-25",
+   "number": 43,
+   "text": "Certificate of Service Other"
+  },
+  {
+   "id": 479419964,
+   "date": "2026-09-25",
+   "number": 42,
+   "text": "PROPOSED DEFAULT JUDGMENT pursuant to FRCP 55(b)(2). Document filed by Roadway Movers Inc., Roadway Moving and Storage, Inc...(Solomon, Aaron) Proposed Default Judgment to be reviewed by Clerk's Office staff. (Entered: 09/25/2026) Proposed Default Judgment"
+  },
+  {
+   "id": 479419963,
+   "date": "2026-09-25",
+   "number": 41,
+   "text": "DECLARATION of Aaron Solomon, Esq. in Support re: 39 MOTION for Default Judgment as to Defendant Roadway Movers LLC.. Document filed by Roadway Movers Inc., Roadway Moving and Storage, Inc...(Solomon, Aaron) (Entered: 09/25/2026) Declaration in Support of Motion"
+  },
+  {
+   "id": 479419962,
+   "date": "2026-09-25",
+   "number": 40,
+   "text": "MEMORANDUM OF LAW in Support re: 39 MOTION for Default Judgment as to Defendant Roadway Movers LLC. . Document filed by Roadway Movers Inc., Roadway Moving and Storage, Inc...(Solomon, Aaron) (Entered: 09/25/2026) Memorandum of Law in Support of Motion"
+  },
+  {
+   "id": 479419961,
+   "date": "2026-09-25",
+   "number": 39,
+   "text": "MOTION for Default Judgment as to Defendant Roadway Movers LLC. Document filed by Roadway Movers Inc., Roadway Moving and Storage, Inc...(Solomon, Aaron) (Entered: 09/25/2026) Default Judgment"
+  },
+  {
+   "id": 478353635,
+   "date": "2026-09-17",
+   "number": null,
+   "text": "Mailing Receipt"
+  },
+  {
+   "id": 478951765,
+   "date": "2026-09-17",
+   "number": null,
+   "text": "MAILING RECEIPT: Document No: 38. Mailed to: Vikas Sharma 3440 Washington Drive Falls Church, VA 22041."
+  },
+  {
+   "id": 478283904,
+   "date": "2026-09-16",
+   "number": 38,
+   "text": "MEMO ENDORSEMENT on re: 31 Notice of Settlement filed by Roadway Moving and Storage, Inc., Roadway Movers Inc. ENDORSEMENT: Duly noted. The Court will wait to enter judgment against Mr. Sharma until it rules on the anticipated motion for entry of default judgment against Roadway Movers - unless Plaintiff moves for, and the Court grants, entry of partial judgment under Fed. R. Civ. P. 54(b). The Clerk of Court is directed to mail this to Mr. Sharma. SO ORDERED. (Signed by Judge Jesse M. Furman on 9/16/2026) (ar) (Entered: 09/16/2026) Memo Endorsement"
+  },
+  {
+   "id": 478238222,
+   "date": "2026-09-16",
+   "number": 37,
+   "text": "PROPOSED JUDGMENT. Document filed by Roadway Movers Inc., Roadway Moving and Storage, Inc...(Solomon, Aaron) (Entered: 09/16/2026) Proposed Judgment"
+  },
+  {
+   "id": 478212194,
+   "date": "2026-09-16",
+   "number": 36,
+   "text": "CLERK'S CERTIFICATE OF DEFAULT as to Roadway Movers LLC.(km) (Entered: 09/16/2026) Clerk's Certificate of Default"
+  },
+  {
+   "id": 478125799,
+   "date": "2026-09-15",
+   "number": 35,
+   "text": "CERTIFICATE OF SERVICE of ECF Nos. 33, 34, 34-1 served on Vikas Sharma & Roadway Movers LLC on September 15, 2026. Document filed by Roadway Movers Inc., Roadway Moving and Storage, Inc...(Solomon, Aaron) (Entered: 09/15/2026) Certificate of Service Other"
+  },
+  {
+   "id": 478125809,
+   "date": "2026-09-15",
+   "number": 34,
+   "text": "DECLARATION of Aaron Solomon, Esq. re: 33 Proposed Clerk's Certificate of Default, . Document filed by Roadway Movers Inc., Roadway Moving and Storage, Inc.. (Attachments: # 1 Proposed Order REQUEST TO ENTER DEFAULT AS TO ROADWAY MOVERS LLC).(Solomon, Aaron) (Entered: 09/15/2026) Declaration (non-motion)"
+  },
+  {
+   "id": 478125814,
+   "date": "2026-09-15",
+   "number": 33,
+   "text": "PROPOSED CLERK'S CERTIFICATE OF DEFAULT. Document filed by Roadway Movers Inc., Roadway Moving and Storage, Inc...(Solomon, Aaron) Proposed document to be reviewed and processed by Clerk's Office staff (No action required by chambers). Modified on 9/16/2026 (km). (Entered: 09/15/2026) Proposed Clerk's Certificate of Default"
+  },
+  {
+   "id": 478125820,
+   "date": "2026-09-15",
+   "number": 32,
+   "text": "CERTIFICATE OF SERVICE of Notice of Settlement (ECF No. 31) served on Vikas Sharma & Roadway Movers LLC on September 15, 2026. Document filed by Roadway Movers Inc., Roadway Moving and Storage, Inc...(Solomon, Aaron) (Entered: 09/15/2026) Certificate of Service Other"
+  },
+  {
+   "id": 478125833,
+   "date": "2026-09-15",
+   "number": 31,
+   "text": "NOTICE of Settlement . Document filed by Roadway Movers Inc., Roadway Moving and Storage, Inc...(Solomon, Aaron) (Entered: 09/15/2026) Notice of Settlement"
+  },
+  {
+   "id": 478125839,
+   "date": "2026-09-15",
+   "number": 30,
+   "text": "CERTIFICATE OF SERVICE of September 11, 2026 Order in this Action (ECF No. 29) served on Vikas Sharma & Roadway Movers LLC on September 14, 2026. Document filed by Roadway Movers Inc., Roadway Moving and Storage, Inc...(Solomon, Aaron) (Entered: 09/15/2026) Certificate of Service Other"
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "complete": false,
+ "nextUrl": "https://www.courtlistener.com/api/rest/v4/docket-entries/?docket=73738272&fields=id%2Cdate_filed%2Centry_number%2Cdescription%2Crecap_documents__description&order_by=-date_filed%2C-entry_number&page=2&page_size=100",
+ "entries": [
+  {
+   "id": 480657998,
+   "date": "2026-10-06",
+   "number": 17,
+   "text": "Order on Motion to Adjourn Conference"
+  },
+  {
+   "id": 480535327,
+   "date": "2026-10-05",
+   "number": 16,
+   "text": "Adjourn Conference"
+  },
+  {
+   "id": 479250311,
+   "date": "2026-09-24",
+   "number": 15,
+   "text": "Summons Returned Executed"
+  },
+  {
+   "id": 479250315,
+   "date": "2026-09-24",
+   "number": 14,
+   "text": "Summons Returned Executed"
+  },
+  {
+   "id": 479250318,
+   "date": "2026-09-24",
+   "number": 13,
+   "text": "Summons Returned Executed"
+  },
+  {
+   "id": 479250323,
+   "date": "2026-09-24",
+   "number": 12,
+   "text": "Summons Returned Executed"
+  },
+  {
+   "id": 479250326,
+   "date": "2026-09-24",
+   "number": 11,
+   "text": "Summons Returned Executed"
+  },
+  {
+   "id": 477830876,
+   "date": "2026-09-11",
+   "number": 10,
+   "text": "ORDER denying 9 Letter Motion to Compel. Application DENIED. As Rule 4(d)(2) suggests, the remedy for refusal to waive service \"without good cause\" is reimbursement of costs associated with service, not an order compelling service. The Clerk of Court is directed to terminate ECF No. 9. (Signed by Judge Jesse M. Furman on 9/11/2026) (rro) Order on Motion to Compel"
+  },
+  {
+   "id": 477577659,
+   "date": "2026-09-10",
+   "number": 9,
+   "text": "LETTER MOTION to Compel Defendants to waive service pursuant to Rule 4(d) addressed to Judge Jesse M. Furman from C.K. Lee dated September 10, 2026. Document filed by Wilberd Saldivar..(Lee, C.K.) (Entered: 09/10/2026) Compel"
+  },
+  {
+   "id": 475254060,
+   "date": "2026-08-20",
+   "number": 8,
+   "text": "ORDER: This matter has been referred for settlement. Dkt. No.7. Should the Parties wish to schedule a settlement conference, the Parties are directed to contact chambers via email by September 7, 2026, at WillisNYSDChambers@nysd.uscourts.gov to provide at least three mutually agreeable dates that are on or before November 4, 2026, in accordance with Judge Furman's order at Dkt. No. 6. Any conference will be held in person at Courtroom 228, 40 Foley Square, New York, New York. Sho uld the Parties not wish to schedule a settlement conference at this time, they should refer to the procedure outlined in Judge Furman's order at Dkt. No. 6, which reads: as further set forth herein. SO ORDERED. (Signed by Magistrate Judge Jennifer E. Willis on 8/20/2026) (vfr) Order"
+  },
+  {
+   "id": 474932574,
+   "date": "2026-08-18",
+   "number": 7,
+   "text": "ORDER REFERRING CASE TO MAGISTRATE JUDGE. Order that case be referred to the Clerk of Court for assignment to a Magistrate Judge for Settlement. Referred to Magistrate Judge Jennifer E. Willis. SO ORDERED. (Signed by Judge Jesse M. Furman on 8/18/2026) (jca) (Entered: 08/18/2026) Order Referring Case to Magistrate Judge"
+  },
+  {
+   "id": 474932604,
+   "date": "2026-08-18",
+   "number": 6,
+   "text": "ORDER REGARDING EARLY SETTLEMENT CONFERENCE AND THE INITIAL PRETRIAL CONFERENCE: The conference will be held remotely by telephone in accordance with Paragraph 3.B of the Court's Individual Rules and Practices in Civil Cases. The parties should join the conference by calling the Courts dedicated conference line at (855) 244-8681 and using access code 2303 019 3884, followed by the pound (#) key. SO ORDERED. Initial Conference set for 11/18/2026 at 09:00 AM before Judge Jesse M. Furman. (Signed by Judge Jesse M. Furman on 8/18/2026) (jca) (Entered: 08/18/2026) Order for Initial Pretrial Conference"
+  },
+  {
+   "id": 478593059,
+   "date": "2026-08-10",
+   "number": null,
+   "text": "Case Designated ECF. (jgo)"
+  },
+  {
+   "id": 478593058,
+   "date": "2026-08-10",
+   "number": null,
+   "text": "Magistrate Judge Jennifer Willis is designated to handle matters that may be referred in this case. Pursuant to 28 U.S.C. Section 636(c), Fed. R. Civ. P. 73(b)(1), and Local Civil Rule 73.1, parties are notified that they may, with the approval of the assigned District Judge, consent to proceed before a United States Magistrate Judge. Parties who wish to consent may access the necessary form at the following link: https://nysd.uscourts.gov/sites/default/files/2018-06/AO-3.pdf. (jgo)"
+  },
+  {
+   "id": 478593057,
+   "date": "2026-08-10",
+   "number": null,
+   "text": "CASE OPENING INITIAL ASSIGNMENT NOTICE: The above-entitled action is assigned to Judge Jesse M. Furman. Please download and review the Individual Practices of the assigned District Judge, located at https://nysd.uscourts.gov/judges/district-judges. Attorneys are responsible for providing courtesy copies to judges where their Individual Practices require such. Please download and review the ECF Rules and Instructions, located at https://nysd.uscourts.gov/rules/ecf-related-instructions..(jgo)"
+  },
+  {
+   "id": 473839925,
+   "date": "2026-08-10",
+   "number": null,
+   "text": "Case Opening Initial Assignment Notice"
+  },
+  {
+   "id": 473839928,
+   "date": "2026-08-10",
+   "number": null,
+   "text": "Notice to Attorney Regarding Case Opening Statistical Error Correction"
+  },
+  {
+   "id": 478593056,
+   "date": "2026-08-10",
+   "number": null,
+   "text": "***NOTICE TO ATTORNEY REGARDING CIVIL CASE OPENING STATISTICAL ERROR CORRECTION: Notice to attorney C.K. Lee. The following case opening statistical information was erroneously selected/entered: County code Albany;. The following correction(s) have been made to your case entry: the County code has been modified to Kings;. Corrections were updated as per the Complaint. (jgo)"
+  },
+  {
+   "id": 473839916,
+   "date": "2026-08-10",
+   "number": 5,
+   "text": "ELECTRONIC SUMMONS ISSUED as to 55 Fulton Market Inc., DHY Sonamoo LLC, Open Market 15 Inc., Red Apple Tree Inc., SNL Meat & Produce Corp, Yeong Shim..(jgo) (Entered: 08/10/2026) Summons Issued"
+  },
+  {
+   "id": 473714330,
+   "date": "2026-08-07",
+   "number": 4,
+   "text": "CONSENT TO SUE UNDER THE F.L.S.A.. Document filed by Wilberd Saldivar..(Lee, C.K.) (Entered: 08/07/2026) Consent to Sue"
+  }
+ ]
+}

@@ -1,0 +1,245 @@
+{
+  "updatedAt": "2026-10-06T17:41:06.525Z",
+  "cases": {
+    "73530612": {
+      "checkedAt": "2026-10-06T17:40:36.431Z",
+      "stage": "Other / unclear",
+      "latest": {
+        "date": "2026-10-05",
+        "number": 30,
+        "text": "Order AND ~Util - Set Hearings"
+      },
+      "lastFiling": "2026-10-05",
+      "entries": 37,
+      "complete": true
+    },
+    "73530618": {
+      "checkedAt": "2026-10-06T17:40:22.634Z",
+      "stage": "Other / unclear",
+      "latest": {
+        "date": "2026-10-05",
+        "number": 27,
+        "text": "Order AND ~Util - Set Hearings"
+      },
+      "lastFiling": "2026-10-05",
+      "entries": 34,
+      "complete": true
+    },
+    "73530629": {
+      "checkedAt": "2026-10-06T17:40:05.951Z",
+      "stage": "Other / unclear",
+      "latest": {
+        "date": "2026-10-05",
+        "number": 27,
+        "text": "Order AND ~Util - Set Hearings"
+      },
+      "lastFiling": "2026-10-05",
+      "entries": 33,
+      "complete": true
+    },
+    "73530636": {
+      "checkedAt": "2026-10-06T17:39:51.214Z",
+      "stage": "Other / unclear",
+      "latest": {
+        "date": "2026-10-05",
+        "number": 26,
+        "text": "Order AND ~Util - Set Hearings"
+      },
+      "lastFiling": "2026-10-05",
+      "entries": 43,
+      "complete": true
+    },
+    "73675246": {
+      "checkedAt": "2026-10-06T17:38:43.842Z",
+      "stage": "Default",
+      "latest": {
+        "date": "2026-09-30",
+        "number": null,
+        "text": "Mailing Receipt"
+      },
+      "lastFiling": "2026-09-30",
+      "entries": 20,
+      "complete": false
+    },
+    "73717615": {
+      "checkedAt": "2026-10-06T17:38:30.616Z",
+      "stage": "Pleadings / service",
+      "latest": {
+        "date": "2026-09-21",
+        "number": 9,
+        "text": "Waiver of Service Executed"
+      },
+      "lastFiling": "2026-09-21",
+      "entries": 14,
+      "complete": true
+    },
+    "73738272": {
+      "checkedAt": "2026-10-06T17:38:17.116Z",
+      "stage": "Pleadings / service",
+      "latest": {
+        "date": "2026-10-06",
+        "number": 17,
+        "text": "Order on Motion to Adjourn Conference"
+      },
+      "lastFiling": "2026-10-06",
+      "entries": 20,
+      "complete": false
+    },
+    "74112099": {
+      "checkedAt": "2026-10-06T17:38:03.085Z",
+      "stage": "Pleadings / service",
+      "latest": {
+        "date": "2026-10-01",
+        "number": 70,
+        "text": "Notice of Appearance"
+      },
+      "lastFiling": "2026-10-01",
+      "entries": 20,
+      "complete": false
+    },
+    "74641230": {
+      "checkedAt": "2026-10-06T17:41:06.525Z",
+      "stage": "Other / unclear",
+      "latest": {
+        "date": "2026-10-06",
+        "number": 51,
+        "text": "Reply to Response to Motion"
+      },
+      "lastFiling": "2026-10-06",
+      "entries": 40,
+      "complete": false
+    },
+    "74692579": {
+      "checkedAt": "2026-10-06T17:37:34.095Z",
+      "stage": "Discovery",
+      "latest": {
+        "date": "2026-09-24",
+        "number": null,
+        "text": "Notice Regarding Deficient Motion to Appear Pro Hac Vice"
+      },
+      "lastFiling": "2026-09-24",
+      "entries": 18,
+      "complete": true
+    },
+    "74707673": {
+      "checkedAt": "2026-10-06T17:40:50.562Z",
+      "stage": "Motion to dismiss",
+      "latest": {
+        "date": "2026-10-02",
+        "number": 21,
+        "text": "Memorandum of Law in Support of Motion"
+      },
+      "lastFiling": "2026-10-02",
+      "entries": 30,
+      "complete": true
+    },
+    "74719544": {
+      "checkedAt": "2026-10-06T17:37:06.582Z",
+      "stage": "Discovery",
+      "latest": {
+        "date": "2026-09-14",
+        "number": 9,
+        "text": "AFFIDAVIT OF SERVICE of Initial Pre-Trial Conference Order and Judge Furman's Individual Rules served on John Scola on 09/14/2026. Service was made by Mail. Document filed by City of New York..(Damera, Shivani) (Entered: 09/14/2026) Affidavit of Service Other"
+      },
+      "lastFiling": "2026-09-14",
+      "entries": 18,
+      "complete": true
+    },
+    "74729868": {
+      "checkedAt": "2026-10-06T17:36:38.500Z",
+      "stage": "Other / unclear",
+      "latest": {
+        "date": "2026-09-02",
+        "number": null,
+        "text": "Received Acknowledgment (Electronic Case Transfer)"
+      },
+      "lastFiling": "2026-09-02",
+      "entries": 18,
+      "complete": true
+    },
+    "74739801": {
+      "checkedAt": "2026-10-06T17:36:51.785Z",
+      "stage": "Pleadings / service",
+      "latest": {
+        "date": "2026-09-16",
+        "number": 13,
+        "text": "ORDER: The Court intimates no views on the merits of Petitioner's claims but concludes, given (among other things) the nature of those claims, that the case would benefit from pro bono counsel. Accordingly, the Clerk of Court is directed to se ek pro bono counsel for Petitioner. See Hodge v. Police Officers, 802 F.2d 58, 60 (2d Cir. 1986). The Court requests that the Petitioner respond promptly to"
+      },
+      "lastFiling": "2026-09-16",
+      "entries": 14,
+      "complete": true
+    },
+    "74749004": {
+      "checkedAt": "2026-10-06T17:36:24.506Z",
+      "stage": "Discovery",
+      "latest": {
+        "date": "2026-09-09",
+        "number": 7,
+        "text": "ORDER OF REFERENCE TO A MAGISTRATE JUDGE: This action is referred to the assigned Magistrate Judge for the following purpose(s): General Pretrial (includes scheduling, discovery, non-dispositive pretrial motions, and settlement). Referred to Magistrate Judge Sarah Netburn. SO ORDERED. (Signed by Judge Jesse M. Furman on 9/9/2026) (ar) (Entered: 09/09/2026) Order Referring Case to Magistrate Judge"
+      },
+      "lastFiling": "2026-09-09",
+      "entries": 11,
+      "complete": true
+    },
+    "74805229": {
+      "checkedAt": "2026-10-06T17:39:23.603Z",
+      "stage": "Pleadings / service",
+      "latest": {
+        "date": "2026-10-05",
+        "number": 17,
+        "text": "MEMORANDUM OPINION AND ORDER re: 11 MOTION for Temporary Restraining Order. filed by Greg E. Lindberg, 13 MOTION Request for Expedited Remote Hearing (Return Date) on Plaintiff's Emergency Ex Parte Application for Temporary Restr aining Order and Order to Show Cause, submitted September 17, 2026. filed by Greg E. Lindberg. Plaintiff Greg E. Lindberg, proceeding without counsel, filed his Complaint"
+      },
+      "lastFiling": "2026-10-05",
+      "entries": 28,
+      "complete": true
+    },
+    "74817617": {
+      "checkedAt": "2026-10-06T17:39:10.339Z",
+      "stage": "Discovery",
+      "latest": {
+        "date": "2026-09-23",
+        "number": 16,
+        "text": "ELECTRONIC SUMMONS ISSUED as to Trans Union, LLC. (sj) (Entered: 09/23/2026) Summons Issued"
+      },
+      "lastFiling": "2026-09-23",
+      "entries": 22,
+      "complete": true
+    },
+    "74830053": {
+      "checkedAt": "2026-10-06T17:38:57.112Z",
+      "stage": "Other / unclear",
+      "latest": {
+        "date": "2026-10-06",
+        "number": null,
+        "text": "Civil Case Opening Fee Payment"
+      },
+      "lastFiling": "2026-10-06",
+      "entries": 36,
+      "complete": true
+    },
+    "74868558": {
+      "checkedAt": "2026-10-06T17:34:33.015Z",
+      "stage": "Pleadings / service",
+      "latest": {
+        "date": "2026-10-01",
+        "number": null,
+        "text": "Mailing Receipt"
+      },
+      "lastFiling": "2026-10-01",
+      "entries": 8,
+      "complete": true
+    },
+    "74910923": {
+      "checkedAt": "2026-10-06T17:34:17.050Z",
+      "stage": "Other / unclear",
+      "latest": {
+        "date": "2026-10-05",
+        "number": null,
+        "text": "Notice of Case Assignment/Reassignment"
+      },
+      "lastFiling": "2026-10-05",
+      "entries": 18,
+      "complete": true
+    }
+  }
+}

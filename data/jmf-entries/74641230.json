@@ -1,0 +1,246 @@
+{
+ "complete": false,
+ "nextUrl": "https://www.courtlistener.com/api/rest/v4/docket-entries/?docket=74641230&fields=id%2Cdate_filed%2Centry_number%2Cdescription%2Crecap_documents__description&order_by=-date_filed%2C-entry_number&page=3&page_size=100",
+ "entries": [
+  {
+   "id": 480658406,
+   "date": "2026-10-06",
+   "number": 51,
+   "text": "Reply to Response to Motion"
+  },
+  {
+   "id": 480596745,
+   "date": "2026-10-05",
+   "number": 50,
+   "text": "Response in Opposition to Motion"
+  },
+  {
+   "id": 480273971,
+   "date": "2026-10-02",
+   "number": null,
+   "text": "Order on Motion for Extension of Time to File Response/Reply"
+  },
+  {
+   "id": 480136103,
+   "date": "2026-10-01",
+   "number": null,
+   "text": "Telephone Conference"
+  },
+  {
+   "id": 480240666,
+   "date": "2026-10-01",
+   "number": 48,
+   "text": "Extension of Time to File Response/Reply"
+  },
+  {
+   "id": 479803989,
+   "date": "2026-09-29",
+   "number": null,
+   "text": "Settlement Conference"
+  },
+  {
+   "id": 479846145,
+   "date": "2026-09-29",
+   "number": 47,
+   "text": "ORDER: On September 29, 2026, the Court held a settlement conference (the \"Conference\"). (See Dkt. Nos. 34; 42). Pursuant to the discussion during the Conference, another telephone conference regarding settlement, with counsel only, is s cheduled for October 1, 2026 at 10:00 a.m. ET on the Court's conference line. Counsel are directed to call: (855) 244-8681; access code: 2308 226 4654, at the scheduled time. (Telephone Conference set for 10/1/2026 at 10:00 AM before Magistrate Judge Sarah L. Cave.) (Signed by Magistrate Judge Sarah L. Cave on 9/29/2026) (ne) Order AND ~Util - Set Hearings"
+  },
+  {
+   "id": 479773235,
+   "date": "2026-09-29",
+   "number": 46,
+   "text": "Order on Motion for Conference"
+  },
+  {
+   "id": 479677806,
+   "date": "2026-09-28",
+   "number": 45,
+   "text": "Conference"
+  },
+  {
+   "id": 479651170,
+   "date": "2026-09-28",
+   "number": 44,
+   "text": "Discovery"
+  },
+  {
+   "id": 479498804,
+   "date": "2026-09-25",
+   "number": 43,
+   "text": "Letter"
+  },
+  {
+   "id": 479498851,
+   "date": "2026-09-25",
+   "number": 42,
+   "text": "ORDER: Accordingly, given the Sept. 25 Order, the Sept. 29 SC will proceed and the Oct. 28 SC is CANCELLED. (Dkt. No. 34). The Court's Standing Order Applicable to Settlement Conferences Before Magistrate Judge Cave (Dkt. No. 34 at 5-7), rema ins in effect. The submissions required by paragraph 4 of the Standing Order shall be emailed to Chambers (cave_nysdchambers@nysd.uscourts.gov) and opposing counsel by September 28, 2026 at 1:00 p.m. ET. The parties are reminded to include the Attendance Acknowledgement form annexed to the Standing Order (id. at 8). (Signed by Magistrate Judge Sarah L. Cave on 9/25/2026) (ne) Order"
+  },
+  {
+   "id": 479413055,
+   "date": "2026-09-25",
+   "number": 41,
+   "text": "ORDER: Upon review of the parties' papers, the Court is inclined to believe that Plaintiffs' motion for a preliminary injunction can be decided without an evidentiary hearing. Accordingly, the evidentiary hearing scheduled for November 10, 2026, and the pre-hearing conference scheduled for November 5, 2026, are CANCELED, and the pre-hearing filing deadlines are vacated. Instead, the parties shall appear for oral argument on October 13, 2026, at 10:30 a.m. in Courtroom 24B of the Daniel Patrick Moynihan Courthouse, 500 Pearl Street, New York, NY. SO ORDERED. (Signed by Judge Jesse M. Furman on 9/25/2026) (ab) 1 - Terminate Hearings AND Order AND ~Util - Set Hearings"
+  },
+  {
+   "id": 479333105,
+   "date": "2026-09-24",
+   "number": 40,
+   "text": "Memo Endorsement"
+  },
+  {
+   "id": 479181193,
+   "date": "2026-09-23",
+   "number": 39,
+   "text": "Letter"
+  },
+  {
+   "id": 477774935,
+   "date": "2026-09-12",
+   "number": 38,
+   "text": "Declaration in Support (non-motion) AND Reply (non-motion)"
+  },
+  {
+   "id": 477772270,
+   "date": "2026-09-12",
+   "number": 37,
+   "text": "Declaration (non-motion) AND Reply (non-motion)"
+  },
+  {
+   "id": 477772271,
+   "date": "2026-09-12",
+   "number": 36,
+   "text": "Declaration (non-motion) AND Reply (non-motion)"
+  },
+  {
+   "id": 477772273,
+   "date": "2026-09-12",
+   "number": 35,
+   "text": "Reply Memorandum of Law (non-motion) AND Reply Memorandum of Law in Support (non-motion)"
+  },
+  {
+   "id": 477677654,
+   "date": "2026-09-11",
+   "number": null,
+   "text": "Telephone Conference"
+  },
+  {
+   "id": 477726910,
+   "date": "2026-09-11",
+   "number": 34,
+   "text": "Scheduling Order"
+  },
+  {
+   "id": 477450841,
+   "date": "2026-09-09",
+   "number": 33,
+   "text": "Order on Motion for Extension of Time to Answer"
+  },
+  {
+   "id": 477304370,
+   "date": "2026-09-08",
+   "number": 32,
+   "text": "Extension of Time to File Answer"
+  },
+  {
+   "id": 476942193,
+   "date": "2026-09-04",
+   "number": 31,
+   "text": "Declaration (non-motion)"
+  },
+  {
+   "id": 476934519,
+   "date": "2026-09-04",
+   "number": 30,
+   "text": "Response (non-motion)"
+  },
+  {
+   "id": 476746896,
+   "date": "2026-09-02",
+   "number": 29,
+   "text": "Order on Motion for Extension of Time"
+  },
+  {
+   "id": 476728618,
+   "date": "2026-09-02",
+   "number": 28,
+   "text": "Extension of Time"
+  },
+  {
+   "id": 476676198,
+   "date": "2026-09-02",
+   "number": 27,
+   "text": "ORDER re: 26 Order Referring Case to Magistrate Judge. This action has been referred to the undersigned for settlement. (Dkt. No. 26). Accordingly, a Telephone Conference to schedule a Settlement Conference is scheduled for September 11, 2026 , at 10:00 a.m. ET on the Court's conference line. The parties are directed to call: (855) 244-8681; access code: 2308 226 4654, at the scheduled time. The parties shall be prepared to discuss their availability, and that of their clients, fo r a Settlement Conference, as well as their preferred format for the Settlement Conference (in-person, by telephone, or by videoconference hosted either by the Court on Webex or by the parties on an alternative platform). (Signed by Magistrate Judge Sarah L. Cave on 9/2/2026) (Telephone Conference set for 9/11/2026 at 10:00 AM before Magistrate Judge Sarah L. Cave.) (ar) Order AND ~Util - Set Hearings"
+  },
+  {
+   "id": 476540570,
+   "date": "2026-09-01",
+   "number": null,
+   "text": "Status Conference"
+  },
+  {
+   "id": 476610691,
+   "date": "2026-09-01",
+   "number": 26,
+   "text": "Order Referring Case to Magistrate Judge"
+  },
+  {
+   "id": 476610807,
+   "date": "2026-09-01",
+   "number": 25,
+   "text": "Memo Endorsement"
+  },
+  {
+   "id": 476227039,
+   "date": "2026-08-28",
+   "number": 24,
+   "text": "Letter"
+  },
+  {
+   "id": 475859436,
+   "date": "2026-08-26",
+   "number": 23,
+   "text": "ORDER: For the reasons discussed on the record during the conference held yesterday, August 25, 2026, it is hereby ORDERED that the following schedule shall govern the further conduct of pre-hearing proceedings in this case unless and until the Co urt orders otherwise: Defendant shall file any opposition to the application for a preliminary injunction by September 3, 2026, at noon. Defendant should address the merits of Plaintiffs' application as well as whether a hearing is necessary to resolve the application Plaintiffs shall file any reply by September 11, 2026. The final prehearing conference is scheduled for November 5, 2026, at 10:00 a.m. in Courtroom 24B of the Daniel Patrick Moynihan Courthouse, 500 Pearl Street, New Yor k, NY. It is ORDERED that the preliminary injunction hearing will begin at 9:30 a.m. on November 10, 2026, in Courtroom 24B of the Daniel Patrick Moynihan Courthouse, 500 Pearl Street, New York, NY. ( Responses due by 9/3/2026, Replies due by 9/1 1/2026., Final Pretrial Conference set for 11/5/2026 at 10:00 AM in Courtroom 24B, 500 Pearl Street, New York, NY 10007 before Judge Jesse M. Furman., Status Conference set for 11/10/2026 at 09:30 AM in Courtroom 24B, 500 Pearl Street, New York, NY 10007 before Judge Jesse M. Furman.) (Signed by Judge Jesse M. Furman on 8/26/2026) (rro) Order AND ~Util - Set Deadlines/Hearings"
+  },
+  {
+   "id": 475576692,
+   "date": "2026-08-24",
+   "number": 22,
+   "text": "Notice of Appearance"
+  },
+  {
+   "id": 475577014,
+   "date": "2026-08-24",
+   "number": 21,
+   "text": "Notice of Appearance"
+  },
+  {
+   "id": 475436531,
+   "date": "2026-08-21",
+   "number": 20,
+   "text": "Certificate of Service Other"
+  },
+  {
+   "id": 475179078,
+   "date": "2026-08-20",
+   "number": 19,
+   "text": "ORDER: Unless and until the Court orders otherwise, the parties shall appear for a telephone conference with the Court on August 25, 2026, at 3:00 p.m.The parties should join the conference by calling the Courts dedicated conference line at (855) 244-8681 and using access code 2303 019 3884, followed by the pound (#) key. When prompted for an attendee ID number, press the pound (#) key again. No later than August 21, 2026, Plaintiffs shall serve - by e-mail and overnight courier- copies of th e operative Complaint, all of their motion papers (including ECF No. 18), and thisOrder on Defendant (or, if known, defense counsel), and file proof of such service on the docket. (And as further set forth herein.) SO ORDERED. (Telephone Conference set for 8/25/2026 at 03:00 PM before Judge Jesse M. Furman.) (Signed by Judge Jesse M. Furman on 8/20/2026) (jca) Order AND ~Util - Set Hearings"
+  },
+  {
+   "id": 475047911,
+   "date": "2026-08-19",
+   "number": null,
+   "text": "Notice to Court Regarding Proposed Order"
+  },
+  {
+   "id": 475124048,
+   "date": "2026-08-19",
+   "number": 18,
+   "text": "Letter"
+  },
+  {
+   "id": 475099120,
+   "date": "2026-08-19",
+   "number": 17,
+   "text": "Memorandum of Law in Support (non-motion)"
+  }
+ ]
+}

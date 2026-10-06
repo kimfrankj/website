@@ -1,0 +1,126 @@
+{
+ "complete": false,
+ "nextUrl": "https://www.courtlistener.com/api/rest/v4/docket-entries/?docket=74112099&fields=id%2Cdate_filed%2Centry_number%2Cdescription%2Crecap_documents__description&order_by=-date_filed%2C-entry_number&page=2&page_size=100",
+ "entries": [
+  {
+   "id": 480244936,
+   "date": "2026-10-01",
+   "number": 70,
+   "text": "Notice of Appearance"
+  },
+  {
+   "id": 480213228,
+   "date": "2026-10-01",
+   "number": 69,
+   "text": "Memorandum of Law in Opposition to Motion"
+  },
+  {
+   "id": 479705292,
+   "date": "2026-09-28",
+   "number": 68,
+   "text": "Brief"
+  },
+  {
+   "id": 479678794,
+   "date": "2026-09-28",
+   "number": 67,
+   "text": "Brief"
+  },
+  {
+   "id": 479497974,
+   "date": "2026-09-25",
+   "number": 66,
+   "text": "Brief"
+  },
+  {
+   "id": 479359489,
+   "date": "2026-09-24",
+   "number": 65,
+   "text": "Brief"
+  },
+  {
+   "id": 479233676,
+   "date": "2026-09-24",
+   "number": 64,
+   "text": "Brief"
+  },
+  {
+   "id": 479056533,
+   "date": "2026-09-23",
+   "number": null,
+   "text": "Order on Motion to Appear Pro Hac Vice"
+  },
+  {
+   "id": 479213428,
+   "date": "2026-09-23",
+   "number": null,
+   "text": "Order on Motion for Leave to File Document AND Order on Motion to File Amicus Brief AND Order on Motion to File Amicus Brief AND Order on Motion to File Amicus Brief AND Order on Motion to File Amicus Brief AND Order on Motion to File Amicus Brief"
+  },
+  {
+   "id": 479203392,
+   "date": "2026-09-23",
+   "number": 62,
+   "text": "LETTER MOTION to File Amicus Brief addressed to Judge Jesse M. Furman from Joshua Colangelo-Bryan dated 09/23/2026. Document filed by Jim O'Brien, Brad Brooks-Rubin, Justyna Gudzowska, Laura Ferris, Peter Chessick. (Attachments: # 1 Exhibit Proposed Amicus Brief).(Colangelo-Bryan, Joshua) (Entered: 09/23/2026) File Amicus Brief"
+  },
+  {
+   "id": 479203415,
+   "date": "2026-09-23",
+   "number": 61,
+   "text": "LETTER MOTION for Leave to File Amicus Curiae Brief addressed to Judge Jesse M. Furman from New York City Bar Association dated 09/23/2026. Document filed by New York City Bar Association. (Attachments: # 1 Exhibit Proposed Amicus Brief, # 2 Proposed Order Proposed Order).(Axelrod, Lauren) (Entered: 09/23/2026) Leave to File Document Exhibit Proposed Amicus Brief Proposed Order Proposed Order"
+  },
+  {
+   "id": 479203693,
+   "date": "2026-09-23",
+   "number": 60,
+   "text": "LETTER MOTION to File Amicus Brief on behalf of the International Criminal Court Bar Association addressed to Judge Jesse M. Furman from Tami Stark dated 09/23/2026. Document filed by International Criminal Court Bar Association. (Attachments: # 1 Exhibit Ex. A - Proposed ICCBA Amicus Brief, # 2 Exhibit Ex. B - Proposed Order).(Stark, Tami) (Entered: 09/23/2026) File Amicus Brief Exhibit Ex. A - Proposed ICCBA Amicus Brief Exhibit Ex. B - Proposed Order"
+  },
+  {
+   "id": 479180833,
+   "date": "2026-09-23",
+   "number": 59,
+   "text": "LETTER MOTION to File Amicus Brief Physicians for Human Rights addressed to Judge Jesse M. Furman from Payal K. Shah dated 9/23/2026. Document filed by Physicians for Human Rights. (Attachments: # 1 Proposed Order Exhibit B Proposed Order, # 2 Exhibit Exhibit A Amicus Brief).(Shah, Payal) (Entered: 09/23/2026) File Amicus Brief Proposed Order Exhibit B Proposed Order Exhibit Exhibit A Amicus Brief"
+  },
+  {
+   "id": 479181053,
+   "date": "2026-09-23",
+   "number": 58,
+   "text": "LETTER MOTION to File Amicus Brief addressed to Judge Jesse M. Furman from Daniel Z. Purisch dated September 23, 2026. Document filed by Beth Van Schaack, Stephen J. Rapp, Brenda J. Hollis, David M. Crane. (Attachments: # 1 Exhibit A - Proposed Amicus Brief, # 2 Exhibit B - Proposed Order).(Purisch, Daniel) (Entered: 09/23/2026) File Amicus Brief Exhibit A - Proposed Amicus Brief Exhibit B - Proposed Order"
+  },
+  {
+   "id": 479182234,
+   "date": "2026-09-23",
+   "number": 57,
+   "text": "MOTION to File Amicus Brief . Document filed by International Law Scholars and Practitioners. (Attachments: # 1 Supplement Proposed Amici Brief, # 2 Exhibit Declaration of Michael R. Noveck, # 3 Proposed Order Proposed Order).(Noveck, Michael) (Entered: 09/23/2026) File Amicus Brief Supplement Proposed Amici Brief Exhibit Declaration of Michael R. Noveck Proposed Order Proposed Order"
+  },
+  {
+   "id": 479079197,
+   "date": "2026-09-23",
+   "number": 56,
+   "text": "BRIEF OF AMICUS CURIAE THE BRENNAN CENTER FOR JUSTICE AT NYU SCHOOL OF LAW. Document filed by Brennan Center for Justice at NYU School of Law..(Ebright, Katherine) (Entered: 09/23/2026) Brief"
+  },
+  {
+   "id": 479075093,
+   "date": "2026-09-23",
+   "number": 55,
+   "text": "ORDER granting 51 Letter Motion for Leave to File Document. Application GRANTED. The Clerk of Court is directed to terminate ECF No. 51. SO ORDERED. (Signed by Judge Jesse M. Furman on 9/23/2026) (ar) (Entered: 09/23/2026) Order on Motion for Leave to File Document"
+  },
+  {
+   "id": 479075092,
+   "date": "2026-09-23",
+   "number": 54,
+   "text": "ORDER granting 52 Letter Motion to File Amicus Brief. Application GRANTED. The Clerk of Court is directed to terminate ECF No. 52. SO ORDERED. (Signed by Judge Jesse M. Furman on 9/23/2026) (ar) (Entered: 09/23/2026) Order on Motion to File Amicus Brief"
+  },
+  {
+   "id": 479075091,
+   "date": "2026-09-23",
+   "number": 53,
+   "text": "ORDER granting 50 Motion for Katherine Yon Ebright to Appear Pro Hac Vice (HEREBY ORDERED by Judge Jesse M. Furman)(Text Only Order) (Furman, Jesse) (Entered: 09/23/2026)"
+  },
+  {
+   "id": 479008869,
+   "date": "2026-09-22",
+   "number": null,
+   "text": "Notice Regarding Pro Hac Vice Motion"
+  }
+ ]
+}
