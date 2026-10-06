@@ -1,0 +1,126 @@
+{
+ "complete": false,
+ "nextUrl": "https://www.courtlistener.com/api/rest/v4/docket-entries/?docket=73674956&fields=id%2Cdate_filed%2Centry_number%2Cdescription%2Crecap_documents__description&order_by=-date_filed%2C-entry_number&page=2&page_size=100",
+ "entries": [
+  {
+   "id": 478931306,
+   "date": "2026-09-22",
+   "number": null,
+   "text": "Status Conference"
+  },
+  {
+   "id": 478597956,
+   "date": "2026-09-18",
+   "number": 48,
+   "text": "Memo Endorsement AND ~Util - Set Deadlines"
+  },
+  {
+   "id": 478445377,
+   "date": "2026-09-17",
+   "number": 47,
+   "text": "Letter"
+  },
+  {
+   "id": 478043380,
+   "date": "2026-09-15",
+   "number": 46,
+   "text": "ORDER: As discussed on the record during the conference held yesterday, Defendants shall (1) not use, disclose, transmit, copy, delete, destroy, or modify any information or documents containing information belonging to or concerning Elevance Heal th, if any, in their possession, custody, or control; and (2) preserve all documents, communications, electronically stored information, devices, accounts, repositories, cloud-storage locations, email accounts, messaging applications, removable me dia, logs, and other materials that contain, or may contain, relevant documents, communications, or information related to this action. See ECF No. 25, PP 3-4. (And as further set forth herein.) SO ORDERED. (Signed by Judge Jesse M. Furman on 9/15/2026) (ar) Order"
+  },
+  {
+   "id": 477931824,
+   "date": "2026-09-14",
+   "number": null,
+   "text": "Order on Motion to Appear Pro Hac Vice"
+  },
+  {
+   "id": 477931950,
+   "date": "2026-09-14",
+   "number": null,
+   "text": "Notice Regarding Pro Hac Vice Motion"
+  },
+  {
+   "id": 477870698,
+   "date": "2026-09-14",
+   "number": 44,
+   "text": "Appear Pro Hac Vice"
+  },
+  {
+   "id": 477701222,
+   "date": "2026-09-11",
+   "number": 43,
+   "text": "Notice of Appearance"
+  },
+  {
+   "id": 477701264,
+   "date": "2026-09-11",
+   "number": 42,
+   "text": "Notice of Appearance"
+  },
+  {
+   "id": 477701351,
+   "date": "2026-09-11",
+   "number": 41,
+   "text": "Response in Opposition to Motion"
+  },
+  {
+   "id": 477701404,
+   "date": "2026-09-11",
+   "number": 40,
+   "text": "Notice of Appearance"
+  },
+  {
+   "id": 477701416,
+   "date": "2026-09-11",
+   "number": 39,
+   "text": "Notice of Appearance"
+  },
+  {
+   "id": 477677091,
+   "date": "2026-09-11",
+   "number": 38,
+   "text": "Notice of Appearance"
+  },
+  {
+   "id": 477549236,
+   "date": "2026-09-10",
+   "number": 37,
+   "text": "Affidavit of Service Complaints"
+  },
+  {
+   "id": 477450855,
+   "date": "2026-09-09",
+   "number": 36,
+   "text": "Memo Endorsement"
+  },
+  {
+   "id": 477290989,
+   "date": "2026-09-08",
+   "number": 35,
+   "text": "Letter"
+  },
+  {
+   "id": 476610883,
+   "date": "2026-09-01",
+   "number": 34,
+   "text": "Memo Endorsement"
+  },
+  {
+   "id": 476593793,
+   "date": "2026-09-01",
+   "number": 33,
+   "text": "Letter"
+  },
+  {
+   "id": 475005462,
+   "date": "2026-08-19",
+   "number": 32,
+   "text": "Memo Endorsement"
+  },
+  {
+   "id": 474932378,
+   "date": "2026-08-18",
+   "number": 31,
+   "text": "Letter"
+  }
+ ]
+}

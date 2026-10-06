@@ -1,0 +1,126 @@
+{
+ "complete": false,
+ "nextUrl": "https://www.courtlistener.com/api/rest/v4/docket-entries/?docket=73534095&fields=id%2Cdate_filed%2Centry_number%2Cdescription%2Crecap_documents__description&order_by=-date_filed%2C-entry_number&page=2&page_size=100",
+ "entries": [
+  {
+   "id": 476459391,
+   "date": "2026-08-31",
+   "number": 20,
+   "text": "Order on Motion for Extension of Time"
+  },
+  {
+   "id": 476436960,
+   "date": "2026-08-31",
+   "number": 19,
+   "text": "Extension of Time"
+  },
+  {
+   "id": 471239207,
+   "date": "2026-07-17",
+   "number": 18,
+   "text": "Notice of Appearance"
+  },
+  {
+   "id": 469948940,
+   "date": "2026-07-07",
+   "number": 17,
+   "text": "SUMMONS RETURNED EXECUTED. United States Citizenship and Immigration Services served on 7/1/2026, answer due 8/31/2026. Service was accepted by Derick Mayors, Clerk (USAO). Service was made by Mail (USCIS and USAG). Document filed by CanAm PIDC Regional Center, LLC; CanAm Enterprises, LP. (Attachments: # 1 Exhibit Exhibits A-C).(Galati, Matthew) (Entered: 07/07/2026) Summons Returned Executed as to USA"
+  },
+  {
+   "id": 469302007,
+   "date": "2026-06-30",
+   "number": 16,
+   "text": "ELECTRONIC SUMMONS ISSUED as to United States Citizenship and Immigration Services..(pc) (Entered: 06/30/2026) Summons Issued"
+  },
+  {
+   "id": 469302012,
+   "date": "2026-06-30",
+   "number": 15,
+   "text": "ELECTRONIC SUMMONS ISSUED as to United States Citizenship and Immigration Services..(pc) (Entered: 06/30/2026) Summons Issued"
+  },
+  {
+   "id": 469142360,
+   "date": "2026-06-29",
+   "number": 14,
+   "text": "NOTICE OF INITIAL PRETRIAL CONFERENCE: Unless and until the Court orders otherwise, counsel for all parties shall appear for an initial pretrial conference with the Court on September 23, 2026 at 9:00 a.m. The conference will be held remotely by telephone in accordance with Paragraph 3.B of the Court's Individual Rules and Practices in Civil Cases. The parties should join the conference by calling the Court's dedicated conference line at (855) 244-8681 and using access code 2303 019 3884, followed by the pound (#) key. Initial Conference set for 9/23/2026 at 09:00 AM before Judge Jesse M. Furman. (Signed by Judge Jesse M. Furman on 6/29/2026) (sgz) (Entered: 06/29/2026) Order for Initial Pretrial Conference"
+  },
+  {
+   "id": 468961259,
+   "date": "2026-06-26",
+   "number": null,
+   "text": "Order on Motion to Appear Pro Hac Vice"
+  },
+  {
+   "id": 468891863,
+   "date": "2026-06-26",
+   "number": null,
+   "text": "Notice to Attorney Regarding Deficient Request for Issuance of Summons"
+  },
+  {
+   "id": 468891907,
+   "date": "2026-06-26",
+   "number": null,
+   "text": "Case Opening Initial Assignment Notice"
+  },
+  {
+   "id": 468913359,
+   "date": "2026-06-26",
+   "number": null,
+   "text": "Notice Regarding Pro Hac Vice Motion"
+  },
+  {
+   "id": 470569728,
+   "date": "2026-06-26",
+   "number": null,
+   "text": "***NOTICE TO ATTORNEY REGARDING CIVIL. CASE OPENING STATISTICAL ERROR CORRECTION: Notice to attorney Matthew Tony Galati. The following case opening statistical information was erroneously selected/entered: Cause of Action code 05:0702. The following correction(s) have been made to your case entry: the Cause of Action code has been modified to 05:0555. (sj)"
+  },
+  {
+   "id": 470569729,
+   "date": "2026-06-26",
+   "number": null,
+   "text": "CASE OPENING INITIAL ASSIGNMENT NOTICE: The above-entitled action is assigned to Judge Jesse M. Furman. Please download and review the Individual Practices of the assigned District Judge, located at https://nysd.uscourts.gov/judges/district-judges. Attorneys are responsible for providing courtesy copies to judges where their Individual Practices require such. Please download and review the ECF Rules and Instructions, located at https://nysd.uscourts.gov/rules/ecf-related-instructions..(sj)"
+  },
+  {
+   "id": 470569730,
+   "date": "2026-06-26",
+   "number": null,
+   "text": "Magistrate Judge Gabriel W. Gorenstein is designated to handle matters that may be referred in this case. Pursuant to 28 U.S.C. Section 636(c) and Fed. R. Civ. P. 73(b)(1) parties are notified that they may consent to proceed before a United States Magistrate Judge. Parties who wish to consent may access the necessary form at the following link: https://nysd.uscourts.gov/sites/default/files/2018-06/AO-3.pdf. (sj)"
+  },
+  {
+   "id": 470569731,
+   "date": "2026-06-26",
+   "number": null,
+   "text": "Case Designated ECF. (sj)"
+  },
+  {
+   "id": 470569732,
+   "date": "2026-06-26",
+   "number": null,
+   "text": "***NOTICE TO ATTORNEY REGARDING DEFICIENT REQUEST FOR ISSUANCE OF SUMMONS. Notice to Attorney Matthew Tony Galati to RE-FILE Document No. 6 Request for Issuance of Summons, 5 Request for Issuance of Summons. The filing is deficient for the following reason(s): Defendant as to whom the summons request is for must be listed in the docket entry. Re-file the document using the event type Request for Issuance of Summons found under the event list Service of Process - select the correct filer/filers - and attach the correct summons form PDF. (sj)"
+  },
+  {
+   "id": 470569733,
+   "date": "2026-06-26",
+   "number": null,
+   "text": ">>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 10 MOTION for Matthew T. Galati to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff.. The document has been reviewed and there are no deficiencies. (bc)"
+  },
+  {
+   "id": 468891916,
+   "date": "2026-06-26",
+   "number": null,
+   "text": "Notice to Attorney Regarding Case Opening Statistical Error Correction"
+  },
+  {
+   "id": 470569734,
+   "date": "2026-06-26",
+   "number": 13,
+   "text": "ORDER granting 10 Motion for Matthew T. Galati to Appear Pro Hac Vice (HEREBY ORDERED by Judge Jesse M. Furman)(Text Only Order) (Furman, Jesse) (Entered: 06/26/2026)"
+  },
+  {
+   "id": 468891791,
+   "date": "2026-06-26",
+   "number": 12,
+   "text": "REQUEST FOR ISSUANCE OF SUMMONS as to United States Citizenship and Immigration Services, C/O Office of the United States Attorney General, re: 1 Complaint,,. Document filed by CanAm Enterprises, LP, CanAm PIDC Regional Center, LLC..(Galati, Matthew) (Entered: 06/26/2026) Request for Issuance of Summons"
+  }
+ ]
+}

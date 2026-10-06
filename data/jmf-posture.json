@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T17:41:06.525Z",
+  "updatedAt": "2026-10-06T18:06:36.120Z",
   "cases": {
     "73530612": {
       "checkedAt": "2026-10-06T17:40:36.431Z",
@@ -48,6 +48,102 @@
       "lastFiling": "2026-10-05",
       "entries": 43,
       "complete": true
+    },
+    "73534095": {
+      "checkedAt": "2026-10-06T18:06:22.907Z",
+      "stage": "Pleadings / service",
+      "latest": {
+        "date": "2026-08-31",
+        "number": 20,
+        "text": "Order on Motion for Extension of Time"
+      },
+      "lastFiling": "2026-08-31",
+      "entries": 20,
+      "complete": false
+    },
+    "73566836": {
+      "checkedAt": "2026-10-06T18:06:09.477Z",
+      "stage": "Discovery",
+      "latest": {
+        "date": "2026-10-05",
+        "number": 11,
+        "text": "Order to Show Cause"
+      },
+      "lastFiling": "2026-10-05",
+      "entries": 15,
+      "complete": true
+    },
+    "73609285": {
+      "checkedAt": "2026-10-06T18:05:55.718Z",
+      "stage": "Other / unclear",
+      "latest": {
+        "date": "2026-07-16",
+        "number": null,
+        "text": "Mailing Receipt"
+      },
+      "lastFiling": "2026-07-16",
+      "entries": 7,
+      "complete": true
+    },
+    "73617964": {
+      "checkedAt": "2026-10-06T18:05:28.901Z",
+      "stage": "Pleadings / service",
+      "latest": {
+        "date": "2026-09-11",
+        "number": 39,
+        "text": "ORDER granting 38 Motion for Extension of Time. Application GRANTED. The Clerk of Court is directed to terminate ECF No. 38. (Signed by Judge Jesse M. Furman on 9/11/2026) (kgo) (Entered: 09/11/2026) Order on Motion for Extension of Time"
+      },
+      "lastFiling": "2026-09-11",
+      "entries": 20,
+      "complete": false
+    },
+    "73623413": {
+      "checkedAt": "2026-10-06T18:05:42.212Z",
+      "stage": "Settling / dismissing",
+      "latest": {
+        "date": "2026-09-23",
+        "number": null,
+        "text": "Mailing Receipt"
+      },
+      "lastFiling": "2026-09-23",
+      "entries": 15,
+      "complete": true
+    },
+    "73650883": {
+      "checkedAt": "2026-10-06T18:05:15.629Z",
+      "stage": "Discovery",
+      "latest": {
+        "date": "2026-08-26",
+        "number": null,
+        "text": "Set/Reset Hearings: Initial Conference set for 11/10/2026 at 09:00 AM before Judge Jesse M. Furman. (rro)"
+      },
+      "lastFiling": "2026-08-26",
+      "entries": 19,
+      "complete": true
+    },
+    "73674542": {
+      "checkedAt": "2026-10-06T18:05:02.224Z",
+      "stage": "Other / unclear",
+      "latest": {
+        "date": "2026-09-30",
+        "number": 23,
+        "text": "Letter"
+      },
+      "lastFiling": "2026-09-30",
+      "entries": 20,
+      "complete": false
+    },
+    "73674956": {
+      "checkedAt": "2026-10-06T18:04:48.835Z",
+      "stage": "Other / unclear",
+      "latest": {
+        "date": "2026-09-22",
+        "number": null,
+        "text": "Status Conference"
+      },
+      "lastFiling": "2026-09-22",
+      "entries": 20,
+      "complete": false
     },
     "73675246": {
       "checkedAt": "2026-10-06T17:38:43.842Z",

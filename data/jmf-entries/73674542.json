@@ -1,0 +1,126 @@
+{
+ "complete": false,
+ "nextUrl": "https://www.courtlistener.com/api/rest/v4/docket-entries/?docket=73674542&fields=id%2Cdate_filed%2Centry_number%2Cdescription%2Crecap_documents__description&order_by=-date_filed%2C-entry_number&page=2&page_size=100",
+ "entries": [
+  {
+   "id": 480014925,
+   "date": "2026-09-30",
+   "number": 23,
+   "text": "Letter"
+  },
+  {
+   "id": 479705179,
+   "date": "2026-09-28",
+   "number": 22,
+   "text": "Certificate of Service Other"
+  },
+  {
+   "id": 479498881,
+   "date": "2026-09-25",
+   "number": 21,
+   "text": "Letter"
+  },
+  {
+   "id": 478377419,
+   "date": "2026-09-17",
+   "number": 20,
+   "text": "Letter"
+  },
+  {
+   "id": 478377453,
+   "date": "2026-09-17",
+   "number": 19,
+   "text": "Letter"
+  },
+  {
+   "id": 477058333,
+   "date": "2026-09-04",
+   "number": 18,
+   "text": "Certificate of Service Other"
+  },
+  {
+   "id": 476917837,
+   "date": "2026-09-03",
+   "number": 17,
+   "text": "Letter"
+  },
+  {
+   "id": 475478003,
+   "date": "2026-08-23",
+   "number": null,
+   "text": "Mailing Receipt"
+  },
+  {
+   "id": 475361754,
+   "date": "2026-08-21",
+   "number": 16,
+   "text": "CLERK'S JUDGMENT re: 15 Order. It is hereby ORDERED, ADJUDGED AND DECREED: That for the reasons stated in the Court's Order dated August 20, 2026, the writ of habeas corpus is GRANTED and, no sooner than seven days and no later than fo urteen days from the date of this Order, the immigration court is ORDERED to hold an individualized bond hearing at which the burden is on the Government to show, by clear and convincing evidence, the need for Petitioner's continued detention an d the IJ is required to consider his ability to pay and alternative means of assuring his appearance. No later than September 4, 2026, Respondents shall file a letter with the Court certifying that Petitioner has received such a bond hearing and the results of the hearing. The Court reserves judgment on whether Petitioner is entitled to immediate release. In the event the burden-shifted bond hearing does not result in his release, Petitioner shall file any brief in support of his position that t hat is the appropriate form of relief no later than September 18, 2026. In that event, Respondents shall file any opposition no later than September 25, 2026, and Petitioner shall file any reply no later than October 9, 2026. (Signed by Clerk of Court Tammi M Hellwig on 8/21/2026) (Attachments: # 1 Appeal Package) (tp) Judgment - Clerk"
+  },
+  {
+   "id": 475253821,
+   "date": "2026-08-20",
+   "number": 15,
+   "text": "ORDER:In light of the Government's letter, the writ of habeas corpus is GRANTED and, no sooner than seven days and no later than fourteen days from the date of this Order, the immigration court is ORDERED to hold an individualized bond hearing at which the burden is on the Government to show, by clear and convincing evidence, the need for Petitioner's continued detention and the IJ is required to consider his ability to pay and alternative means of assuring his appearance. No later than September 4, 2026, Respondents shall file a letter with the Court certifying that Petitioner has received such a bond hearing and the results of the hearing. The Court reserves judgment on whether Petitioner is entitled to immediate release. In the event the burden-shifted bond hearing does not result in his release, Petitioner shall file any brief in support of his position that that is the appropriate form of relief no later than September 18, 2026. In that event, Respondents shall fil e any opposition no later than September 25, 2026, and Petitioner shall file any reply no later than October 9, 2026. The Clerk of Court is directed to mail a copy of this Order to Petitioner. SO ORDERED. (Signed by Judge Jesse M. Furman on 8/20/2026) (jca) Transmission to Orders and Judgments Clerk for processing. Order"
+  },
+  {
+   "id": 475203524,
+   "date": "2026-08-20",
+   "number": 14,
+   "text": "Certificate of Service Other"
+  },
+  {
+   "id": 475047742,
+   "date": "2026-08-19",
+   "number": 13,
+   "text": "Letter"
+  },
+  {
+   "id": 474070334,
+   "date": "2026-08-11",
+   "number": 12,
+   "text": "Certificate of Service Other"
+  },
+  {
+   "id": 473951452,
+   "date": "2026-08-10",
+   "number": 11,
+   "text": "Declaration in Opposition (non-motion)"
+  },
+  {
+   "id": 473951453,
+   "date": "2026-08-10",
+   "number": 10,
+   "text": "Memorandum of Law in Opposition (non-motion)"
+  },
+  {
+   "id": 473951455,
+   "date": "2026-08-10",
+   "number": 9,
+   "text": "Response (non-motion)"
+  },
+  {
+   "id": 472760063,
+   "date": "2026-07-30",
+   "number": 8,
+   "text": "Certificate of Service Other"
+  },
+  {
+   "id": 472648609,
+   "date": "2026-07-30",
+   "number": 7,
+   "text": "Letter"
+  },
+  {
+   "id": 472495460,
+   "date": "2026-07-29",
+   "number": 6,
+   "text": "Notice of Appearance"
+  },
+  {
+   "id": 472380062,
+   "date": "2026-07-28",
+   "number": null,
+   "text": "MAILING RECEIPT: Document No: 3,4,5. Mailed to: Brallan A.Perez Alarcon 2026-01166 Orange County Correctional Facility 110 Wells Farms Road Goshen, NY 10924. (jwh)"
+  }
+ ]
+}
