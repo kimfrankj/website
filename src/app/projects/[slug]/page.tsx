@@ -5,23 +5,17 @@ import { getProject, getProjects } from "@/lib/content";
 import { isPlaceholder } from "@/lib/site";
 import { ImageFrame } from "@/components/ImageFrame";
 import { Prose } from "@/components/Prose";
-import { Suspense } from "react";
-import { JmfDocket, JmfDocketLoading } from "@/components/projects/JmfDocket";
+import { JmfDocket } from "@/components/projects/JmfDocket";
 
-// Projects with a live section under their write-up, keyed by slug: [component, loading placeholder]
-const live: Record<string, [() => Promise<React.ReactNode>, () => React.ReactNode] | undefined> = {
-  "jmf-docket": [JmfDocket, JmfDocketLoading],
+// Projects with an extra section under their write-up, keyed by slug
+const extras: Record<string, (() => React.ReactNode) | undefined> = {
+  "jmf-docket": JmfDocket,
 };
 
 type Props = { params: Promise<{ slug: string }> };
 
 export const generateStaticParams = () => getProjects().map((p) => ({ slug: p.slug }));
 export const dynamicParams = false;
-// Rendered per request (behind the password anyway) so live data is never fetched during a deploy.
-// The data itself is cached; see src/lib/courtlistener.ts.
-export const dynamic = "force-dynamic";
-// A first, uncached load walks ~20 pages of CourtListener results.
-export const maxDuration = 300;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const project = getProject((await params).slug);
@@ -38,7 +32,7 @@ export default async function ProjectPage({ params }: Props) {
   const project = getProject((await params).slug);
   if (!project) notFound();
   const links = project.links.filter((l) => !isPlaceholder(l.url));
-  const [Live, Loading] = live[project.slug] ?? [];
+  const Extra = extras[project.slug];
 
   return (
     <article className="wrap pt-16 md:pt-28">
@@ -66,11 +60,7 @@ export default async function ProjectPage({ params }: Props) {
 
       <div className="mx-auto mt-16 max-w-2xl"><Prose source={project.body} /></div>
 
-      {Live && Loading && (
-        <Suspense fallback={<Loading />}>
-          <Live />
-        </Suspense>
-      )}
+      {Extra && <Extra />}
     </article>
   );
 }

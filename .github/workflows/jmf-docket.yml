@@ -1,0 +1,40 @@
+# Refreshes data/jmf-docket.json once a day. Committing the new list triggers a normal Vercel deploy.
+# Needs a repository secret named COURTLISTENER_TOKEN (Settings → Secrets and variables → Actions).
+name: Update JMF Docket
+
+on:
+  schedule:
+    - cron: "0 11 * * *" # daily, 7am New York (summer) / 6am (winter)
+  workflow_dispatch: {} # "Run workflow" button on the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jmf-docket
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Fetch active cases from CourtListener
+        env:
+          COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
+        run: node scripts/fetch-jmf-docket.mjs
+      - name: Commit the updated list
+        run: |
+          git config user.name "jmf-docket-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/jmf-docket.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Update JMF Docket data"
+            git push
+          fi

@@ -1,27 +1,18 @@
-import { getFurmanActiveDockets, type DocketList } from "@/lib/courtlistener";
+import { getJmfDocket } from "@/lib/jmfDocket";
 
 const fmt = (d: string | null) =>
   d ? new Date(`${d}T00:00:00Z`).toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" }) : "—";
 
-/** Shown while the case list loads (the first load can take a minute). */
-export function JmfDocketLoading() {
-  return (
-    <section className="mt-16 border-t border-line pt-6" aria-busy="true">
-      <p className="label">Loading the active cases from CourtListener…</p>
-    </section>
-  );
-}
+/** Table of the active cases on Judge Furman's docket, from the list refreshed daily. */
+export function JmfDocket() {
+  const data = getJmfDocket();
 
-/** Live table of the active cases on Judge Furman's docket. */
-export async function JmfDocket() {
-  let data: DocketList;
-  try {
-    data = await getFurmanActiveDockets();
-  } catch (e) {
+  if (!data) {
     return (
       <section className="mt-16 border-t border-line pt-6">
-        <p role="status" className="text-accent">
-          CourtListener didn’t respond in time{e instanceof Error ? ` (${e.message})` : ""}. Refresh the page in a minute.
+        <p className="text-muted">
+          The case list hasn’t been fetched yet. It updates once a day; you can also run “Update JMF Docket” from
+          the repository’s Actions tab on GitHub.
         </p>
       </section>
     );

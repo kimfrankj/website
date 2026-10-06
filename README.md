@@ -71,13 +71,15 @@ Projects, Writing and the RSS feed (`/feed.xml`) require a password. Everything 
 
 The rules live in `src/proxy.ts` (which paths) and `src/lib/auth.ts` (the check).
 
-## JMF Docket (live data)
+## JMF Docket (daily data)
 
-`/projects/jmf-docket` lists the active cases on Judge Jesse M. Furman's S.D.N.Y. docket, pulled from CourtListener's search API (`src/lib/courtlistener.ts`).
+`/projects/jmf-docket` lists the active cases on Judge Jesse M. Furman's S.D.N.Y. docket, from CourtListener.
 
-- **Needs a CourtListener API token.** Without one, CourtListener rate-limits requests quickly. Create a free account at courtlistener.com, copy your API token from your profile's developer page, then add it in Vercel → Settings → Environment Variables as `COURTLISTENER_TOKEN` (Production) and redeploy. For local testing, add `COURTLISTENER_TOKEN=...` to `.env.local`.
-- **Refresh:** the list is saved and refreshed in the background at most every 6 hours. A failed refresh keeps the last good list. The very first load after a deploy can take up to a minute while it walks all the result pages.
-- **What "active" means:** CourtListener has no termination date for the case. That data comes from PACER via RECAP, so a closed case can linger briefly.
+- **How it updates:** a GitHub Action (`.github/workflows/jmf-docket.yml`) runs `scripts/fetch-jmf-docket.mjs` once a day. It saves the list to `data/jmf-docket.json` and commits it, which triggers a normal Vercel deploy. The website itself never calls CourtListener.
+- **Why:** CourtListener's free API allows only 5 requests a minute, 50 an hour and 125 a day. A full refresh is about 20 requests, so the script paces itself (one request every ~13 seconds) and uses about 20 of the 125 daily requests.
+- **Setup:** add your CourtListener API token as a GitHub repository secret named `COURTLISTENER_TOKEN` (GitHub → the repo → Settings → Secrets and variables → Actions → New repository secret). Run it any time from the repo's **Actions** tab → **Update JMF Docket** → **Run workflow**.
+- **Run it locally:** `COURTLISTENER_TOKEN=yourtoken node scripts/fetch-jmf-docket.mjs`
+- **What "active" means:** CourtListener has no termination date for the case. That data comes from PACER via RECAP, so a closed case can linger briefly. If a refresh fails, the previous list stays.
 
 ## Deploy
 
