@@ -73,6 +73,8 @@ The rules live in `src/proxy.ts` (which paths) and `src/lib/auth.ts` (the check)
 
 ## JMF Docket (daily data)
 
+> **Paused (Oct 2026):** the scheduled pulls are switched off because ChambersOS uses the same CourtListener account and its 125-requests/day limit. The page keeps showing the last saved data. To resume, restore the `schedule:` blocks commented out in both workflow files.
+
 `/projects/jmf-docket` lists the active cases on Judge Jesse M. Furman's S.D.N.Y. docket, from CourtListener.
 
 - **How it updates:** a GitHub Action (`.github/workflows/jmf-docket.yml`) runs `scripts/fetch-jmf-docket.mjs` once a day. It saves the list to `data/jmf-docket.json` and commits it, which triggers a normal Vercel deploy. The website itself never calls CourtListener.

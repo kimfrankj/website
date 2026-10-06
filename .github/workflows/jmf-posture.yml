@@ -4,10 +4,12 @@
 name: Update JMF Docket posture
 
 on:
-  schedule:
-    - cron: "0 14 * * *"
-    - cron: "0 18 * * *"
-    - cron: "0 22 * * *"
+  # PAUSED: the same CourtListener account is used by ChambersOS, so this site no longer pulls on a
+  # schedule (it would eat into the shared 125-requests/day limit). To resume, restore:
+  #   schedule:
+  #     - cron: "0 14 * * *"
+  #     - cron: "0 18 * * *"
+  #     - cron: "0 22 * * *"
   workflow_dispatch: {}
 
 permissions:

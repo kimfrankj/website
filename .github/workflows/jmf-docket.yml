@@ -3,8 +3,10 @@
 name: Update JMF Docket
 
 on:
-  schedule:
-    - cron: "0 11 * * *" # daily, 7am New York (summer) / 6am (winter)
+  # PAUSED: the same CourtListener account is used by ChambersOS, so this site no longer pulls on a
+  # schedule (it would eat into the shared 125-requests/day limit). To resume, restore:
+  #   schedule:
+  #     - cron: "0 11 * * *" # daily, 7am New York (summer) / 6am (winter)
   workflow_dispatch: {} # "Run workflow" button on the Actions tab
 
 permissions:
