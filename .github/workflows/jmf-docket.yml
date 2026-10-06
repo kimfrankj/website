@@ -36,5 +36,6 @@ jobs:
             echo "No changes."
           else
             git commit -m "Update JMF Docket data"
+            git pull --rebase
             git push
           fi

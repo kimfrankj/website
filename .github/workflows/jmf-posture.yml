@@ -1,0 +1,45 @@
+# Refreshes the estimated procedural posture for a batch of JMF Docket cases, three times a day.
+# With the daily case-list job this uses about 110 of CourtListener's 125 free requests per day.
+# Needs the COURTLISTENER_TOKEN repository secret.
+name: Update JMF Docket posture
+
+on:
+  schedule:
+    - cron: "0 14 * * *"
+    - cron: "0 18 * * *"
+    - cron: "0 22 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+# Shares a group with the case-list job so the two never run (or push) at the same time.
+concurrency:
+  group: jmf-docket
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Fetch recent docket entries from CourtListener
+        env:
+          COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
+        run: node scripts/fetch-jmf-posture.mjs
+      - name: Commit the updated posture
+        run: |
+          git config user.name "jmf-docket-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/jmf-posture.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Update JMF Docket posture"
+            git pull --rebase
+            git push
+          fi

@@ -79,6 +79,7 @@ The rules live in `src/proxy.ts` (which paths) and `src/lib/auth.ts` (the check)
 - **Why:** CourtListener's free API allows only 5 requests a minute, 50 an hour and 125 a day. A full refresh is about 20 requests, so the script paces itself (one request every ~13 seconds) and uses about 20 of the 125 daily requests.
 - **Setup:** add your CourtListener API token as a GitHub repository secret named `COURTLISTENER_TOKEN` (GitHub → the repo → Settings → Secrets and variables → Actions → New repository secret). Run it any time from the repo's **Actions** tab → **Update JMF Docket** → **Run workflow**.
 - **Run it locally:** `COURTLISTENER_TOKEN=yourtoken node scripts/fetch-jmf-docket.mjs`
+- **Procedural posture:** a second GitHub Action (`.github/workflows/jmf-posture.yml`, three times a day) runs `scripts/fetch-jmf-posture.mjs`. Each run reads the latest docket entries for 30 cases (new cases first, then the ones checked longest ago) and saves an estimated stage plus the latest entry to `data/jmf-posture.json`. Every case refreshes about every four days. Together with the daily list that is ~110 of the 125 free daily requests. The stage labels come from keyword rules in `scripts/posture-rules.mjs` — an estimate, not legal analysis.
 - **What "active" means:** CourtListener has no termination date for the case. That data comes from PACER via RECAP, so a closed case can linger briefly. If a refresh fails, the previous list stays.
 
 ## Deploy
