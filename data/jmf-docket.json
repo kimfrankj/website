@@ -1,0 +1,3138 @@
+{
+  "fetchedAt": "2026-10-06T16:09:14.860Z",
+  "reported": 387,
+  "cases": [
+    {
+      "id": 74910923,
+      "caseName": "NEW WORLD STRATEGIES, LLC v. SOLARKAL, LLC",
+      "docketNumber": "1:26-cv-08719",
+      "dateFiled": "2026-10-02",
+      "suitNature": "Contract: Other",
+      "cause": "28:1332oc Diversity-Other Contract",
+      "url": "https://www.courtlistener.com/docket/74910923/new-world-strategies-llc-v-solarkal-llc/"
+    },
+    {
+      "id": 74868558,
+      "caseName": "Hunter v. TD Bank, N.A.",
+      "docketNumber": "1:26-cv-08414",
+      "dateFiled": "2026-09-25",
+      "suitNature": "Banks and Banking",
+      "cause": "12:4010 Expedited Funds Availability:  Violation of Act (Civil Liability)",
+      "url": "https://www.courtlistener.com/docket/74868558/hunter-v-td-bank-na/"
+    },
+    {
+      "id": 74830053,
+      "caseName": "Balde v. Genalo",
+      "docketNumber": "1:26-cv-08227",
+      "dateFiled": "2026-09-21",
+      "suitNature": "463 Habeas Corpus - Alien Detainee",
+      "cause": "28:2241fd Petition for Writ of Habeas Corpus (Federal)",
+      "url": "https://www.courtlistener.com/docket/74830053/balde-v-genalo/"
+    },
+    {
+      "id": 74817617,
+      "caseName": "Tarar v. U.S. Department of Education",
+      "docketNumber": "1:26-cv-08180",
+      "dateFiled": "2026-09-19",
+      "suitNature": "480 Consumer Credit",
+      "cause": "15:1681 Fair Credit Reporting Act",
+      "url": "https://www.courtlistener.com/docket/74817617/tarar-v-us-department-of-education/"
+    },
+    {
+      "id": 74805229,
+      "caseName": "Lindberg v. Causey",
+      "docketNumber": "1:26-cv-07938",
+      "dateFiled": "2026-09-11",
+      "suitNature": "470 Racketeer/Corrupt Organization",
+      "cause": "18:1962 Racketeering (RICO) Act",
+      "url": "https://www.courtlistener.com/docket/74805229/lindberg-v-causey/"
+    },
+    {
+      "id": 73530636,
+      "caseName": "Hidalgo v. Samuels",
+      "docketNumber": "1:26-cv-05345",
+      "dateFiled": "2026-09-10",
+      "suitNature": "Civil Rights: Education",
+      "cause": "20:1400 IDEA:  Individuals With Disabilities Education Act (short title)",
+      "url": "https://www.courtlistener.com/docket/73530636/hidalgo-v-samuels/"
+    },
+    {
+      "id": 73530629,
+      "caseName": "Abreu v. Samuels",
+      "docketNumber": "1:26-cv-05341",
+      "dateFiled": "2026-09-10",
+      "suitNature": "Civil Rights: Education",
+      "cause": "20:1400 IDEA:  Individuals With Disabilities Education Act (short title)",
+      "url": "https://www.courtlistener.com/docket/73530629/abreu-v-samuels/"
+    },
+    {
+      "id": 73530618,
+      "caseName": "Juca v. Samuels",
+      "docketNumber": "1:26-cv-05337",
+      "dateFiled": "2026-09-10",
+      "suitNature": "Civil Rights: Education",
+      "cause": "20:1400 IDEA:  Individuals With Disabilities Education Act (short title)",
+      "url": "https://www.courtlistener.com/docket/73530618/juca-v-samuels/"
+    },
+    {
+      "id": 73530612,
+      "caseName": "Juca v. Samuels",
+      "docketNumber": "1:26-cv-05336",
+      "dateFiled": "2026-09-10",
+      "suitNature": "Civil Rights: Education",
+      "cause": "20:1400 IDEA:  Individuals With Disabilities Education Act (short title)",
+      "url": "https://www.courtlistener.com/docket/73530612/juca-v-samuels/"
+    },
+    {
+      "id": 74749004,
+      "caseName": "Bishop v. Higgsfield Inc.",
+      "docketNumber": "1:26-cv-07580",
+      "dateFiled": "2026-09-03",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "42:12101 The Americans with Disabilities Act of 1990",
+      "url": "https://www.courtlistener.com/docket/74749004/bishop-v-higgsfield-inc/"
+    },
+    {
+      "id": 74729868,
+      "caseName": "Wu v. Blanche",
+      "docketNumber": "1:26-cv-07438",
+      "dateFiled": "2026-08-31",
+      "suitNature": "463 Habeas Corpus - Alien Detainee",
+      "cause": "28:2241in Habeas Corpus: INS",
+      "url": "https://www.courtlistener.com/docket/74729868/wu-v-blanche/"
+    },
+    {
+      "id": 74739801,
+      "caseName": "Kim v. U.S. Citizenship and Immigration Services (USCIS)",
+      "docketNumber": "1:26-cv-07332",
+      "dateFiled": "2026-08-28",
+      "suitNature": "Other Immigration Actions",
+      "cause": "28:1361 Petition for Writ of Mandamus",
+      "url": "https://www.courtlistener.com/docket/74739801/kim-v-us-citizenship-and-immigration-services-uscis/"
+    },
+    {
+      "id": 74719544,
+      "caseName": "Savino v. City of New York",
+      "docketNumber": "1:26-cv-07373",
+      "dateFiled": "2026-08-28",
+      "suitNature": "442 Civil Rights: Jobs",
+      "cause": "38:4301 Uniformed Srvs. Employment & Reemployment Rights Act (purpose)",
+      "url": "https://www.courtlistener.com/docket/74719544/savino-v-city-of-new-york/"
+    },
+    {
+      "id": 74707673,
+      "caseName": "Success Academy Charter Schools-NYC v. Rosa",
+      "docketNumber": "1:26-cv-07298",
+      "dateFiled": "2026-08-27",
+      "suitNature": "950 Constitutional - State Statute",
+      "cause": "42:1983 Civil Rights Act",
+      "url": "https://www.courtlistener.com/docket/74707673/success-academy-charter-schools-nyc-v-rosa/"
+    },
+    {
+      "id": 74692579,
+      "caseName": "Wells Fargo Bank National Association as Trustee for the benefit of the Registered Holders of Natixis Commercial Mortgage Securities Trust 2019-Mile, Commercial Mortgage Pass-through Certificates v. De Cotiis",
+      "docketNumber": "1:26-cv-07219",
+      "dateFiled": "2026-08-24",
+      "suitNature": "190 Contract: Other",
+      "cause": "28:1332bc Diversity-Breach of Contract",
+      "url": "https://www.courtlistener.com/docket/74692579/wells-fargo-bank-national-association-as-trustee-for-the-benefit-of-the/"
+    },
+    {
+      "id": 74641230,
+      "caseName": "Gaucher, Jr. v. Digital Brands Group, Inc.",
+      "docketNumber": "1:26-cv-06889",
+      "dateFiled": "2026-08-12",
+      "suitNature": "190 Contract: Other",
+      "cause": "28:1332 Diversity Action",
+      "url": "https://www.courtlistener.com/docket/74641230/gaucher-jr-v-digital-brands-group-inc/"
+    },
+    {
+      "id": 74112099,
+      "caseName": "American Friends Service Committee v. Trump",
+      "docketNumber": "1:26-cv-06830",
+      "dateFiled": "2026-08-11",
+      "suitNature": "890 Other Statutory Actions",
+      "cause": "50:1701 International Emergency Economic Powers Act",
+      "url": "https://www.courtlistener.com/docket/74112099/american-friends-service-committee-v-trump/"
+    },
+    {
+      "id": 73738272,
+      "caseName": "Saldivar v. DHY Sonamoo LLC",
+      "docketNumber": "1:26-cv-06784",
+      "dateFiled": "2026-08-07",
+      "suitNature": "710 Labor: Fair Standards",
+      "cause": "29:201 Fair Labor Standards Act",
+      "url": "https://www.courtlistener.com/docket/73738272/saldivar-v-dhy-sonamoo-llc/"
+    },
+    {
+      "id": 73717615,
+      "caseName": "Omoregie v. King & Spalding LLP",
+      "docketNumber": "1:26-cv-06518",
+      "dateFiled": "2026-07-30",
+      "suitNature": "442 Civil Rights: Jobs",
+      "cause": "42:2000e-2e Job Discrimination (Unlawful Employment Practices)",
+      "url": "https://www.courtlistener.com/docket/73717615/omoregie-v-king-spalding-llp/"
+    },
+    {
+      "id": 73675246,
+      "caseName": "Roadway Moving and Storage, Inc. v. Roadway Movers LLC",
+      "docketNumber": "1:26-cv-06365",
+      "dateFiled": "2026-07-27",
+      "suitNature": "840 Trademark",
+      "cause": "15:1125la Trademark Infringement (Lanham Act)",
+      "url": "https://www.courtlistener.com/docket/73675246/roadway-moving-and-storage-inc-v-roadway-movers-llc/"
+    },
+    {
+      "id": 73674956,
+      "caseName": "The Elevance Health Companies, Inc v. Hamaspik, Inc.",
+      "docketNumber": "1:26-cv-06361",
+      "dateFiled": "2026-07-27",
+      "suitNature": "880 Defend Trade Secrets Act (of 2016)",
+      "cause": "18:1836(a) Injunction against Misappropriation of Trade Secrets",
+      "url": "https://www.courtlistener.com/docket/73674956/the-elevance-health-companies-inc-v-hamaspik-inc/"
+    },
+    {
+      "id": 73674542,
+      "caseName": "Alarcon v. Immigration (DHS)",
+      "docketNumber": "1:26-cv-06357",
+      "dateFiled": "2026-07-24",
+      "suitNature": "463 Habeas Corpus - Alien Detainee",
+      "cause": "28:2241fd Petition for Writ of Habeas Corpus (Federal)",
+      "url": "https://www.courtlistener.com/docket/73674542/alarcon-v-immigration-dhs/"
+    },
+    {
+      "id": 73650883,
+      "caseName": "Kotler v. IATSE Local USA 829",
+      "docketNumber": "1:26-cv-06183",
+      "dateFiled": "2026-07-21",
+      "suitNature": "720 Labor: Labor/Mgt. Relations",
+      "cause": "29:185 Labor: Suits by and against Labor Organizations",
+      "url": "https://www.courtlistener.com/docket/73650883/kotler-v-iatse-local-usa-829/"
+    },
+    {
+      "id": 73617964,
+      "caseName": "Democracy for the Arab World Now, Inc. v. Trump",
+      "docketNumber": "1:26-cv-05957",
+      "dateFiled": "2026-07-15",
+      "suitNature": "440 Civil Rights: Other",
+      "cause": "15:53b Prelim & Perm Inj Relief & other Equitable Relief",
+      "url": "https://www.courtlistener.com/docket/73617964/democracy-for-the-arab-world-now-inc-v-trump/"
+    },
+    {
+      "id": 73623413,
+      "caseName": "Lopez v. Superintendent + Psychiatrist Thakur",
+      "docketNumber": "1:26-cv-05962",
+      "dateFiled": "2026-07-13",
+      "suitNature": "Prisoner: Prison Condition",
+      "cause": "42:1983 Prisoner Civil Rights",
+      "url": "https://www.courtlistener.com/docket/73623413/lopez-v-superintendent-psychiatrist-thakur/"
+    },
+    {
+      "id": 73609285,
+      "caseName": "In Re: Affidavit of Dispute Lawsuit of Yusuf Garrard Bey",
+      "docketNumber": "1:26-mc-00347",
+      "dateFiled": "2026-07-08",
+      "suitNature": null,
+      "cause": "M 94 Other",
+      "url": "https://www.courtlistener.com/docket/73609285/in-re-affidavit-of-dispute-lawsuit-of-yusuf-garrard-bey/"
+    },
+    {
+      "id": 73566836,
+      "caseName": "Weems v. New York City Department of Education",
+      "docketNumber": "1:26-cv-05635",
+      "dateFiled": "2026-07-01",
+      "suitNature": "442 Civil Rights: Jobs",
+      "cause": "42:1983 Civil Rights Act",
+      "url": "https://www.courtlistener.com/docket/73566836/weems-v-new-york-city-department-of-education/"
+    },
+    {
+      "id": 73534095,
+      "caseName": "CanAm PIDC Regional Center, LLC v. United States Citizenship and Immigration Services",
+      "docketNumber": "1:26-cv-05384",
+      "dateFiled": "2026-06-25",
+      "suitNature": "465 Other Immigration Actions",
+      "cause": "05:0555(b) Agency Decision - Right to Counsel",
+      "url": "https://www.courtlistener.com/docket/73534095/canam-pidc-regional-center-llc-v-united-states-citizenship-and/"
+    },
+    {
+      "id": 73533385,
+      "caseName": "Crosley v. Samuels",
+      "docketNumber": "1:26-cv-05378",
+      "dateFiled": "2026-06-25",
+      "suitNature": "448 Civil Rights: Education",
+      "cause": "20:1400 IDEA:  Individuals With Disabilities Education Act (short title)",
+      "url": "https://www.courtlistener.com/docket/73533385/crosley-v-samuels/"
+    },
+    {
+      "id": 73525122,
+      "caseName": "Prost v. Trump",
+      "docketNumber": "1:26-cv-05305",
+      "dateFiled": "2026-06-24",
+      "suitNature": "890 Other Statutory Actions",
+      "cause": "50:1701 International Emergency Economic Powers Act",
+      "url": "https://www.courtlistener.com/docket/73525122/prost-v-trump/"
+    },
+    {
+      "id": 73517031,
+      "caseName": "Perez v. Massachusetts Mutual Life Insurance Company",
+      "docketNumber": "1:26-cv-05255",
+      "dateFiled": "2026-06-22",
+      "suitNature": "370 Other Fraud",
+      "cause": "28:1332if Diversity- Insurance Fraud",
+      "url": "https://www.courtlistener.com/docket/73517031/perez-v-massachusetts-mutual-life-insurance-company/"
+    },
+    {
+      "id": 73534090,
+      "caseName": "Manahasa v. USCIS California Service Center",
+      "docketNumber": "1:26-cv-05169",
+      "dateFiled": "2026-06-18",
+      "suitNature": "Other Immigration Actions",
+      "cause": "05:702 Administrative Procedure Act",
+      "url": "https://www.courtlistener.com/docket/73534090/manahasa-v-uscis-california-service-center/"
+    },
+    {
+      "id": 73482445,
+      "caseName": "Zetterstrom v. Nara Organics, Inc.",
+      "docketNumber": "1:26-cv-05026",
+      "dateFiled": "2026-06-14",
+      "suitNature": "370 Other Fraud",
+      "cause": "28:1332 Diversity Action",
+      "url": "https://www.courtlistener.com/docket/73482445/zetterstrom-v-nara-organics-inc/"
+    },
+    {
+      "id": 73459504,
+      "caseName": "United States v. Inman",
+      "docketNumber": "1:26-cr-00243",
+      "dateFiled": "2026-06-09",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/73459504/united-states-v-inman/"
+    },
+    {
+      "id": 73433535,
+      "caseName": "Eicher Motors Limited v. The Individuals, Corporations, Limited Liability Companies, Partnerships, and Unincorporated Associations Identified on Schedule A to the Complaint",
+      "docketNumber": "1:26-cv-04673",
+      "dateFiled": "2026-06-03",
+      "suitNature": "840 Trademark",
+      "cause": "15:1114 Trademark Infringement  (Lanham Act)",
+      "url": "https://www.courtlistener.com/docket/73433535/eicher-motors-limited-v-the-individuals-corporations-limited-liability/"
+    },
+    {
+      "id": 73419928,
+      "caseName": "Henriquez v. Quality Performance Maintenance & Cleaning LLC",
+      "docketNumber": "1:26-cv-04569",
+      "dateFiled": "2026-05-31",
+      "suitNature": "710 Labor: Fair Standards",
+      "cause": "28:1331fl Fed. Question:  Fair Labor Standards",
+      "url": "https://www.courtlistener.com/docket/73419928/henriquez-v-quality-performance-maintenance-cleaning-llc/"
+    },
+    {
+      "id": 73395534,
+      "caseName": "United States v. Borden",
+      "docketNumber": "1:26-cr-00213",
+      "dateFiled": "2026-05-26",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/73395534/united-states-v-borden/"
+    },
+    {
+      "id": 73395523,
+      "caseName": "United States v. Borden",
+      "docketNumber": "1:26-cr-00213",
+      "dateFiled": "2026-05-26",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/73395523/united-states-v-borden/"
+    },
+    {
+      "id": 73387559,
+      "caseName": "Olascuaga Beltran v. Mullin",
+      "docketNumber": "1:26-cv-04336",
+      "dateFiled": "2026-05-24",
+      "suitNature": "463 Habeas Corpus - Alien Detainee",
+      "cause": "28:2241in Habeas Corpus:  INS",
+      "url": "https://www.courtlistener.com/docket/73387559/olascuaga-beltran-v-mullin/"
+    },
+    {
+      "id": 73385484,
+      "caseName": "Homieshop Properties, L.L.C. v. The Individuals, Corporations, Limited Liability Companies, Partnership, and Unincorporated Associations Identified on Schedule A to the Complaint",
+      "docketNumber": "1:26-cv-04321",
+      "dateFiled": "2026-05-22",
+      "suitNature": "840 Trademark",
+      "cause": "15:1051 Trademark Infringement",
+      "url": "https://www.courtlistener.com/docket/73385484/homieshop-properties-llc-v-the-individuals-corporations-limited/"
+    },
+    {
+      "id": 73352735,
+      "caseName": "United States v. 158.79928457 bitcoin and 158.79867767 bitcoin cash",
+      "docketNumber": "1:26-cv-04093",
+      "dateFiled": "2026-05-15",
+      "suitNature": "Forfeit/Penalty: Other",
+      "cause": "18:0981(a)(1)(A) Civil Forfeiture:  Money Laundering Control Act",
+      "url": "https://www.courtlistener.com/docket/73352735/united-states-v-15879928457-bitcoin-and-15879867767-bitcoin-cash/"
+    },
+    {
+      "id": 73327618,
+      "caseName": "Nakamura v. Pfizer Inc.",
+      "docketNumber": "1:26-cv-03914",
+      "dateFiled": "2026-05-12",
+      "suitNature": "890 Other Statutory Actions",
+      "cause": "18:2511 Wiretapping - Injunctive Relief or Civil Fine",
+      "url": "https://www.courtlistener.com/docket/73327618/nakamura-v-pfizer-inc/"
+    },
+    {
+      "id": 73303609,
+      "caseName": "In Re: Celsius Network LLC",
+      "docketNumber": "1:26-cv-03750",
+      "dateFiled": "2026-05-06",
+      "suitNature": "Bankruptcy Appeal (801)",
+      "cause": "28:0158  Notice of Appeal re Bankruptcy Matter (BA",
+      "url": "https://www.courtlistener.com/docket/73303609/in-re-celsius-network-llc/"
+    },
+    {
+      "id": 73291688,
+      "caseName": "Michelle Day v. Dotdash Meredith, Inc.",
+      "docketNumber": "1:26-cv-03670",
+      "dateFiled": "2026-05-04",
+      "suitNature": "820 Copyright",
+      "cause": "30:1202 Mining Reclamation Act (Statement of Purpose)",
+      "url": "https://www.courtlistener.com/docket/73291688/michelle-day-v-dotdash-meredith-inc/"
+    },
+    {
+      "id": 73291115,
+      "caseName": "Basra v. Axiom Solutions Inc.",
+      "docketNumber": "1:26-cv-03662",
+      "dateFiled": "2026-05-04",
+      "suitNature": "710 Labor: Fair Standards",
+      "cause": "15:5(a) Fair Labor Standards Act",
+      "url": "https://www.courtlistener.com/docket/73291115/basra-v-axiom-solutions-inc/"
+    },
+    {
+      "id": 73285220,
+      "caseName": "Connex One, Inc. v. Focus Services, LLC",
+      "docketNumber": "1:26-cv-03627",
+      "dateFiled": "2026-05-01",
+      "suitNature": "190 Contract: Other",
+      "cause": "28:1332bc Diversity-Breach of Contract",
+      "url": "https://www.courtlistener.com/docket/73285220/connex-one-inc-v-focus-services-llc/"
+    },
+    {
+      "id": 73275735,
+      "caseName": "Richardson v. Equifax Information Services, LLC",
+      "docketNumber": "1:26-cv-03596",
+      "dateFiled": "2026-04-30",
+      "suitNature": "480 Consumer Credit",
+      "cause": "15:1681 Fair Credit Reporting Act",
+      "url": "https://www.courtlistener.com/docket/73275735/richardson-v-equifax-information-services-llc/"
+    },
+    {
+      "id": 73200695,
+      "caseName": "Romeo v. City Of New York",
+      "docketNumber": "1:26-cv-03118",
+      "dateFiled": "2026-04-16",
+      "suitNature": "442 Civil Rights: Jobs",
+      "cause": "28:1332ed Diversity-Employment Discrimination",
+      "url": "https://www.courtlistener.com/docket/73200695/romeo-v-city-of-new-york/"
+    },
+    {
+      "id": 73197774,
+      "caseName": "American Civil Liberties Union Foundation v. Department of Health and Human Services",
+      "docketNumber": "1:26-cv-03098",
+      "dateFiled": "2026-04-15",
+      "suitNature": "895 Freedom of Information Act",
+      "cause": "05:552 Freedom of Information Act",
+      "url": "https://www.courtlistener.com/docket/73197774/american-civil-liberties-union-foundation-v-department-of-health-and-human/"
+    },
+    {
+      "id": 74866101,
+      "caseName": "FusionMedia Ventures, LLC v. Sportority Inc.",
+      "docketNumber": "1:26-cv-03039",
+      "dateFiled": "2026-04-14",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/74866101/fusionmedia-ventures-llc-v-sportority-inc/"
+    },
+    {
+      "id": 73187246,
+      "caseName": "FusionMedia Ventures, LLC v. Sportority Inc.",
+      "docketNumber": "1:26-cv-03039",
+      "dateFiled": "2026-04-14",
+      "suitNature": "880 Defend Trade Secrets Act (of 2016)",
+      "cause": "18:1836(b) Civil Action to Protect Trade Secrets",
+      "url": "https://www.courtlistener.com/docket/73187246/fusionmedia-ventures-llc-v-sportority-inc/"
+    },
+    {
+      "id": 73177677,
+      "caseName": "In Re: Genesis Global Holdco, LLC",
+      "docketNumber": "1:26-cv-02959",
+      "dateFiled": "2026-04-10",
+      "suitNature": "422 Bankruptcy Appeal (801)",
+      "cause": "28:0158  Notice of Appeal re Bankruptcy Matter (BA",
+      "url": "https://www.courtlistener.com/docket/73177677/in-re-genesis-global-holdco-llc/"
+    },
+    {
+      "id": 73177272,
+      "caseName": "Chen v. Baker",
+      "docketNumber": "1:26-cv-02986",
+      "dateFiled": "2026-04-10",
+      "suitNature": "850 Securities/Commodities",
+      "cause": "15:77 Securities Fraud",
+      "url": "https://www.courtlistener.com/docket/73177272/chen-v-baker/"
+    },
+    {
+      "id": 73163178,
+      "caseName": "Marquis v. Equifax Information Services LLC",
+      "docketNumber": "1:26-cv-02836",
+      "dateFiled": "2026-04-07",
+      "suitNature": "480 Consumer Credit",
+      "cause": "15:1681 Fair Credit Reporting Act",
+      "url": "https://www.courtlistener.com/docket/73163178/marquis-v-equifax-information-services-llc/"
+    },
+    {
+      "id": 73152219,
+      "caseName": "Pop Mart Americas Inc. v. Cowboy USA Corp.",
+      "docketNumber": "1:26-cv-02807",
+      "dateFiled": "2026-04-06",
+      "suitNature": "840 Trademark",
+      "cause": "15:1114 Trademark Infringement  (Lanham Act)",
+      "url": "https://www.courtlistener.com/docket/73152219/pop-mart-americas-inc-v-cowboy-usa-corp/"
+    },
+    {
+      "id": 73149792,
+      "caseName": "Fox Shiver LLC v. ABC Corp",
+      "docketNumber": "1:26-cv-02783",
+      "dateFiled": "2026-04-06",
+      "suitNature": "Copyright",
+      "cause": "17:101 Copyright Infringement",
+      "url": "https://www.courtlistener.com/docket/73149792/fox-shiver-llc-v-abc-corp/"
+    },
+    {
+      "id": 72781368,
+      "caseName": "Morales v. Timoni Inc.",
+      "docketNumber": "1:26-cv-02446",
+      "dateFiled": "2026-03-25",
+      "suitNature": "710 Labor: Fair Standards",
+      "cause": "29:201 Fair Labor Standards Act",
+      "url": "https://www.courtlistener.com/docket/72781368/morales-v-timoni-inc/"
+    },
+    {
+      "id": 72513326,
+      "caseName": "Wilmington Trust, National Association v. Benedict",
+      "docketNumber": "1:26-cv-02259",
+      "dateFiled": "2026-03-18",
+      "suitNature": "Negotiable Instrument",
+      "cause": "28:1332 Diversity Action",
+      "url": "https://www.courtlistener.com/docket/72513326/wilmington-trust-national-association-v-benedict/"
+    },
+    {
+      "id": 72505993,
+      "caseName": "Low v. Gilmore",
+      "docketNumber": "1:26-cv-02210",
+      "dateFiled": "2026-03-17",
+      "suitNature": "790 Labor: Other",
+      "cause": "28:1332 Diversity Action",
+      "url": "https://www.courtlistener.com/docket/72505993/low-v-gilmore/"
+    },
+    {
+      "id": 72496022,
+      "caseName": "Djerf v. A & H Sportswear Co., Inc.",
+      "docketNumber": "1:26-cv-02121",
+      "dateFiled": "2026-03-16",
+      "suitNature": "751 Labor: Family and Medical Leave Act",
+      "cause": "29:2601 FMLA:  Family and Medical Leave Act  (Findings and Purposes)",
+      "url": "https://www.courtlistener.com/docket/72496022/djerf-v-a-h-sportswear-co-inc/"
+    },
+    {
+      "id": 72495631,
+      "caseName": "R.R.M.C. v. Bondi",
+      "docketNumber": "1:26-mc-00114",
+      "dateFiled": "2026-03-16",
+      "suitNature": null,
+      "cause": "M 94 Other",
+      "url": "https://www.courtlistener.com/docket/72495631/rrmc-v-bondi/"
+    },
+    {
+      "id": 72397047,
+      "caseName": "Lopez v. Madecasse LLC",
+      "docketNumber": "1:26-cv-01977",
+      "dateFiled": "2026-03-11",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "42:12101 The Americans with Disabilities Act of 1990",
+      "url": "https://www.courtlistener.com/docket/72397047/lopez-v-madecasse-llc/"
+    },
+    {
+      "id": 72386447,
+      "caseName": "Potter v. monday.com Ltd.",
+      "docketNumber": "1:26-cv-01956",
+      "dateFiled": "2026-03-10",
+      "suitNature": "850 Securities/Commodities",
+      "cause": "15:78m(a) Securities Exchange Act",
+      "url": "https://www.courtlistener.com/docket/72386447/potter-v-mondaycom-ltd/"
+    },
+    {
+      "id": 72378287,
+      "caseName": "Holloway v. City of New York",
+      "docketNumber": "1:26-cv-01891",
+      "dateFiled": "2026-03-08",
+      "suitNature": "550 Prisoner: Civil Rights",
+      "cause": "42:1983 Civil Rights Act",
+      "url": "https://www.courtlistener.com/docket/72378287/holloway-v-city-of-new-york/"
+    },
+    {
+      "id": 72376944,
+      "caseName": "Doncouse v. Gotham Elite Inc.",
+      "docketNumber": "1:26-cv-01880",
+      "dateFiled": "2026-03-06",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "28:1331 Fed. Question",
+      "url": "https://www.courtlistener.com/docket/72376944/doncouse-v-gotham-elite-inc/"
+    },
+    {
+      "id": 72370815,
+      "caseName": "Fair Housing Justice Center, Inc. v. A&R Properties Group LLC",
+      "docketNumber": "1:26-cv-01828",
+      "dateFiled": "2026-03-05",
+      "suitNature": "443 Civil Rights: Accommodations",
+      "cause": "42:3604(f)(3)(c) Fair Housing Amendments Act",
+      "url": "https://www.courtlistener.com/docket/72370815/fair-housing-justice-center-inc-v-ar-properties-group-llc/"
+    },
+    {
+      "id": 72357595,
+      "caseName": "Stiehler v. Hillary Clinton",
+      "docketNumber": "1:26-cv-01727",
+      "dateFiled": "2026-03-02",
+      "suitNature": "440 Civil Rights: Other",
+      "cause": "28:1331 Fed. Question",
+      "url": "https://www.courtlistener.com/docket/72357595/stiehler-v-hillary-clinton/"
+    },
+    {
+      "id": 72347032,
+      "caseName": "Drummond v. Institute For Community Living Inc.",
+      "docketNumber": "1:26-cv-01676",
+      "dateFiled": "2026-02-28",
+      "suitNature": "710 Labor: Fair Standards",
+      "cause": "29:216(b) FLSA:  Minimum wage or overtime compensation",
+      "url": "https://www.courtlistener.com/docket/72347032/drummond-v-institute-for-community-living-inc/"
+    },
+    {
+      "id": 72309780,
+      "caseName": "Hillcour, Inc. v. Apple Advance LLC",
+      "docketNumber": "1:26-cv-01468",
+      "dateFiled": "2026-02-20",
+      "suitNature": "470 Racketeer/Corrupt Organization",
+      "cause": "18:1962 Racketeering (RICO) Act",
+      "url": "https://www.courtlistener.com/docket/72309780/hillcour-inc-v-apple-advance-llc/"
+    },
+    {
+      "id": 72294807,
+      "caseName": "Duffy Archive Limited v. 160 West 56th Street, LLC",
+      "docketNumber": "1:26-cv-01389",
+      "dateFiled": "2026-02-18",
+      "suitNature": "820 Copyright",
+      "cause": "17:101 Copyright Infringement",
+      "url": "https://www.courtlistener.com/docket/72294807/duffy-archive-limited-v-160-west-56th-street-llc/"
+    },
+    {
+      "id": 72288527,
+      "caseName": "Bullen v. The City of New York",
+      "docketNumber": "1:26-cv-01328",
+      "dateFiled": "2026-02-17",
+      "suitNature": "442 Civil Rights: Jobs",
+      "cause": "42:2000e-2ag Job Discrimination (Age)",
+      "url": "https://www.courtlistener.com/docket/72288527/bullen-v-the-city-of-new-york/"
+    },
+    {
+      "id": 72286905,
+      "caseName": "Loeffler v. JPMorgan Chase Bank, N.A.",
+      "docketNumber": "1:26-cv-01324",
+      "dateFiled": "2026-02-17",
+      "suitNature": "480 Consumer Credit",
+      "cause": "15:1681 Fair Credit Reporting Act",
+      "url": "https://www.courtlistener.com/docket/72286905/loeffler-v-jpmorgan-chase-bank-na/"
+    },
+    {
+      "id": 72285895,
+      "caseName": "Hines, Jr. v. Mt. Hawley Insurance Company",
+      "docketNumber": "1:26-cv-01312",
+      "dateFiled": "2026-02-17",
+      "suitNature": "110 Insurance",
+      "cause": "28:1332in Diversity-Insurance Contract",
+      "url": "https://www.courtlistener.com/docket/72285895/hines-jr-v-mt-hawley-insurance-company/"
+    },
+    {
+      "id": 72258481,
+      "caseName": "Benavides Moran v. Grip6, Inc.",
+      "docketNumber": "1:26-cv-01147",
+      "dateFiled": "2026-02-10",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "42:12101 The Americans with Disabilities Act of 1990",
+      "url": "https://www.courtlistener.com/docket/72258481/benavides-moran-v-grip6-inc/"
+    },
+    {
+      "id": 72247231,
+      "caseName": "Edwards v. Deloitte LLP",
+      "docketNumber": "1:26-cv-01069",
+      "dateFiled": "2026-02-07",
+      "suitNature": "442 Civil Rights: Jobs",
+      "cause": "42:1981 Job Discrimination (Race)",
+      "url": "https://www.courtlistener.com/docket/72247231/edwards-v-deloitte-llp/"
+    },
+    {
+      "id": 72245305,
+      "caseName": "H&H Metals Corp v. Patel",
+      "docketNumber": "1:26-cv-01054",
+      "dateFiled": "2026-02-06",
+      "suitNature": "190 Contract: Other",
+      "cause": "28:1332fr Diversity-Fraud",
+      "url": "https://www.courtlistener.com/docket/72245305/hh-metals-corp-v-patel/"
+    },
+    {
+      "id": 72232743,
+      "caseName": "Ager v. Goodell",
+      "docketNumber": "1:26-cv-00903",
+      "dateFiled": "2026-02-02",
+      "suitNature": "440 Civil Rights: Other",
+      "cause": "15:1331 Federal Cigarette Labeling & Advertising Act",
+      "url": "https://www.courtlistener.com/docket/72232743/ager-v-goodell/"
+    },
+    {
+      "id": 72226326,
+      "caseName": "Lek v. UnitedHealthcare, Inc.",
+      "docketNumber": "1:26-cv-00870",
+      "dateFiled": "2026-02-02",
+      "suitNature": "Labor: E.R.I.S.A.",
+      "cause": "29:1001 E.R.I.S.A.: Employee Retirement",
+      "url": "https://www.courtlistener.com/docket/72226326/lek-v-unitedhealthcare-inc/"
+    },
+    {
+      "id": 72219182,
+      "caseName": "Sow v. Mullin",
+      "docketNumber": "1:26-cv-00867",
+      "dateFiled": "2026-02-02",
+      "suitNature": "463 Habeas Corpus - Alien Detainee",
+      "cause": "28:2241fd Petition for Writ of Habeas Corpus (Federal)",
+      "url": "https://www.courtlistener.com/docket/72219182/sow-v-mullin/"
+    },
+    {
+      "id": 72198739,
+      "caseName": "Sharika Sawer v. Arlozorov9, Inc.",
+      "docketNumber": "1:26-cv-00732",
+      "dateFiled": "2026-01-28",
+      "suitNature": "360 P.I.: Other",
+      "cause": "28:1332pi Diversity-Personal Injury",
+      "url": "https://www.courtlistener.com/docket/72198739/sharika-sawer-v-arlozorov9-inc/"
+    },
+    {
+      "id": 72196502,
+      "caseName": "Fagnani v. Three Little Pigs Bbq & Catering, LLC",
+      "docketNumber": "1:26-cv-00705",
+      "dateFiled": "2026-01-28",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "42:12101 The Americans with Disabilities Act of 1990",
+      "url": "https://www.courtlistener.com/docket/72196502/fagnani-v-three-little-pigs-bbq-catering-llc/"
+    },
+    {
+      "id": 72189521,
+      "caseName": "Estate of Saul Offit, by Its Marc Offit v. Financial Credit Investment III SPV-B (Cayman), L.P.",
+      "docketNumber": "1:26-cv-00666",
+      "dateFiled": "2026-01-26",
+      "suitNature": "370 Other Fraud",
+      "cause": "28:1332fr Diversity-Fraud",
+      "url": "https://www.courtlistener.com/docket/72189521/estate-of-saul-offit-by-its-marc-offit-v-financial-credit-investment-iii/"
+    },
+    {
+      "id": 72184069,
+      "caseName": "R.L. v. Samuels",
+      "docketNumber": "1:26-cv-00636",
+      "dateFiled": "2026-01-23",
+      "suitNature": "448 Civil Rights: Education",
+      "cause": "20:1400 IDEA:  Individuals With Disabilities Education Act (short title)",
+      "url": "https://www.courtlistener.com/docket/72184069/rl-v-samuels/"
+    },
+    {
+      "id": 72171061,
+      "caseName": "Cavara v. Petroleos De Venezuela, S.A.",
+      "docketNumber": "1:26-cv-00560",
+      "dateFiled": "2026-01-21",
+      "suitNature": "190 Contract: Other",
+      "cause": "28:1330 Breach of Contract",
+      "url": "https://www.courtlistener.com/docket/72171061/cavara-v-petroleos-de-venezuela-sa/"
+    },
+    {
+      "id": 72160600,
+      "caseName": "Ajtzalam v. Genalo",
+      "docketNumber": "1:26-cv-00483",
+      "dateFiled": "2026-01-20",
+      "suitNature": "Habeas Corpus (General)",
+      "cause": "28:2241in Habeas Corpus:  INS",
+      "url": "https://www.courtlistener.com/docket/72160600/ajtzalam-v-genalo/"
+    },
+    {
+      "id": 72155147,
+      "caseName": "Romero Cruz v. LaDeon",
+      "docketNumber": "1:26-cv-00436",
+      "dateFiled": "2026-01-16",
+      "suitNature": "Habeas Corpus (General)",
+      "cause": "28:2241fd Petition for Writ of Habeas Corpus (Federal)",
+      "url": "https://www.courtlistener.com/docket/72155147/romero-cruz-v-ladeon/"
+    },
+    {
+      "id": 72148170,
+      "caseName": "INSTNCT GmbH v. Barrymore",
+      "docketNumber": "1:26-cv-00376",
+      "dateFiled": "2026-01-15",
+      "suitNature": "820 Copyright",
+      "cause": "17:501 Copyright Infringement",
+      "url": "https://www.courtlistener.com/docket/72148170/instnct-gmbh-v-barrymore/"
+    },
+    {
+      "id": 72145468,
+      "caseName": "Jackson v. Skin Gym Inc.",
+      "docketNumber": "1:26-cv-00351",
+      "dateFiled": "2026-01-14",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "42:12101 The Americans with Disabilities Act of 1990",
+      "url": "https://www.courtlistener.com/docket/72145468/jackson-v-skin-gym-inc/"
+    },
+    {
+      "id": 72142020,
+      "caseName": "Ocampo v. Camp 1382 LLC",
+      "docketNumber": "1:26-cv-00327",
+      "dateFiled": "2026-01-14",
+      "suitNature": "710 Labor: Fair Standards",
+      "cause": "29:201 Fair Labor Standards Act",
+      "url": "https://www.courtlistener.com/docket/72142020/ocampo-v-camp-1382-llc/"
+    },
+    {
+      "id": 72108201,
+      "caseName": "Reshard v. United States",
+      "docketNumber": "1:26-cv-00059",
+      "dateFiled": "2026-01-02",
+      "suitNature": "Prisoner: Vacate Sentence",
+      "cause": "28:2255 Motion to Vacate / Correct Illegal Sentenc",
+      "url": "https://www.courtlistener.com/docket/72108201/reshard-v-united-states/"
+    },
+    {
+      "id": 72095526,
+      "caseName": "D. Porthault USA LLC v. Arlettie Paris S.A.S.",
+      "docketNumber": "1:25-cv-10795",
+      "dateFiled": "2025-12-31",
+      "suitNature": "Trademark",
+      "cause": "15:1114 Trademark Infringement  (Lanham Act)",
+      "url": "https://www.courtlistener.com/docket/72095526/d-porthault-usa-llc-v-arlettie-paris-sas/"
+    },
+    {
+      "id": 72058253,
+      "caseName": "Olivet University v. Cooper",
+      "docketNumber": "1:25-cv-10537",
+      "dateFiled": "2025-12-18",
+      "suitNature": "320 Assault Libel & Slander",
+      "cause": "28:1332lb Diversity-Libel, Assault, Slander",
+      "url": "https://www.courtlistener.com/docket/72058253/olivet-university-v-cooper/"
+    },
+    {
+      "id": 72051330,
+      "caseName": "BMO Bank N.A. v. Leadenhall Capital Partners LLP",
+      "docketNumber": "1:25-cv-10476",
+      "dateFiled": "2025-12-17",
+      "suitNature": "190 Contract: Other",
+      "cause": "28:1332bc Diversity-Breach of Contract",
+      "url": "https://www.courtlistener.com/docket/72051330/bmo-bank-na-v-leadenhall-capital-partners-llp/"
+    },
+    {
+      "id": 72044780,
+      "caseName": "Ahmed v. Noem",
+      "docketNumber": "1:25-cv-10424",
+      "dateFiled": "2025-12-16",
+      "suitNature": "465 Other Immigration Actions",
+      "cause": "08:1255 Immigration: Failure USCIS To Adjudicate Permanent Residency Petition",
+      "url": "https://www.courtlistener.com/docket/72044780/ahmed-v-noem/"
+    },
+    {
+      "id": 72028029,
+      "caseName": "Kulisz v. THE CITY OF NEW YORK",
+      "docketNumber": "1:25-cv-10303",
+      "dateFiled": "2025-12-11",
+      "suitNature": "445 Civil Rights: Americans with Disabilities - Employment",
+      "cause": "42:12132 Americans with Disabilities Act - Discrimination",
+      "url": "https://www.courtlistener.com/docket/72028029/kulisz-v-the-city-of-new-york/"
+    },
+    {
+      "id": 72016497,
+      "caseName": "Hillside Lounge Inc. v. Broadcast Music Inc.",
+      "docketNumber": "1:25-cv-10239",
+      "dateFiled": "2025-12-10",
+      "suitNature": "410 Anti-Trust",
+      "cause": "15:1314 Antitrust--Petition for  enforcement",
+      "url": "https://www.courtlistener.com/docket/72016497/hillside-lounge-inc-v-broadcast-music-inc/"
+    },
+    {
+      "id": 72012638,
+      "caseName": "IN RE STUBHUB HOLDINGS, INC. DERIVATIVE LITIGATION",
+      "docketNumber": "2:25-cv-10208",
+      "dateFiled": "2025-12-09",
+      "suitNature": "850 Securities/Commodities",
+      "cause": "15:78m(a) Securities Exchange Act",
+      "url": "https://www.courtlistener.com/docket/72012638/in-re-stubhub-holdings-inc-derivative-litigation/"
+    },
+    {
+      "id": 72009172,
+      "caseName": "United States v. Gonzalez",
+      "docketNumber": "1:25-cr-00670",
+      "dateFiled": "2025-12-09",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/72009172/united-states-v-gonzalez/"
+    },
+    {
+      "id": 71997480,
+      "caseName": "Ganiev v. Flanagan",
+      "docketNumber": "1:25-cv-10102",
+      "dateFiled": "2025-12-04",
+      "suitNature": "530 Habeas Corpus (General)",
+      "cause": "28:1651hc Petition for Writ of Habeas Corpus",
+      "url": "https://www.courtlistener.com/docket/71997480/ganiev-v-flanagan/"
+    },
+    {
+      "id": 71986624,
+      "caseName": "Mohammadi v. Francis",
+      "docketNumber": "1:25-cv-10016",
+      "dateFiled": "2025-12-03",
+      "suitNature": "463 Habeas Corpus - Alien Detainee",
+      "cause": "28:2241fd Petition for Writ of Habeas Corpus (Federal)",
+      "url": "https://www.courtlistener.com/docket/71986624/mohammadi-v-francis/"
+    },
+    {
+      "id": 71960424,
+      "caseName": "Roe v. Gowl, Jr.",
+      "docketNumber": "1:25-cv-09799",
+      "dateFiled": "2025-11-25",
+      "suitNature": "442 Civil Rights: Jobs",
+      "cause": "42:2000e-2e Job Discrimination (Unlawful Employment Practices)",
+      "url": "https://www.courtlistener.com/docket/71960424/roe-v-gowl-jr/"
+    },
+    {
+      "id": 71956797,
+      "caseName": "Salabaj v. Stubhub Holdings, Inc.",
+      "docketNumber": "1:25-cv-09776",
+      "dateFiled": "2025-11-24",
+      "suitNature": "850 Securities/Commodities",
+      "cause": "15:78m(a) Securities Exchange Act",
+      "url": "https://www.courtlistener.com/docket/71956797/salabaj-v-stubhub-holdings-inc/"
+    },
+    {
+      "id": 71943589,
+      "caseName": "Fagnani v. Harry Winston, Inc.",
+      "docketNumber": "1:25-cv-09695",
+      "dateFiled": "2025-11-20",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "28:1331 Fed. Question",
+      "url": "https://www.courtlistener.com/docket/71943589/fagnani-v-harry-winston-inc/"
+    },
+    {
+      "id": 71931655,
+      "caseName": "McKinnley v. American Eagle Outfitters, Inc.",
+      "docketNumber": "1:25-cv-09638",
+      "dateFiled": "2025-11-19",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "42:12188 Americans With Disabilities Act - Civil Enforcement Actions",
+      "url": "https://www.courtlistener.com/docket/71931655/mckinnley-v-american-eagle-outfitters-inc/"
+    },
+    {
+      "id": 71955849,
+      "caseName": "ASO, LLC v. Jamil",
+      "docketNumber": "7:25-cv-09770",
+      "dateFiled": "2025-11-18",
+      "suitNature": "Civil Rights: Other",
+      "cause": "28:1441nr Notice of Removal",
+      "url": "https://www.courtlistener.com/docket/71955849/aso-llc-v-jamil/"
+    },
+    {
+      "id": 71930548,
+      "caseName": "Estate of Ezra Schwartz v. Qatar Charity",
+      "docketNumber": "1:25-cv-09630",
+      "dateFiled": "2025-11-18",
+      "suitNature": "890 Other Statutory Actions",
+      "cause": "18:2333 Civil Remedies: Anti-Terrorism Act of 1991",
+      "url": "https://www.courtlistener.com/docket/71930548/estate-of-ezra-schwartz-v-qatar-charity/"
+    },
+    {
+      "id": 71896833,
+      "caseName": "Paul v. Empire State Development Corporation",
+      "docketNumber": "1:25-cv-09394",
+      "dateFiled": "2025-11-10",
+      "suitNature": "442 Civil Rights: Jobs",
+      "cause": "42:2000e-2ra Job Discrimination (Race)",
+      "url": "https://www.courtlistener.com/docket/71896833/paul-v-empire-state-development-corporation/"
+    },
+    {
+      "id": 71878096,
+      "caseName": "VDPP, LLC v. Olympus America, Inc.",
+      "docketNumber": "1:25-cv-09243",
+      "dateFiled": "2025-11-05",
+      "suitNature": "830 Patent",
+      "cause": "35:271 Patent Infringement",
+      "url": "https://www.courtlistener.com/docket/71878096/vdpp-llc-v-olympus-america-inc/"
+    },
+    {
+      "id": 71876296,
+      "caseName": "ANI Pharmaceuticals, Inc. v. LIFSA Drugs, LLC",
+      "docketNumber": "1:25-cv-09227",
+      "dateFiled": "2025-11-05",
+      "suitNature": "190 Contract: Other",
+      "cause": "28:1332bc Diversity-Breach of Contract",
+      "url": "https://www.courtlistener.com/docket/71876296/ani-pharmaceuticals-inc-v-lifsa-drugs-llc/"
+    },
+    {
+      "id": 71873485,
+      "caseName": "Brown v. NY Community Financial, LLC",
+      "docketNumber": "1:25-cv-09207",
+      "dateFiled": "2025-11-04",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "28:1331 Fed. Question",
+      "url": "https://www.courtlistener.com/docket/71873485/brown-v-ny-community-financial-llc/"
+    },
+    {
+      "id": 71870348,
+      "caseName": "Cuevas v. Premier Development Enterprises Inc.",
+      "docketNumber": "1:25-cv-09173",
+      "dateFiled": "2025-11-04",
+      "suitNature": "710 Labor: Fair Standards",
+      "cause": "28:1331fl Fed. Question:  Fair Labor Standards",
+      "url": "https://www.courtlistener.com/docket/71870348/cuevas-v-premier-development-enterprises-inc/"
+    },
+    {
+      "id": 71818162,
+      "caseName": "Jones v. Alan Philips, LLC",
+      "docketNumber": "1:25-cv-08993",
+      "dateFiled": "2025-10-30",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "42:12101 The Americans with Disabilities Act of 1990",
+      "url": "https://www.courtlistener.com/docket/71818162/jones-v-alan-philips-llc/"
+    },
+    {
+      "id": 71843236,
+      "caseName": "Young v. Bisignano",
+      "docketNumber": "1:25-cv-08971",
+      "dateFiled": "2025-10-29",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/71843236/young-v-bisignano/"
+    },
+    {
+      "id": 71796239,
+      "caseName": "Hakobyan v. Rubio",
+      "docketNumber": "1:25-cv-08967",
+      "dateFiled": "2025-10-29",
+      "suitNature": "465 Other Immigration Actions",
+      "cause": "05:552(a) Complaint in the Nature of Mandamus",
+      "url": "https://www.courtlistener.com/docket/71796239/hakobyan-v-rubio/"
+    },
+    {
+      "id": 72362586,
+      "caseName": "Popovychenko v. Aviles-Ramos",
+      "docketNumber": "1:25-cv-08906",
+      "dateFiled": "2025-10-27",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/72362586/popovychenko-v-aviles-ramos/"
+    },
+    {
+      "id": 71775722,
+      "caseName": "Popovychenko v. Aviles-Ramos",
+      "docketNumber": "1:25-cv-08906",
+      "dateFiled": "2025-10-27",
+      "suitNature": "448 Civil Rights: Education",
+      "cause": "20:1400 IDEA:  Individuals With Disabilities Education Act (short title)",
+      "url": "https://www.courtlistener.com/docket/71775722/popovychenko-v-aviles-ramos/"
+    },
+    {
+      "id": 71733404,
+      "caseName": "Castaneda v. 2490 Properties LLC",
+      "docketNumber": "1:25-cv-08789",
+      "dateFiled": "2025-10-23",
+      "suitNature": "710 Labor: Fair Standards",
+      "cause": "29:201 Denial of Overtime Compensation",
+      "url": "https://www.courtlistener.com/docket/71733404/castaneda-v-2490-properties-llc/"
+    },
+    {
+      "id": 71727024,
+      "caseName": "Breeze, Jr. v. Town Sports International Holdings, Inc.",
+      "docketNumber": "1:25-cv-08762",
+      "dateFiled": "2025-10-22",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "28:1331 Fed. Question",
+      "url": "https://www.courtlistener.com/docket/71727024/breeze-jr-v-town-sports-international-holdings-inc/"
+    },
+    {
+      "id": 71721272,
+      "caseName": "Jane Doe v. Dow",
+      "docketNumber": "1:25-cv-08735",
+      "dateFiled": "2025-10-22",
+      "suitNature": "440 Civil Rights: Other",
+      "cause": "28:1331 Fed. Question",
+      "url": "https://www.courtlistener.com/docket/71721272/jane-doe-v-dow/"
+    },
+    {
+      "id": 71721264,
+      "caseName": "Cohen v. Polyvision Corporation",
+      "docketNumber": "1:25-cv-08741",
+      "dateFiled": "2025-10-22",
+      "suitNature": "820 Copyright",
+      "cause": "17:501 Copyright Infringement",
+      "url": "https://www.courtlistener.com/docket/71721264/cohen-v-polyvision-corporation/"
+    },
+    {
+      "id": 71734989,
+      "caseName": "Stringer v. Kensington Publishing Corp.",
+      "docketNumber": "1:25-cv-08737",
+      "dateFiled": "2025-10-21",
+      "suitNature": "Copyright",
+      "cause": "05:101 Ethics in Government Act",
+      "url": "https://www.courtlistener.com/docket/71734989/stringer-v-kensington-publishing-corp/"
+    },
+    {
+      "id": 71714380,
+      "caseName": "Greaves v. City of New York",
+      "docketNumber": "1:25-cv-08717",
+      "dateFiled": "2025-10-21",
+      "suitNature": "440 Civil Rights: Other",
+      "cause": "42:1983 Civil Rights Act",
+      "url": "https://www.courtlistener.com/docket/71714380/greaves-v-city-of-new-york/"
+    },
+    {
+      "id": 71698627,
+      "caseName": "Sandoval v. 3M Company",
+      "docketNumber": "1:25-cv-08651",
+      "dateFiled": "2025-10-20",
+      "suitNature": "245 Tort Product Liability",
+      "cause": "28:1442 Notice of Removal - Suit against Federal Officer",
+      "url": "https://www.courtlistener.com/docket/71698627/sandoval-v-3m-company/"
+    },
+    {
+      "id": 71682269,
+      "caseName": "Styck v. 3M Company",
+      "docketNumber": "1:25-cv-08638",
+      "dateFiled": "2025-10-17",
+      "suitNature": "245 Tort Product Liability",
+      "cause": "28:1442 Notice of Removal - Suit against Federal Officer",
+      "url": "https://www.courtlistener.com/docket/71682269/styck-v-3m-company/"
+    },
+    {
+      "id": 71667070,
+      "caseName": "McDonald v. Nexus Cognitive Technologies LLC",
+      "docketNumber": "1:25-cv-08569",
+      "dateFiled": "2025-10-16",
+      "suitNature": "442 Civil Rights: Jobs",
+      "cause": "42:2000e-2sh Job Discrimination (Sexual Harassment)",
+      "url": "https://www.courtlistener.com/docket/71667070/mcdonald-v-nexus-cognitive-technologies-llc/"
+    },
+    {
+      "id": 71636009,
+      "caseName": "Woods Capital LLC v. Westwin Elements, Inc.",
+      "docketNumber": "1:25-cv-08458",
+      "dateFiled": "2025-10-13",
+      "suitNature": "190 Contract: Other",
+      "cause": "28:1332 Diversity Action",
+      "url": "https://www.courtlistener.com/docket/71636009/woods-capital-llc-v-westwin-elements-inc/"
+    },
+    {
+      "id": 71600724,
+      "caseName": "Henry v. Anzley",
+      "docketNumber": "1:25-cv-08380",
+      "dateFiled": "2025-10-09",
+      "suitNature": "Motor Vehicle",
+      "cause": "28:1441nr Notice of Removal",
+      "url": "https://www.courtlistener.com/docket/71600724/henry-v-anzley/"
+    },
+    {
+      "id": 71589554,
+      "caseName": "Fernandez Martinez v. Purely Elizabeth LLC",
+      "docketNumber": "1:25-cv-08356",
+      "dateFiled": "2025-10-09",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "28:1331 Fed. Question",
+      "url": "https://www.courtlistener.com/docket/71589554/fernandez-martinez-v-purely-elizabeth-llc/"
+    },
+    {
+      "id": 71584778,
+      "caseName": "Rothschild Broadcast Distribution Systems, LLC v. Tencent America LLC",
+      "docketNumber": "1:25-cv-08340",
+      "dateFiled": "2025-10-08",
+      "suitNature": "830 Patent",
+      "cause": "35:271 Patent Infringement",
+      "url": "https://www.courtlistener.com/docket/71584778/rothschild-broadcast-distribution-systems-llc-v-tencent-america-llc/"
+    },
+    {
+      "id": 71574316,
+      "caseName": "Winder v. Oscar Health, Inc.",
+      "docketNumber": "1:25-cv-08297",
+      "dateFiled": "2025-10-07",
+      "suitNature": "442 Civil Rights: Jobs",
+      "cause": "29:2611 FMLA: Definitions",
+      "url": "https://www.courtlistener.com/docket/71574316/winder-v-oscar-health-inc/"
+    },
+    {
+      "id": 71530555,
+      "caseName": "Trustees Of The New York City District Council Of Carpenters Pension Fund, Welfare Fund, Annuity Fund, and Apprenticeship, Journeyman Retraining, Educational and Industry Fund v. Commodore Construction Corp.",
+      "docketNumber": "1:25-cv-08168",
+      "dateFiled": "2025-10-02",
+      "suitNature": "Labor: E.R.I.S.A.",
+      "cause": "29:1132 E.R.I.S.A.: Civil Enforcement of Employee Benefits",
+      "url": "https://www.courtlistener.com/docket/71530555/trustees-of-the-new-york-city-district-council-of-carpenters-pension-fund/"
+    },
+    {
+      "id": 71493354,
+      "caseName": "Mukherjee v. United States Immigration and Customs Enforcement",
+      "docketNumber": "1:25-cv-08072",
+      "dateFiled": "2025-09-29",
+      "suitNature": "895 Freedom of Information Act",
+      "cause": "05:552 Freedom of Information Act",
+      "url": "https://www.courtlistener.com/docket/71493354/mukherjee-v-united-states-immigration-and-customs-enforcement/"
+    },
+    {
+      "id": 71471128,
+      "caseName": "Agzigian v. 3M Company",
+      "docketNumber": "1:25-cv-08031",
+      "dateFiled": "2025-09-26",
+      "suitNature": "245 Tort Product Liability",
+      "cause": "28:1442 Notice of Removal - Suit against Federal Officer",
+      "url": "https://www.courtlistener.com/docket/71471128/agzigian-v-3m-company/"
+    },
+    {
+      "id": 71459606,
+      "caseName": "Ixcoy v. Azaiva Corp.",
+      "docketNumber": "1:25-cv-07983",
+      "dateFiled": "2025-09-25",
+      "suitNature": "710 Labor: Fair Standards",
+      "cause": "29:216(b) FLSA:  Minimum wage or overtime compensation",
+      "url": "https://www.courtlistener.com/docket/71459606/ixcoy-v-azaiva-corp/"
+    },
+    {
+      "id": 71434045,
+      "caseName": "Litman v. Pace University",
+      "docketNumber": "1:25-cv-07901",
+      "dateFiled": "2025-09-23",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "42:12101 The Americans with Disabilities Act of 1990",
+      "url": "https://www.courtlistener.com/docket/71434045/litman-v-pace-university/"
+    },
+    {
+      "id": 71368177,
+      "caseName": "Hunte v. 129 Lexington Rest. Corp.",
+      "docketNumber": "1:25-cv-07712",
+      "dateFiled": "2025-09-17",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "42:12188 Americans With Disabilities Act - Civil Enforcement Actions",
+      "url": "https://www.courtlistener.com/docket/71368177/hunte-v-129-lexington-rest-corp/"
+    },
+    {
+      "id": 73668211,
+      "caseName": "Comey v. United States Department of Justice",
+      "docketNumber": "1:25-cv-07625",
+      "dateFiled": "2025-09-15",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/73668211/comey-v-united-states-department-of-justice/"
+    },
+    {
+      "id": 71348216,
+      "caseName": "Comey v. United States Department of Justice",
+      "docketNumber": "1:25-cv-07625",
+      "dateFiled": "2025-09-15",
+      "suitNature": "899 Other Statutes: Administrative Procedures Act/Review or Appeal of Agency Decision",
+      "cause": "05:702 Administrative Procedure Act",
+      "url": "https://www.courtlistener.com/docket/71348216/comey-v-united-states-department-of-justice/"
+    },
+    {
+      "id": 71362531,
+      "caseName": "Obiagwu v. Chohan",
+      "docketNumber": "1:25-cv-07640",
+      "dateFiled": "2025-09-13",
+      "suitNature": "Prisoner: Civil Rights",
+      "cause": "42:1983 Civil Rights Act",
+      "url": "https://www.courtlistener.com/docket/71362531/obiagwu-v-chohan/"
+    },
+    {
+      "id": 71295622,
+      "caseName": "Remhof v. Chegg, Inc.",
+      "docketNumber": "1:25-cv-07441",
+      "dateFiled": "2025-09-08",
+      "suitNature": "445 Civil Rights: Americans with Disabilities - Employment",
+      "cause": "42:12112 Americans with Disabilities Act - Employment Discrimination",
+      "url": "https://www.courtlistener.com/docket/71295622/remhof-v-chegg-inc/"
+    },
+    {
+      "id": 71279431,
+      "caseName": "Columbo v. Center For Goods, LLC",
+      "docketNumber": "1:25-cv-07382",
+      "dateFiled": "2025-09-05",
+      "suitNature": "710 Labor: Fair Standards",
+      "cause": "15:2(a) Fair Labor Standards Act",
+      "url": "https://www.courtlistener.com/docket/71279431/columbo-v-center-for-goods-llc/"
+    },
+    {
+      "id": 71273551,
+      "caseName": "Patel v. Almodovar",
+      "docketNumber": "1:25-cv-07357",
+      "dateFiled": "2025-09-04",
+      "suitNature": "530 Habeas Corpus (General)",
+      "cause": "28:2241fd Petition for Writ of Habeas Corpus (Federal)",
+      "url": "https://www.courtlistener.com/docket/71273551/patel-v-almodovar/"
+    },
+    {
+      "id": 71256374,
+      "caseName": "Brown v. Women In Need, Inc.",
+      "docketNumber": "1:25-cv-07289",
+      "dateFiled": "2025-09-02",
+      "suitNature": "442 Civil Rights: Jobs",
+      "cause": "42:2000e-2e Job Discrimination (Unlawful Employment Practices)",
+      "url": "https://www.courtlistener.com/docket/71256374/brown-v-women-in-need-inc/"
+    },
+    {
+      "id": 71248496,
+      "caseName": "Madoriya v. Pollack, Pollack, Isaac & DeCicco, LLP",
+      "docketNumber": "1:25-cv-07253",
+      "dateFiled": "2025-09-01",
+      "suitNature": "442 Civil Rights: Jobs",
+      "cause": "28:1331ed Fed. Question:  Employment Discrimination",
+      "url": "https://www.courtlistener.com/docket/71248496/madoriya-v-pollack-pollack-isaac-decicco-llp/"
+    },
+    {
+      "id": 71230235,
+      "caseName": "In Re: Nestor",
+      "docketNumber": "1:25-cv-07217",
+      "dateFiled": "2025-08-29",
+      "suitNature": "Bankruptcy Appeal (801)",
+      "cause": "28:0158  Notice of Appeal re Bankruptcy Matter (BA",
+      "url": "https://www.courtlistener.com/docket/71230235/in-re-nestor/"
+    },
+    {
+      "id": 71221843,
+      "caseName": "Khatri v. Rytebox, LLC",
+      "docketNumber": "1:25-cv-07167",
+      "dateFiled": "2025-08-28",
+      "suitNature": "710 Labor: Fair Standards",
+      "cause": "29:206 FLSA:  Minimum Wage",
+      "url": "https://www.courtlistener.com/docket/71221843/khatri-v-rytebox-llc/"
+    },
+    {
+      "id": 71178948,
+      "caseName": "U.S. Bank National Association, as Trustee for the Registered Holders of Wells Fargo Commercial Mortgage Securities, Inc., Multifamily Mortgage Pass-Through Certificates, Series 2015-K46 v. 318 East Associates, LLC",
+      "docketNumber": "1:25-cv-06969",
+      "dateFiled": "2025-08-22",
+      "suitNature": "220 Real Property: Foreclosure",
+      "cause": "28:1332fc Diversity - Foreclosure",
+      "url": "https://www.courtlistener.com/docket/71178948/us-bank-national-association-as-trustee-for-the-registered-holders-of/"
+    },
+    {
+      "id": 71112356,
+      "caseName": "Vila v. CBS Interactive Inc",
+      "docketNumber": "1:25-cv-06741",
+      "dateFiled": "2025-08-14",
+      "suitNature": "820 Copyright",
+      "cause": "17:501 Copyright Infringement",
+      "url": "https://www.courtlistener.com/docket/71112356/vila-v-cbs-interactive-inc/"
+    },
+    {
+      "id": 71061834,
+      "caseName": "Robert F. Kennedy Human Rights v. United States Department of Homeland Security",
+      "docketNumber": "1:25-cv-06541",
+      "dateFiled": "2025-08-08",
+      "suitNature": "895 Freedom of Information Act",
+      "cause": "05:552 Freedom of Information Act",
+      "url": "https://www.courtlistener.com/docket/71061834/robert-f-kennedy-human-rights-v-united-states-department-of-homeland/"
+    },
+    {
+      "id": 71045271,
+      "caseName": "Roller Rabbit LLC v. Yiulangde Clothing Store",
+      "docketNumber": "1:25-cv-06484",
+      "dateFiled": "2025-08-06",
+      "suitNature": "840 Trademark",
+      "cause": "15:1114 Trademark Infringement  (Lanham Act)",
+      "url": "https://www.courtlistener.com/docket/71045271/roller-rabbit-llc-v-yiulangde-clothing-store/"
+    },
+    {
+      "id": 73380505,
+      "caseName": "Menzies Middle East and Africa SA v. Republic of Niger",
+      "docketNumber": "1:25-mc-00332",
+      "dateFiled": "2025-08-05",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/73380505/menzies-middle-east-and-africa-sa-v-republic-of-niger/"
+    },
+    {
+      "id": 73270260,
+      "caseName": "Menzies Middle East and Africa SA v. Republic of Niger",
+      "docketNumber": "1:25-mc-00332",
+      "dateFiled": "2025-08-05",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/73270260/menzies-middle-east-and-africa-sa-v-republic-of-niger/"
+    },
+    {
+      "id": 71032830,
+      "caseName": "Menzies Middle East and Africa SA v. Republic of Niger",
+      "docketNumber": "1:25-mc-00332",
+      "dateFiled": "2025-08-05",
+      "suitNature": null,
+      "cause": "M 18-302 Registration of Foreign Judgment",
+      "url": "https://www.courtlistener.com/docket/71032830/menzies-middle-east-and-africa-sa-v-republic-of-niger/"
+    },
+    {
+      "id": 71023503,
+      "caseName": "Fernandez Martinez v. Qh Holdings (Oregon), Inc.",
+      "docketNumber": "1:25-cv-06401",
+      "dateFiled": "2025-08-04",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "28:1331 Fed. Question",
+      "url": "https://www.courtlistener.com/docket/71023503/fernandez-martinez-v-qh-holdings-oregon-inc/"
+    },
+    {
+      "id": 70970592,
+      "caseName": "Krause v. Joyce",
+      "docketNumber": "1:25-cv-06287",
+      "dateFiled": "2025-07-30",
+      "suitNature": "463 Habeas Corpus - Alien Detainee",
+      "cause": "28:2241fd Petition for Writ of Habeas Corpus (Federal)",
+      "url": "https://www.courtlistener.com/docket/70970592/krause-v-joyce/"
+    },
+    {
+      "id": 70965167,
+      "caseName": "Sol De Janeiro USA Inc. v. American Instinct Inc.",
+      "docketNumber": "1:25-cv-06268",
+      "dateFiled": "2025-07-30",
+      "suitNature": "840 Trademark",
+      "cause": "15:1114 Trademark Infringement  (Lanham Act)",
+      "url": "https://www.courtlistener.com/docket/70965167/sol-de-janeiro-usa-inc-v-american-instinct-inc/"
+    },
+    {
+      "id": 70964721,
+      "caseName": "Wilder v. Credit One Bank, N.A.",
+      "docketNumber": "1:25-cv-06264",
+      "dateFiled": "2025-07-30",
+      "suitNature": "Consumer Credit",
+      "cause": "15:1681 Fair Credit Reporting Act",
+      "url": "https://www.courtlistener.com/docket/70964721/wilder-v-credit-one-bank-na/"
+    },
+    {
+      "id": 70917498,
+      "caseName": "Carfora v. President and Fellows of Harvard College",
+      "docketNumber": "1:25-mc-00314",
+      "dateFiled": "2025-07-25",
+      "suitNature": "791 Labor: E.R.I.S.A.",
+      "cause": "29:1132 E.R.I.S.A.: Civil Enforcement of Employee Benefits",
+      "url": "https://www.courtlistener.com/docket/70917498/carfora-v-president-and-fellows-of-harvard-college/"
+    },
+    {
+      "id": 70904789,
+      "caseName": "Viral DRM, LLC v. Univision Communications Inc.",
+      "docketNumber": "1:25-cv-06085",
+      "dateFiled": "2025-07-24",
+      "suitNature": "Copyright",
+      "cause": "17:501 Copyright Infringement",
+      "url": "https://www.courtlistener.com/docket/70904789/viral-drm-llc-v-univision-communications-inc/"
+    },
+    {
+      "id": 70961591,
+      "caseName": "Soliman v. John Doe",
+      "docketNumber": "1:25-cv-06003",
+      "dateFiled": "2025-07-22",
+      "suitNature": "470 Racketeer/Corrupt Organization",
+      "cause": "18:1961 Racketeering (RICO) Act",
+      "url": "https://www.courtlistener.com/docket/70961591/soliman-v-john-doe/"
+    },
+    {
+      "id": 70887000,
+      "caseName": "Skaf v. Google, LLC",
+      "docketNumber": "1:25-cv-06029",
+      "dateFiled": "2025-07-22",
+      "suitNature": "442 Civil Rights: Jobs",
+      "cause": "42:2000e-2ot Job Discrimination (other)",
+      "url": "https://www.courtlistener.com/docket/70887000/skaf-v-google-llc/"
+    },
+    {
+      "id": 70882596,
+      "caseName": "Davis v. OpenSponsorship, Corp.",
+      "docketNumber": "1:25-cv-05998",
+      "dateFiled": "2025-07-22",
+      "suitNature": "190 Contract: Other",
+      "cause": "28:1332 Diversity Action",
+      "url": "https://www.courtlistener.com/docket/70882596/davis-v-opensponsorship-corp/"
+    },
+    {
+      "id": 70873033,
+      "caseName": "Hilbert v. Thinking LSAT, LLC",
+      "docketNumber": "1:25-cv-05970",
+      "dateFiled": "2025-07-21",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "28:1331 Fed. Question",
+      "url": "https://www.courtlistener.com/docket/70873033/hilbert-v-thinking-lsat-llc/"
+    },
+    {
+      "id": 70891632,
+      "caseName": "Rojas v. MPHASIS Corporation",
+      "docketNumber": "1:25-cv-05916",
+      "dateFiled": "2025-07-18",
+      "suitNature": "Other Statutory Actions",
+      "cause": "18:1514A Civil Action to Protect Against Retaliation in Fraud Cases",
+      "url": "https://www.courtlistener.com/docket/70891632/rojas-v-mphasis-corporation/"
+    },
+    {
+      "id": 70843045,
+      "caseName": "D.F. v. New York City Department of Education",
+      "docketNumber": "1:25-cv-05911",
+      "dateFiled": "2025-07-18",
+      "suitNature": "Civil Rights: Education",
+      "cause": "20:1400 IDEA:  Individuals With Disabilities Education Act (short title)",
+      "url": "https://www.courtlistener.com/docket/70843045/df-v-new-york-city-department-of-education/"
+    },
+    {
+      "id": 70834937,
+      "caseName": "Moronta v. Mecca Transport, Inc.",
+      "docketNumber": "1:25-cv-05892",
+      "dateFiled": "2025-07-17",
+      "suitNature": "Motor Vehicle",
+      "cause": "28:1332 Diversity Action",
+      "url": "https://www.courtlistener.com/docket/70834937/moronta-v-mecca-transport-inc/"
+    },
+    {
+      "id": 70813893,
+      "caseName": "Bernstein v. Meredith Operations Corporation f/k/a Meredith Corporation",
+      "docketNumber": "1:25-cv-05851",
+      "dateFiled": "2025-07-16",
+      "suitNature": "820 Copyright",
+      "cause": "17:101 Copyright Infringement",
+      "url": "https://www.courtlistener.com/docket/70813893/bernstein-v-meredith-operations-corporation-fka-meredith-corporation/"
+    },
+    {
+      "id": 70795432,
+      "caseName": "Fred Alston as a Trustee of the Local 272 Labor-Management Pension Fund v. Select Garages LLC",
+      "docketNumber": "1:25-cv-05779",
+      "dateFiled": "2025-07-14",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/70795432/fred-alston-as-a-trustee-of-the-local-272-labor-management-pension-fund-v/"
+    },
+    {
+      "id": 70794257,
+      "caseName": "Ruiz v. Green 70 LLC",
+      "docketNumber": "1:25-cv-05777",
+      "dateFiled": "2025-07-14",
+      "suitNature": "710 Labor: Fair Standards",
+      "cause": "29:201 Fair Labor Standards Act",
+      "url": "https://www.courtlistener.com/docket/70794257/ruiz-v-green-70-llc/"
+    },
+    {
+      "id": 70761587,
+      "caseName": "Ghabour v. Wellness Pharmacy Inc.",
+      "docketNumber": "1:25-cv-05717",
+      "dateFiled": "2025-07-11",
+      "suitNature": "710 Labor: Fair Standards",
+      "cause": "29:201 Fair Labor Standards Act",
+      "url": "https://www.courtlistener.com/docket/70761587/ghabour-v-wellness-pharmacy-inc/"
+    },
+    {
+      "id": 70761527,
+      "caseName": "R.H. v. New York City Department Of Education",
+      "docketNumber": "1:25-cv-05722",
+      "dateFiled": "2025-07-11",
+      "suitNature": "Civil Rights: Education",
+      "cause": "20:1415 IDEA:  Challenge decision re education for handicapped",
+      "url": "https://www.courtlistener.com/docket/70761527/rh-v-new-york-city-department-of-education/"
+    },
+    {
+      "id": 70808294,
+      "caseName": "Casiano v. The City of New York",
+      "docketNumber": "1:25-cv-05720",
+      "dateFiled": "2025-07-10",
+      "suitNature": "Prisoner: Civil Rights",
+      "cause": "42:1983 Civil Rights Act",
+      "url": "https://www.courtlistener.com/docket/70808294/casiano-v-the-city-of-new-york/"
+    },
+    {
+      "id": 70930504,
+      "caseName": "United States v. Diaz Mejia",
+      "docketNumber": "1:25-cr-00306",
+      "dateFiled": "2025-07-09",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/70930504/united-states-v-diaz-mejia/"
+    },
+    {
+      "id": 70735673,
+      "caseName": "5 Rivers CRE, LLC v. Mt. Hawley Insurance Company",
+      "docketNumber": "1:25-cv-05639",
+      "dateFiled": "2025-07-08",
+      "suitNature": "Insurance",
+      "cause": "12:635 Breach of Insurance Contract",
+      "url": "https://www.courtlistener.com/docket/70735673/5-rivers-cre-llc-v-mt-hawley-insurance-company/"
+    },
+    {
+      "id": 70732066,
+      "caseName": "Mt. Hawley Insurance Company v. Embattle Protective Services, Inc.",
+      "docketNumber": "1:25-cv-05614",
+      "dateFiled": "2025-07-08",
+      "suitNature": "110 Insurance",
+      "cause": "28:1332oc Diversity-Other Contract",
+      "url": "https://www.courtlistener.com/docket/70732066/mt-hawley-insurance-company-v-embattle-protective-services-inc/"
+    },
+    {
+      "id": 70693691,
+      "caseName": "In Re: Peggy Nestor",
+      "docketNumber": "1:25-cv-05495",
+      "dateFiled": "2025-07-02",
+      "suitNature": "422 Bankruptcy Appeal (801)",
+      "cause": "28:0158  Notice of Appeal re Bankruptcy Matter (BA",
+      "url": "https://www.courtlistener.com/docket/70693691/in-re-peggy-nestor/"
+    },
+    {
+      "id": 70672952,
+      "caseName": "Sompo International Holdings Ltd. v. Maersk A/S",
+      "docketNumber": "1:25-cv-05403",
+      "dateFiled": "2025-06-30",
+      "suitNature": "Contract: Marine",
+      "cause": "28:1333mc Marine Contract",
+      "url": "https://www.courtlistener.com/docket/70672952/sompo-international-holdings-ltd-v-maersk-as/"
+    },
+    {
+      "id": 70644101,
+      "caseName": "Grove v. Coinbase, Inc.",
+      "docketNumber": "1:25-cv-05338",
+      "dateFiled": "2025-06-26",
+      "suitNature": "190 Contract: Other",
+      "cause": "15:45 Federal Trade Commission Act (unfair or deceptive acts)",
+      "url": "https://www.courtlistener.com/docket/70644101/grove-v-coinbase-inc/"
+    },
+    {
+      "id": 70626419,
+      "caseName": "Khabazha v. United States Immigration and Customs Enforcement",
+      "docketNumber": "1:25-cv-05279",
+      "dateFiled": "2025-06-24",
+      "suitNature": "463 Habeas Corpus - Alien Detainee",
+      "cause": "28:2241in Habeas Corpus:  INS",
+      "url": "https://www.courtlistener.com/docket/70626419/khabazha-v-united-states-immigration-and-customs-enforcement/"
+    },
+    {
+      "id": 70616824,
+      "caseName": "Ruiz Florez v. 45 West 27th Street Properties, LLC",
+      "docketNumber": "1:25-cv-05229",
+      "dateFiled": "2025-06-23",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "42:12101 The Americans with Disabilities Act of 1990",
+      "url": "https://www.courtlistener.com/docket/70616824/ruiz-florez-v-45-west-27th-street-properties-llc/"
+    },
+    {
+      "id": 70623723,
+      "caseName": "Rosol v. New York City Housing Authority",
+      "docketNumber": "1:25-cv-05183",
+      "dateFiled": "2025-06-20",
+      "suitNature": "442 Civil Rights: Jobs",
+      "cause": "42:2000e-2ag Job Discrimination (Age)",
+      "url": "https://www.courtlistener.com/docket/70623723/rosol-v-new-york-city-housing-authority/"
+    },
+    {
+      "id": 70579912,
+      "caseName": "Lugo v. City Winery, LLC",
+      "docketNumber": "1:25-cv-05135",
+      "dateFiled": "2025-06-18",
+      "suitNature": "710 Labor: Fair Standards",
+      "cause": "29:201 Fair Labor Standards Act",
+      "url": "https://www.courtlistener.com/docket/70579912/lugo-v-city-winery-llc/"
+    },
+    {
+      "id": 70555104,
+      "caseName": "E.S. v. New York City Department of Education",
+      "docketNumber": "1:25-cv-05051",
+      "dateFiled": "2025-06-16",
+      "suitNature": "Civil Rights: Education",
+      "cause": "20:1415 IDEA:  Challenge decision re education for handicapped",
+      "url": "https://www.courtlistener.com/docket/70555104/es-v-new-york-city-department-of-education/"
+    },
+    {
+      "id": 70563142,
+      "caseName": "Chen v. Noem",
+      "docketNumber": "1:25-cv-05004",
+      "dateFiled": "2025-06-13",
+      "suitNature": "465 Other Immigration Actions",
+      "cause": "28:1361 Petition for Writ of Mandamus",
+      "url": "https://www.courtlistener.com/docket/70563142/chen-v-noem/"
+    },
+    {
+      "id": 70533297,
+      "caseName": "H.A. v. New York City Public Schools a/k/a New York City Department of Education",
+      "docketNumber": "1:25-cv-05005",
+      "dateFiled": "2025-06-13",
+      "suitNature": "440 Civil Rights: Other",
+      "cause": "20:1415 IDEA:  Challenge decision re education for handicapped",
+      "url": "https://www.courtlistener.com/docket/70533297/ha-v-new-york-city-public-schools-aka-new-york-city-department-of/"
+    },
+    {
+      "id": 70530340,
+      "caseName": "Securities and Exchange Commission v. Vanderbilt",
+      "docketNumber": "1:25-cv-04994",
+      "dateFiled": "2025-06-13",
+      "suitNature": "850 Securities/Commodities",
+      "cause": "15:77 Securities Fraud",
+      "url": "https://www.courtlistener.com/docket/70530340/securities-and-exchange-commission-v-vanderbilt/"
+    },
+    {
+      "id": 70532043,
+      "caseName": "United States v. Abreu",
+      "docketNumber": "1:25-cr-00272",
+      "dateFiled": "2025-06-12",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/70532043/united-states-v-abreu/"
+    },
+    {
+      "id": 70552570,
+      "caseName": "Hubbuch v. Kohn",
+      "docketNumber": "1:25-cv-04924",
+      "dateFiled": "2025-06-11",
+      "suitNature": "Consumer Credit",
+      "cause": "15:1681 Fair Credit Reporting Act",
+      "url": "https://www.courtlistener.com/docket/70552570/hubbuch-v-kohn/"
+    },
+    {
+      "id": 70515745,
+      "caseName": "DeLong v. Penske Media Corporation",
+      "docketNumber": "1:25-cv-04911",
+      "dateFiled": "2025-06-11",
+      "suitNature": "Copyright",
+      "cause": "17:501 Copyright Infringement",
+      "url": "https://www.courtlistener.com/docket/70515745/delong-v-penske-media-corporation/"
+    },
+    {
+      "id": 71953160,
+      "caseName": "Gummy Bear International, Inc. v. Soonova, LLC",
+      "docketNumber": "1:25-cv-04832",
+      "dateFiled": "2025-06-09",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/71953160/gummy-bear-international-inc-v-soonova-llc/"
+    },
+    {
+      "id": 70748606,
+      "caseName": "Gummy Bear International, Inc. v. Soonova, LLC",
+      "docketNumber": "1:25-cv-04832",
+      "dateFiled": "2025-06-09",
+      "suitNature": "840 Trademark",
+      "cause": "15:1051 Trademark Infringement",
+      "url": "https://www.courtlistener.com/docket/70748606/gummy-bear-international-inc-v-soonova-llc/"
+    },
+    {
+      "id": 70477933,
+      "caseName": "Deidan v. Santander US Capital Markets, LLC",
+      "docketNumber": "1:25-cv-04819",
+      "dateFiled": "2025-06-06",
+      "suitNature": "442 Civil Rights: Jobs",
+      "cause": "18:1514A Civil Action to Protect Against Retaliation in Fraud Cases",
+      "url": "https://www.courtlistener.com/docket/70477933/deidan-v-santander-us-capital-markets-llc/"
+    },
+    {
+      "id": 70467409,
+      "caseName": "Matthew v. Murashov",
+      "docketNumber": "1:25-cv-04769",
+      "dateFiled": "2025-06-05",
+      "suitNature": "Motor Vehicle",
+      "cause": "28:1332nr Diversity: Notice of Removal",
+      "url": "https://www.courtlistener.com/docket/70467409/matthew-v-murashov/"
+    },
+    {
+      "id": 70466294,
+      "caseName": "Querytron LLC v. Etsy, Inc.",
+      "docketNumber": "1:25-cv-04751",
+      "dateFiled": "2025-06-05",
+      "suitNature": "Patent",
+      "cause": "35:271 Patent Infringement",
+      "url": "https://www.courtlistener.com/docket/70466294/querytron-llc-v-etsy-inc/"
+    },
+    {
+      "id": 70464930,
+      "caseName": "Romanov v. LexisNexis Risk Solutions Inc.",
+      "docketNumber": "1:25-cv-04731",
+      "dateFiled": "2025-06-05",
+      "suitNature": "Consumer Credit",
+      "cause": "15:1681 Fair Credit Reporting Act",
+      "url": "https://www.courtlistener.com/docket/70464930/romanov-v-lexisnexis-risk-solutions-inc/"
+    },
+    {
+      "id": 70436049,
+      "caseName": "Rahman v. Coinbase, Inc.",
+      "docketNumber": "1:25-cv-04577",
+      "dateFiled": "2025-06-02",
+      "suitNature": "190 Contract: Other",
+      "cause": "28:1332oc Diversity-Other Contract",
+      "url": "https://www.courtlistener.com/docket/70436049/rahman-v-coinbase-inc/"
+    },
+    {
+      "id": 70382509,
+      "caseName": "K.W. v. New York City Department of Education",
+      "docketNumber": "1:25-cv-04424",
+      "dateFiled": "2025-05-27",
+      "suitNature": "Civil Rights: Education",
+      "cause": "20:1400 IDEA:  Individuals With Disabilities Education Act (short title)",
+      "url": "https://www.courtlistener.com/docket/70382509/kw-v-new-york-city-department-of-education/"
+    },
+    {
+      "id": 70373690,
+      "caseName": "Samuel Lopez v. 1373 First Avenue Associates LLC",
+      "docketNumber": "1:25-cv-04399",
+      "dateFiled": "2025-05-26",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "42:12101 The Americans with Disabilities Act of 1990",
+      "url": "https://www.courtlistener.com/docket/70373690/samuel-lopez-v-1373-first-avenue-associates-llc/"
+    },
+    {
+      "id": 70382516,
+      "caseName": "Livingston v. Standard International Management, LLC",
+      "docketNumber": "1:25-cv-04374",
+      "dateFiled": "2025-05-23",
+      "suitNature": "Civil Rights: Jobs",
+      "cause": "42:2000e-2ag Job Discrimination (Age)",
+      "url": "https://www.courtlistener.com/docket/70382516/livingston-v-standard-international-management-llc/"
+    },
+    {
+      "id": 70357697,
+      "caseName": "Commissioners of the New York State Insurance Company v. Schindler Elevator Corporation",
+      "docketNumber": "1:25-cv-04397",
+      "dateFiled": "2025-05-23",
+      "suitNature": "P.I.: Other",
+      "cause": "28:1332t Diversity-Torts",
+      "url": "https://www.courtlistener.com/docket/70357697/commissioners-of-the-new-york-state-insurance-company-v-schindler-elevator/"
+    },
+    {
+      "id": 70356450,
+      "caseName": "Policao v. Fresh Superette Inc.",
+      "docketNumber": "1:25-cv-04391",
+      "dateFiled": "2025-05-23",
+      "suitNature": "710 Labor: Fair Standards",
+      "cause": "29:216(b) FLSA:  Minimum wage or overtime compensation",
+      "url": "https://www.courtlistener.com/docket/70356450/policao-v-fresh-superette-inc/"
+    },
+    {
+      "id": 70324236,
+      "caseName": "Stewart v. King",
+      "docketNumber": "1:25-cv-04246",
+      "dateFiled": "2025-05-20",
+      "suitNature": "Habeas Corpus (General)",
+      "cause": "28:2254 Petition for Writ of Habeas Corpus (State)",
+      "url": "https://www.courtlistener.com/docket/70324236/stewart-v-king/"
+    },
+    {
+      "id": 70312127,
+      "caseName": "Samuel Lopez v. 1365 First Avenue LLC",
+      "docketNumber": "1:25-cv-04191",
+      "dateFiled": "2025-05-19",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "42:12101 The Americans with Disabilities Act of 1990",
+      "url": "https://www.courtlistener.com/docket/70312127/samuel-lopez-v-1365-first-avenue-llc/"
+    },
+    {
+      "id": 70287807,
+      "caseName": "Bender v. Coinbase Global, Inc.",
+      "docketNumber": "1:25-cv-04148",
+      "dateFiled": "2025-05-16",
+      "suitNature": "190 Contract: Other",
+      "cause": "28:1332oc Diversity-Other Contract",
+      "url": "https://www.courtlistener.com/docket/70287807/bender-v-coinbase-global-inc/"
+    },
+    {
+      "id": 70287787,
+      "caseName": "Scheuber v. Coinbase, Inc.",
+      "docketNumber": "1:25-cv-04151",
+      "dateFiled": "2025-05-16",
+      "suitNature": "190 Contract: Other",
+      "cause": "15:45 Federal Trade Commission Act (unfair or deceptive acts)",
+      "url": "https://www.courtlistener.com/docket/70287787/scheuber-v-coinbase-inc/"
+    },
+    {
+      "id": 70285713,
+      "caseName": "McAfee v. Coinbase, Inc.",
+      "docketNumber": "1:25-cv-04137",
+      "dateFiled": "2025-05-16",
+      "suitNature": "370 Other Fraud",
+      "cause": "28:1332ct Diversity-(Citizenship)",
+      "url": "https://www.courtlistener.com/docket/70285713/mcafee-v-coinbase-inc/"
+    },
+    {
+      "id": 70267746,
+      "caseName": "Knowles v. Pearsox Corporation",
+      "docketNumber": "1:25-cv-04077",
+      "dateFiled": "2025-05-14",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "28:1331 Fed. Question",
+      "url": "https://www.courtlistener.com/docket/70267746/knowles-v-pearsox-corporation/"
+    },
+    {
+      "id": 70251024,
+      "caseName": "Lopez v. Pio Pio NYC, Inc.",
+      "docketNumber": "1:25-cv-03998",
+      "dateFiled": "2025-05-13",
+      "suitNature": "710 Labor: Fair Standards",
+      "cause": "29:201 Fair Labor Standards Act",
+      "url": "https://www.courtlistener.com/docket/70251024/lopez-v-pio-pio-nyc-inc/"
+    },
+    {
+      "id": 70240210,
+      "caseName": "The Federal Savings Bank v. Ashkenazi",
+      "docketNumber": "1:25-cv-03904",
+      "dateFiled": "2025-05-09",
+      "suitNature": "Real Property: Foreclosure",
+      "cause": "28:1332df Diversity-Contract Default",
+      "url": "https://www.courtlistener.com/docket/70240210/the-federal-savings-bank-v-ashkenazi/"
+    },
+    {
+      "id": 70194466,
+      "caseName": "Stashak v. Phreesia, Inc.",
+      "docketNumber": "1:25-cv-03808",
+      "dateFiled": "2025-05-07",
+      "suitNature": "442 Civil Rights: Jobs",
+      "cause": "42:2000e-2ag Job Discrimination (Age)",
+      "url": "https://www.courtlistener.com/docket/70194466/stashak-v-phreesia-inc/"
+    },
+    {
+      "id": 70169599,
+      "caseName": "Doe v. Bondi",
+      "docketNumber": "1:25-cv-03769",
+      "dateFiled": "2025-05-06",
+      "suitNature": "899 Other Statutes: Administrative Procedures Act/Review or Appeal of Agency Decision",
+      "cause": "08:1101 Immigration & Nationality Act (Definitions)",
+      "url": "https://www.courtlistener.com/docket/70169599/doe-v-bondi/"
+    },
+    {
+      "id": 70148760,
+      "caseName": "Hedges v. Blackbox Management Group, LLC",
+      "docketNumber": "1:25-cv-03746",
+      "dateFiled": "2025-05-05",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "28:1331 Fed. Question",
+      "url": "https://www.courtlistener.com/docket/70148760/hedges-v-blackbox-management-group-llc/"
+    },
+    {
+      "id": 70138146,
+      "caseName": "Hachette Filipacchi Presse v. Evie Magazine, Inc.",
+      "docketNumber": "1:25-cv-03723",
+      "dateFiled": "2025-05-05",
+      "suitNature": "840 Trademark",
+      "cause": "15:1114 Trademark Infringement  (Lanham Act)",
+      "url": "https://www.courtlistener.com/docket/70138146/hachette-filipacchi-presse-v-evie-magazine-inc/"
+    },
+    {
+      "id": 70027370,
+      "caseName": "Diaz-Otanez v. Brooks",
+      "docketNumber": "1:25-cv-03624",
+      "dateFiled": "2025-05-01",
+      "suitNature": "Motor Vehicle",
+      "cause": "28:1332pi Diversity-Personal Injury",
+      "url": "https://www.courtlistener.com/docket/70027370/diaz-otanez-v-brooks/"
+    },
+    {
+      "id": 70010788,
+      "caseName": "Trustees for the Mason Tenders District Council Welfare Fund, Pension Fund, and Training Program Fund v. Gravity Construction Corp",
+      "docketNumber": "1:25-cv-03612",
+      "dateFiled": "2025-04-30",
+      "suitNature": "Labor: Labor/Mgt. Relations",
+      "cause": "29:185 Labor:  Suits by and against Labor Organizations",
+      "url": "https://www.courtlistener.com/docket/70010788/trustees-for-the-mason-tenders-district-council-welfare-fund-pension-fund/"
+    },
+    {
+      "id": 69974341,
+      "caseName": "Clark v. Amazon.com, Inc.",
+      "docketNumber": "1:25-cv-03527",
+      "dateFiled": "2025-04-29",
+      "suitNature": "442 Civil Rights: Jobs",
+      "cause": "28:1331 Fed. Question",
+      "url": "https://www.courtlistener.com/docket/69974341/clark-v-amazoncom-inc/"
+    },
+    {
+      "id": 69949444,
+      "caseName": "Williams v. White Walker LLC",
+      "docketNumber": "1:25-cv-03480",
+      "dateFiled": "2025-04-27",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "42:12188 Americans With Disabilities Act - Civil Enforcement Actions",
+      "url": "https://www.courtlistener.com/docket/69949444/williams-v-white-walker-llc/"
+    },
+    {
+      "id": 73330110,
+      "caseName": "United States of America v. Schwitzer",
+      "docketNumber": "1:25-cv-03446",
+      "dateFiled": "2025-04-25",
+      "suitNature": "376 Qui Tam (31 U.S.C. § 3729(a))",
+      "cause": "31:3729 False Claims Act",
+      "url": "https://www.courtlistener.com/docket/73330110/united-states-of-america-v-schwitzer/"
+    },
+    {
+      "id": 69936256,
+      "caseName": "A.A. v. Omnicom Group, Inc.",
+      "docketNumber": "1:25-cv-03389",
+      "dateFiled": "2025-04-24",
+      "suitNature": "890 Other Statutory Actions",
+      "cause": "28:1331 Fed. Question",
+      "url": "https://www.courtlistener.com/docket/69936256/aa-v-omnicom-group-inc/"
+    },
+    {
+      "id": 69927916,
+      "caseName": "Indian Harbor Insurance Company v. Mashinsky",
+      "docketNumber": "1:25-cv-03349",
+      "dateFiled": "2025-04-22",
+      "suitNature": "110 Insurance",
+      "cause": "28:1335 Interpleader Action",
+      "url": "https://www.courtlistener.com/docket/69927916/indian-harbor-insurance-company-v-mashinsky/"
+    },
+    {
+      "id": 69926099,
+      "caseName": "UFCW Local 50 Pension Fund v. Fischer Bros. & Leslie, Inc.",
+      "docketNumber": "1:25-cv-03322",
+      "dateFiled": "2025-04-22",
+      "suitNature": "Labor: E.R.I.S.A.",
+      "cause": "29:1132 E.R.I.S.A.: Civil Enforcement of Employee Benefits",
+      "url": "https://www.courtlistener.com/docket/69926099/ufcw-local-50-pension-fund-v-fischer-bros-leslie-inc/"
+    },
+    {
+      "id": 69922515,
+      "caseName": "Kamat v. League Network, PBC",
+      "docketNumber": "1:25-cv-03307",
+      "dateFiled": "2025-04-21",
+      "suitNature": "Securities/Commodities",
+      "cause": "15:78j(b)ss Stockholder Suit",
+      "url": "https://www.courtlistener.com/docket/69922515/kamat-v-league-network-pbc/"
+    },
+    {
+      "id": 69910035,
+      "caseName": "Fleetzero Inc. v. Atlantic Oceanic LLC",
+      "docketNumber": "1:25-cv-03240",
+      "dateFiled": "2025-04-17",
+      "suitNature": "Contract: Marine",
+      "cause": "28:1333ad Admiralty",
+      "url": "https://www.courtlistener.com/docket/69910035/fleetzero-inc-v-atlantic-oceanic-llc/"
+    },
+    {
+      "id": 69909849,
+      "caseName": "Martinez v. JanJan Realty Corp",
+      "docketNumber": "1:25-cv-03236",
+      "dateFiled": "2025-04-17",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "42:12188 Americans With Disabilities Act - Civil Enforcement Actions",
+      "url": "https://www.courtlistener.com/docket/69909849/martinez-v-janjan-realty-corp/"
+    },
+    {
+      "id": 69903479,
+      "caseName": "MPHASIS Corporation v. Rojas",
+      "docketNumber": "1:25-cv-03175",
+      "dateFiled": "2025-04-16",
+      "suitNature": "880 Defend Trade Secrets Act (of 2016)",
+      "cause": "18:1836(a) Injunction against Misappropriation of Trade Secrets",
+      "url": "https://www.courtlistener.com/docket/69903479/mphasis-corporation-v-rojas/"
+    },
+    {
+      "id": 69900261,
+      "caseName": "In Re: Orly Genger",
+      "docketNumber": "1:25-cv-03158",
+      "dateFiled": "2025-04-16",
+      "suitNature": "Bankruptcy Appeal (801)",
+      "cause": "28:0158  Notice of Appeal re Bankruptcy Matter (BA",
+      "url": "https://www.courtlistener.com/docket/69900261/in-re-orly-genger/"
+    },
+    {
+      "id": 69890552,
+      "caseName": "Fox Shiver LLC v. Individuals, Corporations, Limited Liability Companies, Partnerships, and Unincorporated Associations Identified on Schedule A to the Complaint",
+      "docketNumber": "1:25-cv-03068",
+      "dateFiled": "2025-04-14",
+      "suitNature": "Copyright",
+      "cause": "17:101 Copyright Infringement",
+      "url": "https://www.courtlistener.com/docket/69890552/fox-shiver-llc-v-individuals-corporations-limited-liability-companies/"
+    },
+    {
+      "id": 69853006,
+      "caseName": "C.A. v. New York City Department of Education",
+      "docketNumber": "1:25-cv-02852",
+      "dateFiled": "2025-04-07",
+      "suitNature": "Civil Rights: Education",
+      "cause": "20:1415 IDEA:  Challenge decision re education for handicapped",
+      "url": "https://www.courtlistener.com/docket/69853006/ca-v-new-york-city-department-of-education/"
+    },
+    {
+      "id": 69829477,
+      "caseName": "Jones v. The Serpentarium, LLC",
+      "docketNumber": "1:25-cv-02689",
+      "dateFiled": "2025-04-01",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "42:12101 The Americans with Disabilities Act of 1990",
+      "url": "https://www.courtlistener.com/docket/69829477/jones-v-the-serpentarium-llc/"
+    },
+    {
+      "id": 69830903,
+      "caseName": "Genovese v. Securities and Exchange Commission",
+      "docketNumber": "1:25-cv-02704",
+      "dateFiled": "2025-03-27",
+      "suitNature": "Civil Rights: Other",
+      "cause": "28:1331 Fed. Question",
+      "url": "https://www.courtlistener.com/docket/69830903/genovese-v-securities-and-exchange-commission/"
+    },
+    {
+      "id": 69785379,
+      "caseName": "Boone v. Canale",
+      "docketNumber": "1:25-cv-02440",
+      "dateFiled": "2025-03-25",
+      "suitNature": "Prisoner: Civil Rights",
+      "cause": "28:1983",
+      "url": "https://www.courtlistener.com/docket/69785379/boone-v-canale/"
+    },
+    {
+      "id": 69737066,
+      "caseName": "Doe 1 v. Alexander",
+      "docketNumber": "2:25-cv-02113",
+      "dateFiled": "2025-03-13",
+      "suitNature": "P.I.: Other",
+      "cause": "28:1332 Diversity Action",
+      "url": "https://www.courtlistener.com/docket/69737066/doe-1-v-alexander/"
+    },
+    {
+      "id": 69726557,
+      "caseName": "Aviles v. Heidis House LLC",
+      "docketNumber": "1:25-cv-02034",
+      "dateFiled": "2025-03-11",
+      "suitNature": "710 Labor: Fair Standards",
+      "cause": "29:201 Fair Labor Standards Act",
+      "url": "https://www.courtlistener.com/docket/69726557/aviles-v-heidis-house-llc/"
+    },
+    {
+      "id": 69724175,
+      "caseName": "Chan v. Kafene, Inc.",
+      "docketNumber": "1:25-cv-02020",
+      "dateFiled": "2025-03-11",
+      "suitNature": "Civil Rights: Jobs",
+      "cause": "42:1981 Job Discrimination (Race)",
+      "url": "https://www.courtlistener.com/docket/69724175/chan-v-kafene-inc/"
+    },
+    {
+      "id": 69747552,
+      "caseName": "Khalil v. Joyce",
+      "docketNumber": "1:25-cv-01935",
+      "dateFiled": "2025-03-09",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/69747552/khalil-v-joyce/"
+    },
+    {
+      "id": 69727579,
+      "caseName": "M.K. v. Joyce",
+      "docketNumber": "1:25-cv-01935",
+      "dateFiled": "2025-03-09",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/69727579/mk-v-joyce/"
+    },
+    {
+      "id": 69726832,
+      "caseName": "M.K. v. Joyce",
+      "docketNumber": "1:25-cv-01935",
+      "dateFiled": "2025-03-09",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/69726832/mk-v-joyce/"
+    },
+    {
+      "id": 69726831,
+      "caseName": "M.K. v. Joyce",
+      "docketNumber": "1:25-cv-01935",
+      "dateFiled": "2025-03-09",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/69726831/mk-v-joyce/"
+    },
+    {
+      "id": 69721821,
+      "caseName": "M.K. v. Joyce",
+      "docketNumber": "1:25-cv-01935",
+      "dateFiled": "2025-03-09",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/69721821/mk-v-joyce/"
+    },
+    {
+      "id": 69700130,
+      "caseName": "Voltstar Technologies, Inc. v. Amazon.com, Inc.",
+      "docketNumber": "1:25-cv-01791",
+      "dateFiled": "2025-03-03",
+      "suitNature": "830 Patent",
+      "cause": "35:271 Patent Infringement",
+      "url": "https://www.courtlistener.com/docket/69700130/voltstar-technologies-inc-v-amazoncom-inc/"
+    },
+    {
+      "id": 69695678,
+      "caseName": "Diamond Tucker St. Property, LLC v. Watson",
+      "docketNumber": "1:25-cv-01746",
+      "dateFiled": "2025-02-28",
+      "suitNature": "190 Contract: Other",
+      "cause": "28:1332bc Diversity-Breach of Contract",
+      "url": "https://www.courtlistener.com/docket/69695678/diamond-tucker-st-property-llc-v-watson/"
+    },
+    {
+      "id": 69701357,
+      "caseName": "Advani v. Appellate Term, 2nd Judicial Department",
+      "docketNumber": "1:25-cv-01627",
+      "dateFiled": "2025-02-26",
+      "suitNature": "Prisoner: Civil Rights",
+      "cause": "42:1983 Civil Rights Act",
+      "url": "https://www.courtlistener.com/docket/69701357/advani-v-appellate-term-2nd-judicial-department/"
+    },
+    {
+      "id": 69676105,
+      "caseName": "Hasan v. PS Business Management LLC",
+      "docketNumber": "1:25-cv-01632",
+      "dateFiled": "2025-02-26",
+      "suitNature": "442 Civil Rights: Jobs",
+      "cause": "29:2617 Family and Medical Leave Act of 1993",
+      "url": "https://www.courtlistener.com/docket/69676105/hasan-v-ps-business-management-llc/"
+    },
+    {
+      "id": 69656496,
+      "caseName": "Mahmoudabadi v. United States Department of State",
+      "docketNumber": "1:25-cv-01441",
+      "dateFiled": "2025-02-20",
+      "suitNature": "Other Immigration Actions",
+      "cause": "08:1101 Immigration & Nationality Act (Definitions)",
+      "url": "https://www.courtlistener.com/docket/69656496/mahmoudabadi-v-united-states-department-of-state/"
+    },
+    {
+      "id": 69652803,
+      "caseName": "Garcia Velez v. LSL Logistics LLC",
+      "docketNumber": "1:25-cv-01412",
+      "dateFiled": "2025-02-19",
+      "suitNature": "Motor Vehicle",
+      "cause": "28:1332 Diversity Action",
+      "url": "https://www.courtlistener.com/docket/69652803/garcia-velez-v-lsl-logistics-llc/"
+    },
+    {
+      "id": 69643894,
+      "caseName": "Pickar v. Indiana Federal Community Defenders, Inc.",
+      "docketNumber": "1:25-cv-01353",
+      "dateFiled": "2025-02-14",
+      "suitNature": "445 Civil Rights: Americans with Disabilities - Employment",
+      "cause": "42:12112 Americans with Disabilities Act - Employment Discrimination",
+      "url": "https://www.courtlistener.com/docket/69643894/pickar-v-indiana-federal-community-defenders-inc/"
+    },
+    {
+      "id": 69641517,
+      "caseName": "HDI Global Specialty SE v. NBIS Construction & Transport Insurance Services, Inc.",
+      "docketNumber": "1:25-cv-01334",
+      "dateFiled": "2025-02-14",
+      "suitNature": "Insurance",
+      "cause": "28:1332 Diversity Action",
+      "url": "https://www.courtlistener.com/docket/69641517/hdi-global-specialty-se-v-nbis-construction-transport-insurance/"
+    },
+    {
+      "id": 69639795,
+      "caseName": "McMahon v. BJW Realty LLC",
+      "docketNumber": "1:25-cv-01323",
+      "dateFiled": "2025-02-13",
+      "suitNature": "P.I.: Other",
+      "cause": "28:1332t Diversity-Torts",
+      "url": "https://www.courtlistener.com/docket/69639795/mcmahon-v-bjw-realty-llc/"
+    },
+    {
+      "id": 69635408,
+      "caseName": "Strike 3 Holdings, LLC v. Doe",
+      "docketNumber": "1:25-cv-01277",
+      "dateFiled": "2025-02-12",
+      "suitNature": "Copyright",
+      "cause": "17:101 Copyright Infringement",
+      "url": "https://www.courtlistener.com/docket/69635408/strike-3-holdings-llc-v-doe/"
+    },
+    {
+      "id": 69634413,
+      "caseName": "Calle v. Kearney",
+      "docketNumber": "1:25-cv-01265",
+      "dateFiled": "2025-02-12",
+      "suitNature": "Civil Rights: Other",
+      "cause": "28:1332 Diversity Action",
+      "url": "https://www.courtlistener.com/docket/69634413/calle-v-kearney/"
+    },
+    {
+      "id": 69667561,
+      "caseName": "Calle v. 10 South Street Club Operator, Inc",
+      "docketNumber": "1:25-cv-01124",
+      "dateFiled": "2025-02-07",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/69667561/calle-v-10-south-street-club-operator-inc/"
+    },
+    {
+      "id": 69623287,
+      "caseName": "Keung v. Manhattan Cabinets Inc",
+      "docketNumber": "1:25-cv-01135",
+      "dateFiled": "2025-02-07",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "28:1331 Fed. Question",
+      "url": "https://www.courtlistener.com/docket/69623287/keung-v-manhattan-cabinets-inc/"
+    },
+    {
+      "id": 69597373,
+      "caseName": "Varilease Finance, Inc. v. FCS Advisors, LLC",
+      "docketNumber": "1:25-cv-00913",
+      "dateFiled": "2025-01-31",
+      "suitNature": "190 Contract: Other",
+      "cause": "28:1332jd Diversity-Declaratory Judgement",
+      "url": "https://www.courtlistener.com/docket/69597373/varilease-finance-inc-v-fcs-advisors-llc/"
+    },
+    {
+      "id": 70466489,
+      "caseName": "Delacruz v. C.C. Filson Co.",
+      "docketNumber": "1:25-cv-00841",
+      "dateFiled": "2025-01-28",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/70466489/delacruz-v-cc-filson-co/"
+    },
+    {
+      "id": 69580826,
+      "caseName": "Goldschein v. Avangrid, Inc.",
+      "docketNumber": "1:25-cv-00772",
+      "dateFiled": "2025-01-27",
+      "suitNature": "850 Securities/Commodities",
+      "cause": "15:78m(a) Securities Exchange Act",
+      "url": "https://www.courtlistener.com/docket/69580826/goldschein-v-avangrid-inc/"
+    },
+    {
+      "id": 69577084,
+      "caseName": "JPMorgan Chase Bank, N.A. v. Kraus",
+      "docketNumber": "1:25-cv-00745",
+      "dateFiled": "2025-01-24",
+      "suitNature": "190 Contract: Other",
+      "cause": "28:2201ij Injunction",
+      "url": "https://www.courtlistener.com/docket/69577084/jpmorgan-chase-bank-na-v-kraus/"
+    },
+    {
+      "id": 69569860,
+      "caseName": "Piney v. City Of New York",
+      "docketNumber": "1:25-cv-00671",
+      "dateFiled": "2025-01-23",
+      "suitNature": "710 Labor: Fair Standards",
+      "cause": "29:201 Fair Labor Standards Act",
+      "url": "https://www.courtlistener.com/docket/69569860/piney-v-city-of-new-york/"
+    },
+    {
+      "id": 69553667,
+      "caseName": "Gonzalez v. CAIPA Brooklyn BSO, LLC",
+      "docketNumber": "1:25-cv-00480",
+      "dateFiled": "2025-01-16",
+      "suitNature": "442 Civil Rights: Jobs",
+      "cause": "28:1332 Diversity Action",
+      "url": "https://www.courtlistener.com/docket/69553667/gonzalez-v-caipa-brooklyn-bso-llc/"
+    },
+    {
+      "id": 69538605,
+      "caseName": "Henry v. Acting Commissioner of the Social Security Administration",
+      "docketNumber": "1:25-cv-00275",
+      "dateFiled": "2025-01-13",
+      "suitNature": "Social Security: SSID Tit. XVI",
+      "cause": "42:405 Review of HHS Decision (SSID)",
+      "url": "https://www.courtlistener.com/docket/69538605/henry-v-acting-commissioner-of-the-social-security-administration/"
+    },
+    {
+      "id": 69529997,
+      "caseName": "Crocs, Inc. v. Jinjiang HobiBear Shoes & Clothing Co., Ltd.",
+      "docketNumber": "1:25-cv-00180",
+      "dateFiled": "2025-01-08",
+      "suitNature": "Trademark",
+      "cause": "15:1114 Trademark Infringement  (Lanham Act)",
+      "url": "https://www.courtlistener.com/docket/69529997/crocs-inc-v-jinjiang-hobibear-shoes-clothing-co-ltd/"
+    },
+    {
+      "id": 69529561,
+      "caseName": "Restituyo Sanchez v. Jemkay Construction Corp.",
+      "docketNumber": "1:25-cv-00175",
+      "dateFiled": "2025-01-08",
+      "suitNature": "710 Labor: Fair Standards",
+      "cause": "29:201 Denial of Overtime Compensation",
+      "url": "https://www.courtlistener.com/docket/69529561/restituyo-sanchez-v-jemkay-construction-corp/"
+    },
+    {
+      "id": 69513609,
+      "caseName": "Desai v. PayPal Holdings, Inc.",
+      "docketNumber": "1:25-cv-00033",
+      "dateFiled": "2025-01-02",
+      "suitNature": "440 Civil Rights: Other",
+      "cause": "42:1981ra Race Discrimination",
+      "url": "https://www.courtlistener.com/docket/69513609/desai-v-paypal-holdings-inc/"
+    },
+    {
+      "id": 69511984,
+      "caseName": "Fernandez v. Whisk 197 Atlantic Ave, Inc.",
+      "docketNumber": "1:25-cv-00017",
+      "dateFiled": "2025-01-02",
+      "suitNature": "446 Civil Rights: Americans with Disabilities - Other",
+      "cause": "42:12101 The Americans with Disabilities Act of 1990",
+      "url": "https://www.courtlistener.com/docket/69511984/fernandez-v-whisk-197-atlantic-ave-inc/"
+    },
+    {
+      "id": 69464491,
+      "caseName": "Lamb v. Steiner",
+      "docketNumber": "1:24-cv-09441",
+      "dateFiled": "2024-12-11",
+      "suitNature": "442 Civil Rights: Jobs",
+      "cause": "42:2000e-2e Job Discrimination (Unlawful Employment Practices)",
+      "url": "https://www.courtlistener.com/docket/69464491/lamb-v-steiner/"
+    },
+    {
+      "id": 69424554,
+      "caseName": "Atlantic Subsea, Inc. v. Consolidated Edison Company of New York, Inc.",
+      "docketNumber": "1:24-cv-09142",
+      "dateFiled": "2024-11-27",
+      "suitNature": "190 Contract: Other",
+      "cause": "28:1332bc Diversity-Breach of Contract",
+      "url": "https://www.courtlistener.com/docket/69424554/atlantic-subsea-inc-v-consolidated-edison-company-of-new-york-inc/"
+    },
+    {
+      "id": 69392537,
+      "caseName": "CText IP LLC v. Apple Inc.",
+      "docketNumber": "1:24-cv-08821",
+      "dateFiled": "2024-11-20",
+      "suitNature": "Patent",
+      "cause": "35:271 Patent Infringement",
+      "url": "https://www.courtlistener.com/docket/69392537/ctext-ip-llc-v-apple-inc/"
+    },
+    {
+      "id": 69377420,
+      "caseName": "UMB Bank, N.A. v. Bristol-Myers Squibb Company",
+      "docketNumber": "1:24-cv-08668",
+      "dateFiled": "2024-11-14",
+      "suitNature": "190 Contract: Other",
+      "cause": "28:1332 Diversity Action",
+      "url": "https://www.courtlistener.com/docket/69377420/umb-bank-na-v-bristol-myers-squibb-company/"
+    },
+    {
+      "id": 69363144,
+      "caseName": "Gordon Surgical Group, P.C. v. Empire HealthChoice HMO, Inc.",
+      "docketNumber": "1:24-cv-08550",
+      "dateFiled": "2024-11-11",
+      "suitNature": "Labor: E.R.I.S.A.",
+      "cause": "29:1131 ERISA - Collection of Delinquent Trust Fun",
+      "url": "https://www.courtlistener.com/docket/69363144/gordon-surgical-group-pc-v-empire-healthchoice-hmo-inc/"
+    },
+    {
+      "id": 69347524,
+      "caseName": "Carlin v. United Healthcare Insurance Company of New York, Inc.",
+      "docketNumber": "1:24-cv-08435",
+      "dateFiled": "2024-11-06",
+      "suitNature": "Contract: Recovery Medicare",
+      "cause": "28:1442nr Notice of Removal",
+      "url": "https://www.courtlistener.com/docket/69347524/carlin-v-united-healthcare-insurance-company-of-new-york-inc/"
+    },
+    {
+      "id": 69433636,
+      "caseName": "Turner v. State of Mind Dispensary, LLC",
+      "docketNumber": "1:24-cv-08412",
+      "dateFiled": "2024-11-05",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/69433636/turner-v-state-of-mind-dispensary-llc/"
+    },
+    {
+      "id": 69323221,
+      "caseName": "Smellie v. McFen Group, Inc.",
+      "docketNumber": "1:24-cv-08233",
+      "dateFiled": "2024-10-29",
+      "suitNature": "Labor: Fair Standards",
+      "cause": "29:216(b) FLSA:  Minimum wage or overtime compensation",
+      "url": "https://www.courtlistener.com/docket/69323221/smellie-v-mcfen-group-inc/"
+    },
+    {
+      "id": 69316419,
+      "caseName": "Prieto v. Port Authority Trans-Hudson Corporation",
+      "docketNumber": "1:24-cv-08172",
+      "dateFiled": "2024-10-28",
+      "suitNature": "Federal Employer's Liability",
+      "cause": "45:51 Railways: Fed. Employer's Liability Act",
+      "url": "https://www.courtlistener.com/docket/69316419/prieto-v-port-authority-trans-hudson-corporation/"
+    },
+    {
+      "id": 69468321,
+      "caseName": "Turner v. Gotham Dispensary LLC",
+      "docketNumber": "1:24-cv-08017",
+      "dateFiled": "2024-10-22",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/69468321/turner-v-gotham-dispensary-llc/"
+    },
+    {
+      "id": 69434049,
+      "caseName": "Turner v. Gotham Dispensary LLC",
+      "docketNumber": "1:24-cv-08017",
+      "dateFiled": "2024-10-22",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/69434049/turner-v-gotham-dispensary-llc/"
+    },
+    {
+      "id": 69284152,
+      "caseName": "Lackey v. United States",
+      "docketNumber": "1:24-cv-08004",
+      "dateFiled": "2024-10-21",
+      "suitNature": "Personal Inj. Med. Malpractice",
+      "cause": "28:2671 Federal Tort Claims Act",
+      "url": "https://www.courtlistener.com/docket/69284152/lackey-v-united-states/"
+    },
+    {
+      "id": 69281560,
+      "caseName": "Caplan v. Dollinger",
+      "docketNumber": "1:24-cv-07996",
+      "dateFiled": "2024-10-21",
+      "suitNature": "850 Securities/Commodities",
+      "cause": "18:1962 Racketeering (RICO) Act",
+      "url": "https://www.courtlistener.com/docket/69281560/caplan-v-dollinger/"
+    },
+    {
+      "id": 69385867,
+      "caseName": "FOXMIND CANADA ENTERPRISES LTD. v. ERMOFAV",
+      "docketNumber": "1:24-cv-07657",
+      "dateFiled": "2024-10-09",
+      "suitNature": "Trademark",
+      "cause": "15:1051 Trademark Infringement",
+      "url": "https://www.courtlistener.com/docket/69385867/foxmind-canada-enterprises-ltd-v-ermofav/"
+    },
+    {
+      "id": 69449116,
+      "caseName": "Robles v. HG Putnam Inc.",
+      "docketNumber": "1:24-cv-07548",
+      "dateFiled": "2024-10-04",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/69449116/robles-v-hg-putnam-inc/"
+    },
+    {
+      "id": 70634523,
+      "caseName": "American Civil Liberties Union Foundation v. United States Immigration and Customs Enforcement",
+      "docketNumber": "1:24-cv-07290",
+      "dateFiled": "2024-09-26",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/70634523/american-civil-liberties-union-foundation-v-united-states-immigration-and/"
+    },
+    {
+      "id": 69390144,
+      "caseName": "Wheatley v. DNP-Y, Inc.",
+      "docketNumber": "1:24-cv-07300",
+      "dateFiled": "2024-09-26",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/69390144/wheatley-v-dnp-y-inc/"
+    },
+    {
+      "id": 69199436,
+      "caseName": "American Civil Liberties Union Foundation v. United States Immigration and Customs Enforcement",
+      "docketNumber": "1:24-cv-07290",
+      "dateFiled": "2024-09-26",
+      "suitNature": "895 Freedom of Information Act",
+      "cause": "05:552 Freedom of Information Act",
+      "url": "https://www.courtlistener.com/docket/69199436/american-civil-liberties-union-foundation-v-united-states-immigration-and/"
+    },
+    {
+      "id": 69162743,
+      "caseName": "Kilkenny v. The Safety Group, Ltd.",
+      "docketNumber": "1:24-cv-06955",
+      "dateFiled": "2024-09-13",
+      "suitNature": "Labor: E.R.I.S.A.",
+      "cause": "29:1132 E.R.I.S.A.: Civil Enforcement of Employee Benefits",
+      "url": "https://www.courtlistener.com/docket/69162743/kilkenny-v-the-safety-group-ltd/"
+    },
+    {
+      "id": 69162318,
+      "caseName": "Brenner v. City Of New York",
+      "docketNumber": "1:24-cv-06949",
+      "dateFiled": "2024-09-13",
+      "suitNature": "440 Civil Rights: Other",
+      "cause": "42:1983 Civil Rights Act",
+      "url": "https://www.courtlistener.com/docket/69162318/brenner-v-city-of-new-york/"
+    },
+    {
+      "id": 69133376,
+      "caseName": "Mohamed v. City of New York",
+      "docketNumber": "1:24-cv-06742",
+      "dateFiled": "2024-09-05",
+      "suitNature": "710 Labor: Fair Standards",
+      "cause": "15:2(a) Fair Labor Standards Act",
+      "url": "https://www.courtlistener.com/docket/69133376/mohamed-v-city-of-new-york/"
+    },
+    {
+      "id": 69127747,
+      "caseName": "Potapova v. Experian Information Solutions Inc.",
+      "docketNumber": "1:24-cv-06703",
+      "dateFiled": "2024-09-04",
+      "suitNature": "Consumer Credit",
+      "cause": "15:1681 Fair Credit Reporting Act",
+      "url": "https://www.courtlistener.com/docket/69127747/potapova-v-experian-information-solutions-inc/"
+    },
+    {
+      "id": 69086558,
+      "caseName": "Select Research Ltd. v. Amazon.Com, Inc.",
+      "docketNumber": "1:24-cv-06419",
+      "dateFiled": "2024-08-26",
+      "suitNature": "880 Defend Trade Secrets Act (of 2016)",
+      "cause": "18:1836(b) Civil Action to Protect Trade Secrets",
+      "url": "https://www.courtlistener.com/docket/69086558/select-research-ltd-v-amazoncom-inc/"
+    },
+    {
+      "id": 69086187,
+      "caseName": "Prado-Demelo v. Droog",
+      "docketNumber": "1:24-cv-06411",
+      "dateFiled": "2024-08-26",
+      "suitNature": "Motor Vehicle",
+      "cause": "28:1441nr Notice of Removal",
+      "url": "https://www.courtlistener.com/docket/69086187/prado-demelo-v-droog/"
+    },
+    {
+      "id": 69066229,
+      "caseName": "Bracone v. Metro-North Commuter Railroad",
+      "docketNumber": "1:24-cv-06321",
+      "dateFiled": "2024-08-21",
+      "suitNature": "Federal Employer's Liability",
+      "cause": "45:51 Railways: Fed. Employer's Liability Act",
+      "url": "https://www.courtlistener.com/docket/69066229/bracone-v-metro-north-commuter-railroad/"
+    },
+    {
+      "id": 69390638,
+      "caseName": "Saunders v. Royal Leaf Club Dispensary Corp.",
+      "docketNumber": "1:24-cv-06208",
+      "dateFiled": "2024-08-16",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/69390638/saunders-v-royal-leaf-club-dispensary-corp/"
+    },
+    {
+      "id": 69172877,
+      "caseName": "United States v. MORRISON",
+      "docketNumber": "1:24-cr-00485",
+      "dateFiled": "2024-08-15",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/69172877/united-states-v-morrison/"
+    },
+    {
+      "id": 69021123,
+      "caseName": "Moments v. Adams",
+      "docketNumber": "1:24-cv-05973",
+      "dateFiled": "2024-07-30",
+      "suitNature": "Prisoner: Civil Rights",
+      "cause": "42:1983 Prisoner Civil Rights",
+      "url": "https://www.courtlistener.com/docket/69021123/moments-v-adams/"
+    },
+    {
+      "id": 68997870,
+      "caseName": "Simoni v. The First Rate Group LLC",
+      "docketNumber": "1:24-cv-05784",
+      "dateFiled": "2024-07-30",
+      "suitNature": "Labor: Fair Standards",
+      "cause": "29:216(b) FLSA:  Minimum wage or overtime compensation",
+      "url": "https://www.courtlistener.com/docket/68997870/simoni-v-the-first-rate-group-llc/"
+    },
+    {
+      "id": 69049009,
+      "caseName": "King Spider LLC. v. Foshanshibingjiehaoyi",
+      "docketNumber": "1:24-cv-05673",
+      "dateFiled": "2024-07-26",
+      "suitNature": "Trademark",
+      "cause": "15:1051 Trademark Infringement",
+      "url": "https://www.courtlistener.com/docket/69049009/king-spider-llc-v-foshanshibingjiehaoyi/"
+    },
+    {
+      "id": 68843047,
+      "caseName": "Phillips v. First Credit Services, Inc.",
+      "docketNumber": "1:24-cv-04440",
+      "dateFiled": "2024-06-10",
+      "suitNature": "Consumer Credit",
+      "cause": "15:1692 Fair Debt Collection Act",
+      "url": "https://www.courtlistener.com/docket/68843047/phillips-v-first-credit-services-inc/"
+    },
+    {
+      "id": 68843045,
+      "caseName": "Fager v. National Railroad Passenger Corporation",
+      "docketNumber": "1:24-cv-04432",
+      "dateFiled": "2024-06-10",
+      "suitNature": "P.I.: Other",
+      "cause": "28:1331pi Fed. Question:  Personal Injury",
+      "url": "https://www.courtlistener.com/docket/68843045/fager-v-national-railroad-passenger-corporation/"
+    },
+    {
+      "id": 69479873,
+      "caseName": "United States v. MORRIS",
+      "docketNumber": "1:24-cr-00358",
+      "dateFiled": "2024-06-05",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/69479873/united-states-v-morris/"
+    },
+    {
+      "id": 68700652,
+      "caseName": "Finkelstein v. Fox",
+      "docketNumber": "1:24-cv-04056",
+      "dateFiled": "2024-05-28",
+      "suitNature": "850 Securities/Commodities",
+      "cause": "15:78m(a) Securities Exchange Act",
+      "url": "https://www.courtlistener.com/docket/68700652/finkelstein-v-fox/"
+    },
+    {
+      "id": 68455011,
+      "caseName": "M. v. The City of New York",
+      "docketNumber": "1:24-cv-03001",
+      "dateFiled": "2024-04-18",
+      "suitNature": "Civil Rights: Other",
+      "cause": "42:1983 Civil Rights Act",
+      "url": "https://www.courtlistener.com/docket/68455011/m-v-the-city-of-new-york/"
+    },
+    {
+      "id": 68443853,
+      "caseName": "Sabic-El-Rayess v. Teachers College, Columbia University",
+      "docketNumber": "1:24-cv-02891",
+      "dateFiled": "2024-04-17",
+      "suitNature": "442 Civil Rights: Jobs",
+      "cause": "42:2000e-2rl Job Discrimination (religion)",
+      "url": "https://www.courtlistener.com/docket/68443853/sabic-el-rayess-v-teachers-college-columbia-university/"
+    },
+    {
+      "id": 68369267,
+      "caseName": "The Travelers Indemnity Company v. Starr Indemnity & Liability Company",
+      "docketNumber": "1:24-cv-02188",
+      "dateFiled": "2024-03-22",
+      "suitNature": "Insurance",
+      "cause": "28:1332jd Diversity-Declaratory Judgement",
+      "url": "https://www.courtlistener.com/docket/68369267/the-travelers-indemnity-company-v-starr-indemnity-liability-company/"
+    },
+    {
+      "id": 68335529,
+      "caseName": "Urena v. The City of New York",
+      "docketNumber": "1:24-cv-01886",
+      "dateFiled": "2024-03-12",
+      "suitNature": "Prisoner: Prison Condition",
+      "cause": "42:1983 Prisoner Civil Rights",
+      "url": "https://www.courtlistener.com/docket/68335529/urena-v-the-city-of-new-york/"
+    },
+    {
+      "id": 68271043,
+      "caseName": "Mohammed v. Leap Services, Inc.",
+      "docketNumber": "2:24-cv-01318",
+      "dateFiled": "2024-02-21",
+      "suitNature": "Labor: Fair Standards",
+      "cause": "28:1331 Fed. Question",
+      "url": "https://www.courtlistener.com/docket/68271043/mohammed-v-leap-services-inc/"
+    },
+    {
+      "id": 68216971,
+      "caseName": "The Travelers Indemnity Company v. Underwriters at Lloyd's, London (Lloyd's London)",
+      "docketNumber": "1:24-cv-00734",
+      "dateFiled": "2024-02-01",
+      "suitNature": "Insurance",
+      "cause": "28:1332jd Diversity-Declaratory Judgement",
+      "url": "https://www.courtlistener.com/docket/68216971/the-travelers-indemnity-company-v-underwriters-at-lloyds-london-lloyds/"
+    },
+    {
+      "id": 68203370,
+      "caseName": "Abreu Bautista v. Pagan-Rodriguez",
+      "docketNumber": "1:24-cv-00631",
+      "dateFiled": "2024-01-29",
+      "suitNature": "Motor Vehicle",
+      "cause": "28:1332pi Diversity-Personal Injury",
+      "url": "https://www.courtlistener.com/docket/68203370/abreu-bautista-v-pagan-rodriguez/"
+    },
+    {
+      "id": 68059901,
+      "caseName": "Olmo v. Matosleo",
+      "docketNumber": "1:23-cv-10510",
+      "dateFiled": "2023-12-01",
+      "suitNature": "Civil Rights: Other",
+      "cause": "18:241 Conspiracy Against Citizen Rights",
+      "url": "https://www.courtlistener.com/docket/68059901/olmo-v-matosleo/"
+    },
+    {
+      "id": 68043488,
+      "caseName": "United States v. CASTILLERO",
+      "docketNumber": "1:23-cr-00622",
+      "dateFiled": "2023-11-28",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/68043488/united-states-v-castillero/"
+    },
+    {
+      "id": 68043487,
+      "caseName": "United States v. CASTILLERO",
+      "docketNumber": "1:23-cr-00622",
+      "dateFiled": "2023-11-28",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/68043487/united-states-v-castillero/"
+    },
+    {
+      "id": 68002250,
+      "caseName": "Idrobo v. Microsoft",
+      "docketNumber": "1:23-cv-09999",
+      "dateFiled": "2023-11-14",
+      "suitNature": "Civil Rights: Other",
+      "cause": "42:1983 Civil Rights Act",
+      "url": "https://www.courtlistener.com/docket/68002250/idrobo-v-microsoft/"
+    },
+    {
+      "id": 67994898,
+      "caseName": "Minyety v. TCK Sankar LLC",
+      "docketNumber": "1:23-cv-09930",
+      "dateFiled": "2023-11-09",
+      "suitNature": "Labor: Fair Standards",
+      "cause": "29:216(b) FLSA:  Minimum wage or overtime compensation",
+      "url": "https://www.courtlistener.com/docket/67994898/minyety-v-tck-sankar-llc/"
+    },
+    {
+      "id": 67920961,
+      "caseName": "Ramos v. Palm West Corporation",
+      "docketNumber": "1:23-cv-09441",
+      "dateFiled": "2023-10-27",
+      "suitNature": "Civil Rights: Jobs",
+      "cause": "42:2000e-2e Job Discrimination (Unlawful Employment Practices)",
+      "url": "https://www.courtlistener.com/docket/67920961/ramos-v-palm-west-corporation/"
+    },
+    {
+      "id": 67691881,
+      "caseName": "Rizzo v. New York City Department of Sanitation",
+      "docketNumber": "1:23-cv-07190",
+      "dateFiled": "2023-08-14",
+      "suitNature": "Civil Rights: Other",
+      "cause": "28:1331ed Fed. Question: Employment Discrimination",
+      "url": "https://www.courtlistener.com/docket/67691881/rizzo-v-new-york-city-department-of-sanitation/"
+    },
+    {
+      "id": 67681384,
+      "caseName": "Antrobus v. New York City",
+      "docketNumber": "1:23-cv-07038",
+      "dateFiled": "2023-08-09",
+      "suitNature": "Prisoner: Prison Condition",
+      "cause": "42:1983 Prisoner Civil Rights",
+      "url": "https://www.courtlistener.com/docket/67681384/antrobus-v-new-york-city/"
+    },
+    {
+      "id": 70715315,
+      "caseName": "United States v. MALVASIO",
+      "docketNumber": "1:23-cr-00396",
+      "dateFiled": "2023-08-03",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/70715315/united-states-v-malvasio/"
+    },
+    {
+      "id": 69745165,
+      "caseName": "United States v. MALVASIO",
+      "docketNumber": "1:23-cr-00396",
+      "dateFiled": "2023-08-03",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/69745165/united-states-v-malvasio/"
+    },
+    {
+      "id": 67681895,
+      "caseName": "United States v. MALVASIO",
+      "docketNumber": "1:23-cr-00396",
+      "dateFiled": "2023-08-03",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/67681895/united-states-v-malvasio/"
+    },
+    {
+      "id": 67627011,
+      "caseName": "Frommer v. MoneyLion Technologies Inc.",
+      "docketNumber": "1:23-cv-06339",
+      "dateFiled": "2023-07-21",
+      "suitNature": "Contract: Other",
+      "cause": "28:1332oc Diversity-Other Contract",
+      "url": "https://www.courtlistener.com/docket/67627011/frommer-v-moneylion-technologies-inc/"
+    },
+    {
+      "id": 67503550,
+      "caseName": "The New York Times Company v. Department of Defense",
+      "docketNumber": "1:23-cv-05037",
+      "dateFiled": "2023-06-15",
+      "suitNature": "Freedom of Information Act",
+      "cause": "05:552 Freedom of Information Act",
+      "url": "https://www.courtlistener.com/docket/67503550/the-new-york-times-company-v-department-of-defense/"
+    },
+    {
+      "id": 69964778,
+      "caseName": "King Spider LLC v. 884886 CH Store",
+      "docketNumber": "1:23-cv-03472",
+      "dateFiled": "2023-04-24",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/69964778/king-spider-llc-v-884886-ch-store/"
+    },
+    {
+      "id": 67423399,
+      "caseName": "King Spider LLC v. 884886 CH Store",
+      "docketNumber": "1:23-cv-03472",
+      "dateFiled": "2023-04-24",
+      "suitNature": "Trademark",
+      "cause": "15:1051 Trademark Infringement",
+      "url": "https://www.courtlistener.com/docket/67423399/king-spider-llc-v-884886-ch-store/"
+    },
+    {
+      "id": 67194434,
+      "caseName": "United States v. WINKELBAUER",
+      "docketNumber": "1:23-cr-00133",
+      "dateFiled": "2023-03-13",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/67194434/united-states-v-winkelbauer/"
+    },
+    {
+      "id": 67173985,
+      "caseName": "United States v. WINKELBAUER",
+      "docketNumber": "1:23-cr-00133",
+      "dateFiled": "2023-03-13",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/67173985/united-states-v-winkelbauer/"
+    },
+    {
+      "id": 67173981,
+      "caseName": "United States v. WINKELBAUER",
+      "docketNumber": "1:23-cr-00133",
+      "dateFiled": "2023-03-13",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/67173981/united-states-v-winkelbauer/"
+    },
+    {
+      "id": 67907897,
+      "caseName": "United States v. Aminov",
+      "docketNumber": "1:23-cr-00110",
+      "dateFiled": "2023-02-28",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/67907897/united-states-v-aminov/"
+    },
+    {
+      "id": 66862114,
+      "caseName": "Makhnevich v. Arrowood Indemnity Company",
+      "docketNumber": "1:23-cv-01559",
+      "dateFiled": "2023-02-24",
+      "suitNature": "Other Statutory Actions",
+      "cause": "15:1692 Fair Debt Collection Act",
+      "url": "https://www.courtlistener.com/docket/66862114/makhnevich-v-arrowood-indemnity-company/"
+    },
+    {
+      "id": 66799643,
+      "caseName": "Pesic v. Mauritius International Arbitration Centre Limited",
+      "docketNumber": "1:23-cv-01100",
+      "dateFiled": "2023-02-07",
+      "suitNature": "P.I.: Other",
+      "cause": "28:1331 Fed. Question",
+      "url": "https://www.courtlistener.com/docket/66799643/pesic-v-mauritius-international-arbitration-centre-limited/"
+    },
+    {
+      "id": 73151714,
+      "caseName": "United States v. FORLIT",
+      "docketNumber": "1:22-cr-00645",
+      "dateFiled": "2022-11-30",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/73151714/united-states-v-forlit/"
+    },
+    {
+      "id": 73142561,
+      "caseName": "United States v. FORLIT",
+      "docketNumber": "1:22-cr-00645",
+      "dateFiled": "2022-11-30",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/73142561/united-states-v-forlit/"
+    },
+    {
+      "id": 66631390,
+      "caseName": "Kelly Toys Holdings LLC. v. 19885566 Store",
+      "docketNumber": "1:22-cv-09384",
+      "dateFiled": "2022-11-02",
+      "suitNature": "Trademark",
+      "cause": "15:1051 Trademark Infringement",
+      "url": "https://www.courtlistener.com/docket/66631390/kelly-toys-holdings-llc-v-19885566-store/"
+    },
+    {
+      "id": 63600894,
+      "caseName": "The People of the State of New York v. Arm or Ally, LLC",
+      "docketNumber": "1:22-cv-06124",
+      "dateFiled": "2022-07-18",
+      "suitNature": "Constitutional - State Statute",
+      "cause": "28:1441nr Notice of Removal",
+      "url": "https://www.courtlistener.com/docket/63600894/the-people-of-the-state-of-new-york-v-arm-or-ally-llc/"
+    },
+    {
+      "id": 63266318,
+      "caseName": "Securities and Exchange Commission v. Hwang",
+      "docketNumber": "1:22-cv-03402",
+      "dateFiled": "2022-04-27",
+      "suitNature": "850 Securities/Commodities",
+      "cause": "15:78m(a) Securities Exchange Act",
+      "url": "https://www.courtlistener.com/docket/63266318/securities-and-exchange-commission-v-hwang/"
+    },
+    {
+      "id": 63013059,
+      "caseName": "Toner v. City Of New York",
+      "docketNumber": "1:22-cv-01354",
+      "dateFiled": "2022-02-17",
+      "suitNature": "Civil Rights: Other",
+      "cause": "42:1983 Civil Rights Act",
+      "url": "https://www.courtlistener.com/docket/63013059/toner-v-city-of-new-york/"
+    },
+    {
+      "id": 69964473,
+      "caseName": "Kelly Toys Holdings, LLC. v. Alialialill Store",
+      "docketNumber": "1:21-cv-08434",
+      "dateFiled": "2021-10-13",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/69964473/kelly-toys-holdings-llc-v-alialialill-store/"
+    },
+    {
+      "id": 59963192,
+      "caseName": "Schulte v. United States of America",
+      "docketNumber": "1:21-cv-04042",
+      "dateFiled": "2021-06-01",
+      "suitNature": "Prisoner: Civil Rights",
+      "cause": "42:1983 Prisoner Civil Rights",
+      "url": "https://www.courtlistener.com/docket/59963192/schulte-v-united-states-of-america/"
+    },
+    {
+      "id": 18447443,
+      "caseName": "United States v. Williams",
+      "docketNumber": "1:20-cr-00491",
+      "dateFiled": "2020-09-17",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/18447443/united-states-v-williams/"
+    },
+    {
+      "id": 17508411,
+      "caseName": "United States v. Santana",
+      "docketNumber": "1:20-cr-00022",
+      "dateFiled": "2020-01-09",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/17508411/united-states-v-santana/"
+    },
+    {
+      "id": 16692209,
+      "caseName": "United States v. Santana",
+      "docketNumber": "1:20-cr-00022",
+      "dateFiled": "2020-01-09",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/16692209/united-states-v-santana/"
+    },
+    {
+      "id": 17508310,
+      "caseName": "United States v. Raji",
+      "docketNumber": "1:19-cr-00870",
+      "dateFiled": "2019-12-04",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/17508310/united-states-v-raji/"
+    },
+    {
+      "id": 17507760,
+      "caseName": "United States v. Blanco",
+      "docketNumber": "1:19-cr-00476",
+      "dateFiled": "2019-06-27",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/17507760/united-states-v-blanco/"
+    },
+    {
+      "id": 14562845,
+      "caseName": "The City of Philadelphia v. Bank of America Corporation",
+      "docketNumber": "1:19-cv-01608",
+      "dateFiled": "2019-02-20",
+      "suitNature": "Anti-Trust",
+      "cause": "15:1 Antitrust Litigation (Monopolizing Trade)",
+      "url": "https://www.courtlistener.com/docket/14562845/the-city-of-philadelphia-v-bank-of-america-corporation/"
+    },
+    {
+      "id": 7999065,
+      "caseName": "In Re: Zimmer M/L Taper Hip Prosthesis or M/L Taper Hip Prosthesis with Kinectiv Technology and Versys Femoral Head Products Liability Litigation",
+      "docketNumber": "1:18-md-02859",
+      "dateFiled": "2018-10-09",
+      "suitNature": "365 Personal Inj. Prod. Liability",
+      "cause": "28:1332t Diversity-Torts",
+      "url": "https://www.courtlistener.com/docket/7999065/in-re-zimmer-ml-taper-hip-prosthesis-or-ml-taper-hip-prosthesis-with/"
+    },
+    {
+      "id": 17503685,
+      "caseName": "United States v. Marmolejos",
+      "docketNumber": "1:18-cr-00303",
+      "dateFiled": "2018-04-25",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/17503685/united-states-v-marmolejos/"
+    },
+    {
+      "id": 71349342,
+      "caseName": "Luo v. Kaiyi Inc.",
+      "docketNumber": "1:18-cv-03101",
+      "dateFiled": "2018-04-08",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/71349342/luo-v-kaiyi-inc/"
+    },
+    {
+      "id": 74666274,
+      "caseName": "United States v. Rafatnejad",
+      "docketNumber": "1:18-cr-00094",
+      "dateFiled": "2018-02-07",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/74666274/united-states-v-rafatnejad/"
+    },
+    {
+      "id": 16690937,
+      "caseName": "United States v. Rafatnejad",
+      "docketNumber": "1:18-cr-00094",
+      "dateFiled": "2018-02-07",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/16690937/united-states-v-rafatnejad/"
+    },
+    {
+      "id": 6344220,
+      "caseName": "United States v. Rafatnejad",
+      "docketNumber": "1:18-cr-00094",
+      "dateFiled": "2018-02-07",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/6344220/united-states-v-rafatnejad/"
+    },
+    {
+      "id": 6344090,
+      "caseName": "United States v. Rafatnejad",
+      "docketNumber": "1:18-cr-00094",
+      "dateFiled": "2018-02-07",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/6344090/united-states-v-rafatnejad/"
+    },
+    {
+      "id": 6365581,
+      "caseName": "United States v. Zhang",
+      "docketNumber": "1:17-cr-00560",
+      "dateFiled": "2017-09-13",
+      "suitNature": null,
+      "cause": null,
+      "url": "https://www.courtlistener.com/docket/6365581/united-states-v-zhang/"
+    },
+    {
+      "id": 6377316,
+      "caseName": "The Duffy 2004 LLC v. AXA Equitable Life Insurance Company",
+      "docketNumber": "1:17-cv-04803",
+      "dateFiled": "2017-06-26",
+      "suitNature": "110 Insurance",
+      "cause": "28:1332bc Diversity-Breach of Contract",
+      "url": "https://www.courtlistener.com/docket/6377316/the-duffy-2004-llc-v-axa-equitable-life-insurance-company/"
+    }
+  ]
+}
