@@ -63,3 +63,21 @@ export function getJmfPosture(): Record<string, Posture> {
   if (!fs.existsSync(file)) return {};
   return (JSON.parse(fs.readFileSync(file, "utf8")) as { cases: Record<string, Posture> }).cases ?? {};
 }
+
+export type CaseParties = {
+  fetchedAt: string;
+  /** True when CourtListener has more parties/attorneys than were fetched (very large cases) */
+  more: boolean;
+  parties: {
+    name: string;
+    roles: { name: string; terminated: string | null }[];
+    attorneys: { name: string; role: string | null; contact: string | null }[];
+  }[];
+};
+
+/** Parties, their roles, and their attorneys for one case, if fetched yet. */
+export function getJmfParties(id: number | string): CaseParties | null {
+  const file = path.join(process.cwd(), "data", "jmf-parties", `${id}.json`);
+  if (!fs.existsSync(file)) return null;
+  return JSON.parse(fs.readFileSync(file, "utf8")) as CaseParties;
+}

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getJmfDocket, getJmfEntries, getJmfPosture } from "@/lib/jmfDocket";
+import { getJmfDocket, getJmfEntries, getJmfParties, getJmfPosture } from "@/lib/jmfDocket";
 
 type Props = { params: Promise<{ id: string }> };
 
@@ -27,6 +27,7 @@ export default async function CasePage({ params }: Props) {
   if (!c) notFound();
   const p = getJmfPosture()[id];
   const history = getJmfEntries(id);
+  const parties = getJmfParties(id);
 
   const facts: [string, React.ReactNode][] = [
     ["Last updated", moment(c.lastUpdated)],
@@ -40,9 +41,13 @@ export default async function CasePage({ params }: Props) {
     ["Jury demand", c.juryDemand],
     ["Jurisdiction type", c.jurisdictionType],
     ["Posture (est.)", p?.stage],
-    ["Parties", c.parties?.length ? c.parties.join("; ") : null],
-    ["Attorneys", c.attorneys?.length ? c.attorneys.join("; ") : null],
-    ["Firms", c.firms?.length ? c.firms.join("; ") : null],
+    ...((parties
+      ? []
+      : [
+          ["Parties", c.parties?.length ? c.parties.join("; ") : null],
+          ["Attorneys", c.attorneys?.length ? c.attorneys.join("; ") : null],
+          ["Firms", c.firms?.length ? c.firms.join("; ") : null],
+        ]) as [string, React.ReactNode][]),
   ];
 
   return (
@@ -64,6 +69,46 @@ export default async function CasePage({ params }: Props) {
             </div>
           ))}
       </dl>
+
+      {parties && parties.parties.length > 0 && (
+        <section aria-labelledby="parties-h" className="mt-16">
+          <h2 id="parties-h" className="display text-3xl">Parties and attorneys</h2>
+          <ul className="mt-6 border-t border-line">
+            {parties.parties.map((party, i) => (
+              <li key={i} className="grid gap-4 border-b border-line py-5 md:grid-cols-12 md:gap-6">
+                <div className="md:col-span-5">
+                  <p className="font-medium">{party.name}</p>
+                  <p className="mt-1 text-sm text-muted">
+                    {party.roles
+                      .map((r) => (r.terminated ? `${r.name} · terminated ${day(r.terminated)}` : r.name))
+                      .join("; ") || "Role not listed"}
+                  </p>
+                </div>
+                <div className="md:col-span-7">
+                  {party.attorneys.length === 0 ? (
+                    <p className="text-sm text-muted">No attorney listed</p>
+                  ) : (
+                    <ul className="space-y-3">
+                      {party.attorneys.map((a, j) => (
+                        <li key={j} className="text-sm">
+                          <span>{a.name}</span>
+                          {a.role && <span className="text-muted"> · {a.role}</span>}
+                          {a.contact && <p className="mt-0.5 whitespace-pre-line text-xs text-muted">{a.contact}</p>}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              </li>
+            ))}
+          </ul>
+          {parties.more && (
+            <p className="mt-3 text-sm text-muted">
+              This case has more parties than shown here. <a href={c.url} className="link" rel="noopener" target="_blank">See them all on CourtListener ↗</a>
+            </p>
+          )}
+        </section>
+      )}
 
       <section aria-labelledby="entries-h" className="mt-16">
         <div className="flex flex-wrap items-baseline justify-between gap-4">
