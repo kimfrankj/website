@@ -25,7 +25,7 @@ export function ProjectRow({ project, index, level = 2 }: { project: Entry<Proje
           <Heading className="display text-2xl transition-colors group-hover:text-accent md:col-span-6 md:text-3xl">
             {project.title}
           </Heading>
-          <p className="label md:col-span-2 md:pt-2 md:text-right">{project.status} · {project.year}</p>
+          <p className="label whitespace-nowrap md:col-span-3 md:pt-2 md:text-right">{project.status} · {project.year}</p>
         </div>
       </Link>
     </Reveal>
