@@ -11,10 +11,6 @@ export default function Home() {
     <section className="wrap pt-16 pb-24 md:pt-28 md:pb-36">
       {/* The page's <h1> is the name in the header (see Brand) */}
       <p className="display text-hero max-w-3xl">Welcome to my sandbox.</p>
-      <p className="label mt-6 max-w-2xl leading-relaxed">
-        Yale Law School · Stanford Graduate School of Business · Knight-Hennessy Scholar · U.S. Naval Academy
-      </p>
-
       <ul className="mt-16 md:mt-24">
         {index.map((item, i) => (
           <li key={item.href} className="ruled ruled-last">
