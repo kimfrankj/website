@@ -34,7 +34,7 @@ export default function About() {
             <div className="text-sm sm:grid sm:grid-cols-3 sm:gap-4 sm:text-base md:max-w-md">
               <div className="sm:col-span-2 sm:col-start-2">
                 <p aria-hidden="true" className="-mt-5 py-2 md:-mt-6">·</p>
-                <p>Underwater<br />Somewhere in the Pacific</p>
+                <p>Underwater Somewhere<br />Pacific Ocean</p>
               </div>
             </div>
           </div>
