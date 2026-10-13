@@ -33,7 +33,7 @@ export default function About() {
             {/* Lines up with the place names above; the dot centers over the words below it */}
             <div className="text-sm sm:grid sm:grid-cols-3 sm:gap-4 sm:text-base md:max-w-md">
               <div className="w-fit sm:col-span-2 sm:col-start-2">
-                <p aria-hidden="true" className="py-5 text-center md:py-6">·</p>
+                <p aria-hidden="true" className="py-1 text-center">·</p>
                 <p>Underwater<br />Pacific Ocean</p>
               </div>
             </div>
