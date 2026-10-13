@@ -30,11 +30,12 @@ export default function About() {
               ))}
             </dl>
 
-            <p aria-hidden="true" className="py-5 text-center md:max-w-md md:py-6">·</p>
-
-            {/* Lines up with the values in the list above */}
+            {/* Lines up with the place names above; the dot centers over the words below it */}
             <div className="text-sm sm:grid sm:grid-cols-3 sm:gap-4 sm:text-base md:max-w-md">
-              <p className="sm:col-span-2 sm:col-start-2">Underwater<br />Pacific Ocean</p>
+              <div className="w-fit sm:col-span-2 sm:col-start-2">
+                <p aria-hidden="true" className="py-5 text-center md:py-6">·</p>
+                <p>Underwater<br />Pacific Ocean</p>
+              </div>
             </div>
           </div>
         </div>
