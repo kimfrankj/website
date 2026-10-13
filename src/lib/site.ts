@@ -4,13 +4,10 @@
  */
 export const site = {
   name: "Frank Kim",
-  description: "Frank Kim. Projects and writing.",
-  // Set NEXT_PUBLIC_SITE_URL in Vercel once the GoDaddy domain is connected.
-  // Until then Vercel's own production URL is used, then a placeholder.
-  url: (
-    process.env.NEXT_PUBLIC_SITE_URL ??
-    (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : "https://[YOUR-DOMAIN].com")
-  ).replace(/\/$/, ""),
+  description:
+    "Frank Kim: Yale Law School, Stanford GSB, Knight-Hennessy Scholar, and former Navy nuclear submarine officer working across law, capital, and deep tech.",
+  // The canonical production domain. Every absolute URL (metadata, sitemap, schema) is built from this.
+  url: (process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.frankjkim.com").replace(/\/$/, ""),
   email: "kimfrancisj@gmail.com",
   links: {
     linkedin: "https://www.linkedin.com/in/francis-j-kim/",

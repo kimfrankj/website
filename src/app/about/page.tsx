@@ -20,15 +20,21 @@ export default function About() {
 
             <dl className="mt-8 text-sm sm:text-base md:mt-16 md:max-w-md">
               {[
-                ["Currently", "New Haven & New York."],
-                ["Previously", "Palo Alto."],
-              ].map(([label, value]) => (
+                ["Currently", "Yale Law School", "New Haven & New York"],
+                ["Previously", "Stanford GSB", "Palo Alto"],
+              ].map(([label, place, city]) => (
                 <div key={label} className="ruled ruled-last gap-1 py-5 sm:grid sm:grid-cols-3 sm:gap-4 md:py-6">
                   <dt className="label sm:pt-1">{label}</dt>
-                  <dd className="sm:col-span-2">{value}</dd>
+                  <dd className="sm:col-span-2">{place}<br />{city}</dd>
                 </div>
               ))}
             </dl>
+
+            {/* The dot and the last entry line up with the values in the list above */}
+            <div className="text-sm sm:grid sm:grid-cols-3 sm:gap-4 sm:text-base md:max-w-md">
+              <p aria-hidden="true" className="py-5 sm:col-span-2 sm:col-start-2 md:py-6">·</p>
+              <p className="sm:col-span-2 sm:col-start-2">Underwater<br />Pacific Ocean</p>
+            </div>
           </div>
         </div>
 
