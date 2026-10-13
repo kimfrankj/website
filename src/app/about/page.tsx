@@ -30,10 +30,10 @@ export default function About() {
               ))}
             </dl>
 
-            {/* Lines up with the place names above; the dot centers over the words below it */}
+            {/* The dot and the last entry line up with the place names above */}
             <div className="text-sm sm:grid sm:grid-cols-3 sm:gap-4 sm:text-base md:max-w-md">
-              <div className="w-fit sm:col-span-2 sm:col-start-2">
-                <p aria-hidden="true" className="-mt-5 py-2 text-center md:-mt-6">·</p>
+              <div className="sm:col-span-2 sm:col-start-2">
+                <p aria-hidden="true" className="-mt-5 py-2 md:-mt-6">·</p>
                 <p>Underwater<br />Somewhere in the Pacific</p>
               </div>
             </div>
