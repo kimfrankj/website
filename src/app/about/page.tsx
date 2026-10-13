@@ -30,9 +30,10 @@ export default function About() {
               ))}
             </dl>
 
-            {/* The dot and the last entry line up with the values in the list above */}
+            <p aria-hidden="true" className="py-5 text-center md:max-w-md md:py-6">·</p>
+
+            {/* Lines up with the values in the list above */}
             <div className="text-sm sm:grid sm:grid-cols-3 sm:gap-4 sm:text-base md:max-w-md">
-              <p aria-hidden="true" className="py-5 sm:col-span-2 sm:col-start-2 md:py-6">·</p>
               <p className="sm:col-span-2 sm:col-start-2">Underwater<br />Pacific Ocean</p>
             </div>
           </div>
