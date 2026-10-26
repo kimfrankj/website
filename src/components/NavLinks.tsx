@@ -10,7 +10,7 @@ import { Roll } from "@/components/Roll";
 export function NavLinks() {
   const path = usePathname();
   return (
-    <ul className="flex gap-4 sm:gap-8">
+    <ul className="flex flex-wrap gap-x-[0.7rem] gap-y-1 sm:gap-8">
       {nav.map((n) => {
         const current = path === n.href || path.startsWith(`${n.href}/`);
         return (
