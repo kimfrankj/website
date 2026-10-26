@@ -35,7 +35,7 @@ export default function Home() {
         </div>
 
         <div className="rise-in mt-[5vh]" style={{ "--i": 4 } as React.CSSProperties}>
-          <Marquee words={["Deep Tech", "AI", "Law"]} />
+          <Marquee words={["Deep Tech", "Law", "Tech House", "AI"]} />
         </div>
 
         {/* Set like a book's contents page: each entry starts at its own indent, a leader line runs
