@@ -21,7 +21,7 @@ export default async function Unlock({ searchParams }: { searchParams: Promise<{
         <div className="legible relative z-10 col-[1/span_7] row-start-1 md:col-[1/span_6]">
           {/* The current threads from the title down to the password */}
           <Current />
-          <PageTitle text={title} href={title === "Private" ? undefined : `/${title.toLowerCase()}`} className="mb-[6vh]" />
+          <PageTitle text={title} className="mb-[6vh]" />
           <form action="/api/unlock" method="post" data-node>
             <input type="hidden" name="next" value={target} />
             <label htmlFor="password" className="label block">Password</label>

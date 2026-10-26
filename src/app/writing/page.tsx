@@ -21,7 +21,7 @@ export default function Writing() {
         <div className="legible relative z-10 col-[1/span_7] row-start-1 flex flex-col md:col-[1/span_6]">
           {/* The current threads down through the title and every entry */}
           <Current />
-          <PageTitle text="Writing" href="/writing" />
+          <PageTitle text="Writing" />
 
           <div className="flex flex-1 flex-col justify-center py-[4vh]">
             {posts.length === 0 ? (

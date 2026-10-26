@@ -27,15 +27,10 @@ export default function Home() {
               <span className="full-stop">.</span>
             </span>
           </p>
-          {/* Home is page (00); the other pages run (01) to (04) in nav order. Hidden on phones to save the room */}
-          <p className="rise-in label hidden md:col-span-2 md:block md:pb-6 md:text-right" style={{ "--i": 3 } as React.CSSProperties}>
-            Home<br />
-            <span className="text-ink">(00)</span>
-          </p>
         </div>
 
         <div className="rise-in mt-[5vh]" style={{ "--i": 4 } as React.CSSProperties}>
-          <Marquee words={["Deep Tech", "Law", "Tech House", "AI"]} />
+          <Marquee words={["Deep Tech", "Law", "AI"]} />
         </div>
 
         {/* Set like a book's contents page: each entry starts at its own indent, a leader line runs

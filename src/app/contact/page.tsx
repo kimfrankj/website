@@ -21,7 +21,7 @@ export default function Contact() {
   return (
     <div className="wrap relative isolate pt-[5vh] md:pt-[7vh]">
       <Current />
-      <PageTitle text="Contact" href="/contact" />
+      <PageTitle text="Contact" />
       <ul className="index mt-[6vh]">
         {rows.map(([text, href], i) => (
           <li key={href} style={{ "--i": i } as React.CSSProperties}>

@@ -1,20 +1,10 @@
-import { nav } from "@/lib/site";
 import { Words } from "@/components/Words";
 
-/**
- * An oversized page title with its place in the site's index set small beside it, e.g. Projects ⁽⁰²⁾.
- * The number is the page's position in the nav, where Home is (00).
- */
-export function PageTitle({ text, href, className = "" }: { text: string; href?: string; className?: string }) {
-  const n = nav.findIndex((item) => item.href === href);
+/** An oversized page title whose words rise in one after another. */
+export function PageTitle({ text, className = "" }: { text: string; className?: string }) {
   return (
     <h1 data-node className={`words display text-title whitespace-nowrap ${className}`}>
       <Words text={text} />
-      {n >= 0 && (
-        <sup className="rise-in label ml-2 align-top font-sans text-[0.7rem] !text-accent md:ml-3" style={{ "--i": 1 } as React.CSSProperties}>
-          ({String(n).padStart(2, "0")})
-        </sup>
-      )}
     </h1>
   );
 }
