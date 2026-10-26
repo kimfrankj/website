@@ -26,7 +26,7 @@ export default function Contact() {
         {rows.map(([text, href], i) => (
           <li key={href} style={{ "--i": i } as React.CSSProperties}>
             <a data-node href={href} rel="noopener" className="index-link group">
-              <span className="index-word display text-giant">{text}</span>
+              <span className="index-word display text-[length:clamp(1.5rem,min(3.4vw,5vh),3rem)]">{text}</span>
               <span aria-hidden="true" className="index-leader" />
             </a>
           </li>
