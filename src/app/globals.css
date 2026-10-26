@@ -383,6 +383,24 @@ body::after {
 }
 /* Veins drift along their line, like the travertine on the home page */
 @keyframes vein-flow { to { background-position-x: -240px; } }
+/* A text field written onto a line of veins (the password page), rust while it's active */
+.vein-field { position: relative; display: inline-block; }
+.vein-field::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  height: 12px;
+  background: var(--vein) repeat-x 0 50% / 240px 12px;
+  opacity: 0.75;
+  pointer-events: none;
+  animation: vein-flow 18s linear infinite;
+  transition: opacity 0.3s;
+}
+.vein-field:focus-within::after { background-image: var(--vein-hot); opacity: 1; }
+/* The rust vein is the focus indicator here, so no outline box */
+.vein-field input:focus-visible { outline: none; }
 /* A horizontal rule drawn as veins */
 .vein-rule { position: relative; }
 .vein-rule::before {
@@ -536,7 +554,7 @@ body::after {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .vein-rule::before, .marquee::before, .marquee::after, .now-playing, .eq span, .current-strand, .current-node, .marquee-track, .typing span, .side-rail, .side-rail-section, .index > *, .index-leader { animation: none; }
+  .vein-field::after, .vein-rule::before, .marquee::before, .marquee::after, .now-playing, .eq span, .current-strand, .current-node, .marquee-track, .typing span, .side-rail, .side-rail-section, .index > *, .index-leader { animation: none; }
   .index-link, .index-ghost { transition: none; }
   .curtain { display: none; }
   .travertine { animation: none; }

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { safeNext } from "@/lib/auth";
 import { SidePicture } from "@/components/SidePicture";
 import { PageTitle } from "@/components/PageTitle";
+import { Current } from "@/components/Current";
 
 export const metadata: Metadata = {
   title: "Private",
@@ -18,24 +19,28 @@ export default async function Unlock({ searchParams }: { searchParams: Promise<{
     <div className="wrap pt-[5vh] md:pt-[7vh]">
       <div className="grid grid-cols-12">
         <div className="legible relative z-10 col-[1/span_7] row-start-1 md:col-[1/span_6]">
+          {/* The current threads from the title down to the password */}
+          <Current />
           <PageTitle text={title} href={title === "Private" ? undefined : `/${title.toLowerCase()}`} className="mb-[6vh]" />
-          <form action="/api/unlock" method="post">
+          <form action="/api/unlock" method="post" data-node>
             <input type="hidden" name="next" value={target} />
             <label htmlFor="password" className="label block">Password</label>
-            {/* Box and Enter sit side by side */}
-            <div className="mt-2 flex items-center gap-4">
-              <input
-                id="password"
-                name="password"
-                type="password"
-                required
-                autoFocus
-                autoComplete="current-password"
-                aria-describedby={error ? "pw-error" : undefined}
-                aria-invalid={error ? true : undefined}
-                className="w-32 rounded-none border border-line bg-transparent px-3 py-1 text-base outline-none focus:border-ink sm:w-48"
-              />
-              <button type="submit" className="label link-quiet whitespace-nowrap py-1.5 !text-ink">Enter →</button>
+            {/* No box: the password is typed onto a line of veins, which turns rust while it's active */}
+            <div className="mt-3 flex items-end gap-5">
+              <span className="vein-field">
+                <input
+                  id="password"
+                  name="password"
+                  type="password"
+                  required
+                  autoFocus
+                  autoComplete="current-password"
+                  aria-describedby={error ? "pw-error" : undefined}
+                  aria-invalid={error ? true : undefined}
+                  className="w-40 rounded-none bg-transparent pb-1 text-lg outline-none sm:w-56"
+                />
+              </span>
+              <button type="submit" className="label link-quiet whitespace-nowrap py-1.5 !text-ink">Enter</button>
             </div>
             {error && <p id="pw-error" role="alert" className="mt-3 text-accent">That password didn’t work.</p>}
           </form>
