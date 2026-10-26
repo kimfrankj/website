@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { site, isPlaceholder } from "@/lib/site";
+import { PageTitle } from "@/components/PageTitle";
+import { Current } from "@/components/Current";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -16,16 +18,19 @@ export default function Contact() {
   const rows = all.filter(([, text]) => !isPlaceholder(text));
 
   return (
-    <div className="wrap pt-16 md:pt-28">
-      <h1 className="display text-title">Contact</h1>
-      <ul className="mt-16 md:mt-24">
-        {rows.map(([label, text, href]) => (
-          <li key={label} className="border-t border-line last:border-b">
-            <a href={href} rel="noopener" className="group flex items-baseline justify-between gap-6 py-5">
-              <span className="label">{label}</span>
-              <span className="font-display text-2xl transition-colors group-hover:text-accent md:text-3xl">
-                {text.replace(/^https?:\/\/(www\.)?/, "")} <span aria-hidden="true">↗</span>
+    <div className="wrap relative isolate pt-16 md:pt-28">
+      <Current />
+      <PageTitle text="Contact" href="/contact" />
+      <ul className="index mt-16 md:mt-24">
+        {rows.map(([label, text, href], i) => (
+          <li key={label} style={{ "--i": i } as React.CSSProperties}>
+            <a data-node href={href} rel="noopener" className="index-link group">
+              <span className="label w-16 shrink-0 font-sans md:w-20">{label}</span>
+              <span className="index-word display min-w-0 break-all text-[length:clamp(1.5rem,4.6vw,4rem)]">
+                {text.replace(/^https?:\/\/(www\.)?/, "")}
               </span>
+              <span aria-hidden="true" className="index-leader" />
+              <span aria-hidden="true" className="nudge-up inline-block shrink-0 font-display text-2xl md:text-4xl">↗</span>
             </a>
           </li>
         ))}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { safeNext } from "@/lib/auth";
 import { SidePicture } from "@/components/SidePicture";
+import { PageTitle } from "@/components/PageTitle";
 
 export const metadata: Metadata = {
   title: "Private",
@@ -16,8 +17,8 @@ export default async function Unlock({ searchParams }: { searchParams: Promise<{
   return (
     <div className="wrap pt-16 md:pt-28">
       <div className="grid grid-cols-12">
-        <div className="relative z-10 col-span-7 col-start-1 row-start-1 md:col-span-6">
-          <h1 className="display text-title mb-16 md:mb-24">{title}</h1>
+        <div className="legible relative z-10 col-[1/span_7] row-start-1 md:col-[1/span_6]">
+          <PageTitle text={title} href={title === "Private" ? undefined : `/${title.toLowerCase()}`} className="mb-16 md:mb-24" />
           <form action="/api/unlock" method="post">
             <input type="hidden" name="next" value={target} />
             <label htmlFor="password" className="label block">Password</label>
@@ -43,6 +44,7 @@ export default async function Unlock({ searchParams }: { searchParams: Promise<{
         {title === "Projects" && (
           <SidePicture
             src="/projects/skyline.webp"
+            size={[1000, 1498]}
             alt="Painted view of the New York City skyline with the Empire State Building in soft evening light"
             position="50% 65%"
           />
@@ -50,9 +52,9 @@ export default async function Unlock({ searchParams }: { searchParams: Promise<{
         {title === "Writing" && (
           <SidePicture
             src="/writing/painted-ladies.webp"
+            size={[900, 1064]}
             alt="Painted view of San Francisco's Painted Ladies Victorian houses, with the city skyline behind a cypress tree"
             position="50% 50%"
-            fadeSides={26}
           />
         )}
       </div>

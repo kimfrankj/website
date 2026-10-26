@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import { SidePicture } from "@/components/SidePicture";
+import { Words } from "@/components/Words";
+import { PageTitle } from "@/components/PageTitle";
+import { Current } from "@/components/Current";
 
 export const metadata: Metadata = {
   title: "About",
@@ -12,36 +15,45 @@ export default function About() {
       {/* One row: the words on the left, the portrait on the right, reaching up close to the nav bar.
           The portrait's soft left edge tucks under the text at every screen size. */}
       <div className="grid grid-cols-12">
-        <div className="relative z-10 col-span-7 col-start-1 row-start-1 flex flex-col md:col-span-6">
-          <h1 className="display text-title">About</h1>
+        <div className="legible relative z-10 col-[1/span_7] row-start-1 flex flex-col md:col-[1/span_6]">
+          {/* The current threads down through the title and every entry */}
+          <Current />
+          <PageTitle text="About" href="/about" />
 
           <div className="flex flex-1 flex-col justify-center py-10">
-            <p className="display whitespace-nowrap text-[length:clamp(1.25rem,3.6vw,2.75rem)]">Building…</p>
+            {/* Italic, with the ellipsis typing itself out over and over */}
+            <p data-node className="words display whitespace-nowrap text-[length:clamp(1.5rem,4.4vw,3.5rem)]">
+              <em><Words text="Building something" delay={250} /></em>
+              <span className="typing"><span>.</span><span>.</span><span>.</span></span>
+            </p>
 
-            <dl className="mt-8 text-sm sm:text-base md:mt-16 md:max-w-md">
+            {/* Where I am and was: loose notes at staggered indents, each a small label,
+                then the places in large italic with the city beneath, newest first */}
+            <dl className="index mt-8 md:mt-14">
               {[
-                ["Currently", "Yale Law School", "New Haven & New York"],
-                ["Previously", "Stanford GSB", "Palo Alto"],
-              ].map(([label, place, city]) => (
-                <div key={label} className="ruled ruled-last gap-1 py-5 sm:grid sm:grid-cols-3 sm:gap-4 md:py-6">
-                  <dt className="label sm:pt-1">{label}</dt>
-                  <dd className="sm:col-span-2">{place}<br />{city}</dd>
+                { label: "Currently", places: [["Yale Law School", "New Haven & New York"]] },
+                { label: "Previously", places: [["Stanford GSB", "Palo Alto"], ["Underwater", "Pacific Ocean"]] },
+              ].map(({ label, places }, i) => (
+                <div key={label} style={{ "--i": i, "--start": "0.6s" } as React.CSSProperties} className="py-3 md:py-4">
+                  <dt className="label font-sans">{label}</dt>
+                  {places.map(([place, city]) => (
+                    <dd key={place} className="mt-1 [&+dd]:mt-4">
+                      <span data-node className="display block text-[length:clamp(1.4rem,3vw,2.5rem)] italic leading-[1.05]">{place}</span>
+                      <span className="mt-1 flex items-center gap-2 text-sm sm:text-base">
+                        <span aria-hidden="true" className="index-leader !mt-0 w-6 !flex-none" />
+                        {city}
+                      </span>
+                    </dd>
+                  ))}
                 </div>
               ))}
             </dl>
-
-            {/* The dot and the last entry line up with the place names above */}
-            <div className="text-sm sm:grid sm:grid-cols-3 sm:gap-4 sm:text-base md:max-w-md">
-              <div className="sm:col-span-2 sm:col-start-2">
-                <p aria-hidden="true" className="-mt-5 py-2 md:-mt-6">·</p>
-                <p>Underwater Somewhere<br />Pacific Ocean</p>
-              </div>
-            </div>
           </div>
         </div>
 
         <SidePicture
           src="/about/portrait-wall.png"
+          size={[940, 1500]}
           alt="Painted portrait of Frank Kim, arms crossed, in a white shirt, leaning against a stone archway"
           position="50% 34%"
         />

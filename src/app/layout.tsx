@@ -5,6 +5,8 @@ import { site } from "@/lib/site";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Motion } from "@/components/Motion";
+import { SideRail } from "@/components/SideRail";
+import { NowPlaying } from "@/components/NowPlaying";
 import "./globals.css";
 
 const display = Instrument_Serif({
@@ -60,6 +62,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Header />
           <main id="main" className="flex-1">{children}</main>
           <Footer />
+          <SideRail />
+          <NowPlaying />
         </Motion>
         <Analytics />
       </body>

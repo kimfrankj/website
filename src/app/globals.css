@@ -9,6 +9,11 @@
   --muted: #655c50;
   --line: #d6ccbc;
   --accent: #9c4426;
+  /* Shared easing: a quick start that glides to a stop */
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  /* When page content starts entering: just as the curtain clears */
+  --enter: 0.45s;
   color-scheme: light;
 }
 
@@ -22,12 +27,15 @@
   --font-display: var(--font-instrument), "Times New Roman", serif;
   --font-sans: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
   --text-hero: clamp(2.75rem, 6.5vw, 5.5rem);
-  --text-title: clamp(2.25rem, 4.5vw, 3.75rem);
+  --text-title: clamp(3rem, 8vw, 7.5rem);
+  --text-mega: clamp(3rem, 9.5vw, 9rem);
+  --text-giant: clamp(2.75rem, 7.5vw, 7rem);
   --text-lead: clamp(1.25rem, 2vw, 1.625rem);
 }
 
 html {
   background: var(--bg);
+  overflow-x: clip;
   scroll-behavior: smooth;
 }
 body {
@@ -41,6 +49,18 @@ body {
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
+}
+
+/* A whisper of paper grain over everything, like the travertine it's named after */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  pointer-events: none;
+  opacity: 0.05;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
 ::selection { background: var(--accent); color: var(--bg); }
@@ -81,6 +101,20 @@ body {
   transition: background-size 0.35s cubic-bezier(0.2, 0.7, 0.2, 1), color 0.2s;
 }
 .link-quiet:hover, .link-quiet:focus-visible { background-size: 100% 1px; }
+/* The page you're on: underline stays, with an accent dot above it */
+.nav-link[aria-current="page"] { position: relative; background-size: 100% 1px; }
+.nav-link[aria-current="page"]::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -0.2rem;
+  width: 4px;
+  height: 4px;
+  margin-left: -2px;
+  border-radius: 50%;
+  background: var(--accent);
+  animation: pop 0.5s var(--ease-expo) both;
+}
 .link:hover { color: var(--accent); background-size: 0% 1px; background-position: 100% 100%; }
 
 .skip {
@@ -132,23 +166,351 @@ body {
 .prose-site :where(blockquote p:last-of-type)::after { content: none; }
 .prose-site :where(a) { text-underline-offset: 4px; }
 
+/* ---------- Motion ----------
+   Everything below is CSS, so it plays before JavaScript loads, and it is all
+   switched off for visitors who prefer reduced motion (last block). */
+
 @keyframes page-enter {
-  from { opacity: 0; transform: translateY(12px); }
+  from { opacity: 0; transform: translateY(8px); }
   to { opacity: 1; transform: none; }
 }
-.page-enter { animation: page-enter 0.6s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
-@media (prefers-reduced-motion: reduce) {
-  .page-enter { animation: none; }
+.page-enter { animation: page-enter 0.6s var(--ease-out) both; }
+
+/* Header settles down from above on first load (the layout persists, so only once) */
+.header-in { animation: header-in 0.9s var(--ease-expo) both; }
+@keyframes header-in {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: none; }
 }
 
-/* Side pictures: rise in gently and dissolve into the page at the top and bottom */
-.portrait-cutout {
-  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 12%, #000 78%, transparent 100%);
-  mask-image: linear-gradient(to bottom, transparent 0%, #000 12%, #000 78%, transparent 100%);
-  animation: rise 1.2s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s both;
+/* Headings: each word rises from behind a mask, one after another (see Words) */
+.words .word {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+  /* Room for descenders and italics so the mask doesn't clip them */
+  padding: 0 0.04em 0.14em;
+  margin: 0 -0.04em -0.14em;
 }
+.words .word > span {
+  display: inline-block;
+  animation: word-up 1.1s var(--ease-expo) both;
+  animation-delay: calc(var(--enter) + var(--d, 0ms) + var(--i) * 80ms);
+}
+@keyframes word-up {
+  from { transform: translateY(110%) rotate(2deg); }
+  to { transform: none; }
+}
+/* Home headline's full stop lands last, in the accent colour */
+.full-stop {
+  display: inline-block;
+  color: var(--accent);
+  animation: pop 0.7s var(--ease-expo) calc(var(--enter) + 0.6s) both;
+}
+@keyframes pop {
+  from { opacity: 0; transform: scale(0); }
+  to { opacity: 1; transform: none; }
+}
+
+/* Index rows: a hairline draws across above each row, then the row rises in */
+.rule-row {
+  position: relative;
+  animation: page-enter 0.9s var(--ease-expo) both;
+  animation-delay: calc(var(--enter) + 0.3s + var(--i, 0) * 90ms);
+}
+.rule-row::before,
+.rule-row:last-child::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: var(--line);
+  transform-origin: left;
+  animation: draw 1.2s var(--ease-expo) both;
+  animation-delay: calc(var(--enter) + 0.2s + var(--i, 0) * 90ms);
+}
+.rule-row::before { top: 0; }
+.rule-row:last-child::after { bottom: 0; animation-delay: calc(var(--enter) + 0.29s + var(--i, 0) * 90ms); }
+@keyframes draw {
+  from { transform: scaleX(0); }
+  to { transform: none; }
+}
+
+/* Plain staggered rise, for rows without a rule */
+.rise-in {
+  animation: page-enter 0.9s var(--ease-expo) both;
+  animation-delay: calc(var(--enter) + 0.3s + var(--i, 0) * 90ms);
+}
+
+/* Hover: the surface colour sweeps in from the left behind the row */
+.sweep { position: relative; isolation: isolate; }
+.sweep::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--surface);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.6s var(--ease-expo);
+}
+.sweep:hover::before, .sweep:focus-visible::before { transform: none; transform-origin: left; }
+/* Arrows lean toward where they go */
+.nudge, .nudge-up { transition: transform 0.5s var(--ease-expo); }
+.group:hover .nudge, .group:focus-visible .nudge { transform: translateX(0.4rem); }
+.group:hover .nudge-up, .group:focus-visible .nudge-up { transform: translate(0.2rem, -0.2rem); }
+
+/* On phones the words overlap the side painting a little; a soft halo of paper keeps them readable */
+@media (max-width: 767px) {
+  .legible { text-shadow: 0 0 4px var(--bg), 0 0 10px var(--bg), 0 0 18px var(--bg); }
+}
+
+/* Side paintings (see SidePicture): rise in, and reach off the right edge of the screen */
+.painted { animation: rise 1.4s var(--ease-out) calc(var(--enter) + 0.1s) both; }
+.bleed-right { margin-right: calc(-1 * (max(0px, (100vw - 72rem) / 2) + clamp(1.25rem, 4vw, 4rem))); }
 @keyframes rise {
   from { opacity: 0; transform: translateY(24px); }
   to { opacity: 1; transform: none; }
 }
-@media (prefers-reduced-motion: reduce) { .portrait-cutout { animation: none; } }
+
+/* Side pictures paint themselves in (see SidePicture): a pencil sketch, then colour slowly blots in,
+   bloom by bloom, then a last coat */
+.sketch { mix-blend-mode: multiply; animation: sketch-in 1.4s var(--ease-out) calc(var(--enter) + 0.1s) both; }
+@keyframes sketch-in { from { opacity: 0; } to { opacity: 0.7; } }
+.blot {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: blot 2.8s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+  animation-delay: calc(var(--enter) + 0.9s + var(--i) * 0.32s);
+}
+@keyframes blot {
+  from { opacity: 0; transform: scale(0.15); }
+  40% { opacity: 1; }
+  to { opacity: 1; transform: none; }
+}
+.brush-fill { animation: brush-fill 2.2s var(--ease-out) calc(var(--enter) + 5s) both; }
+@keyframes brush-fill { from { opacity: 0; } to { opacity: 1; } }
+/* Once painted, the picture breathes, very slowly */
+.breathe {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: breathe 16s ease-in-out calc(var(--enter) + 7s) infinite alternate;
+}
+@keyframes breathe { to { transform: scale(1.045); } }
+
+/* Page change curtain: ink lifts first, then a rust band chases it off the top */
+.curtain { position: fixed; inset: 0; z-index: 60; pointer-events: none; }
+.curtain::before, .curtain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  animation: lift 0.85s var(--ease-expo) both;
+}
+.curtain::after { background: var(--ink); animation-delay: 0.05s; }
+.curtain::before { background: var(--accent); animation-delay: 0.16s; }
+@keyframes lift {
+  from { clip-path: inset(0 0 0 0); }
+  to { clip-path: inset(0 0 100% 0); }
+}
+
+/* Letter roll (see Roll): each letter's copy is a text-shadow one line below */
+.roll { display: inline-flex; overflow: hidden; line-height: 1.25; vertical-align: bottom; }
+.roll-char {
+  display: inline-block;
+  text-shadow: 0 1.25em currentColor;
+  transition: transform 0.55s var(--ease-expo);
+  transition-delay: calc(var(--i) * 18ms);
+}
+.group:hover .roll-char, .group:focus-visible .roll-char { transform: translateY(-1.25em); }
+
+/* Generative stone canvas on the home page fades out at its top and bottom edges */
+.travertine {
+  height: 100%;
+  -webkit-mask-image: linear-gradient(to bottom, transparent, #000 18%, #000 65%, transparent);
+  mask-image: linear-gradient(to bottom, transparent, #000 18%, #000 65%, transparent);
+  animation: page-enter 2s var(--ease-out) var(--enter) both;
+}
+
+/* ---------- Editorial type ---------- */
+
+/* Loose lists, set like a contents page (home index, Contact, Projects, Writing).
+   Each entry starts at its own indent, a brush-stroke leader runs out
+   to its note, and hovering one sets it in italic while the others fall back. */
+.index > * {
+  padding-left: calc(var(--indent) * 0.5);
+  animation: index-in 1.1s var(--ease-expo) both;
+  animation-delay: calc(var(--enter) + var(--start, 0.45s) + var(--i, 0) * 120ms);
+}
+.index > :nth-child(3n + 1) { --indent: 0%; --from: -56px; }
+.index > :nth-child(3n + 2) { --indent: 22%; --from: 56px; }
+.index > :nth-child(3n) { --indent: 9%; --from: -56px; }
+@keyframes index-in {
+  from { opacity: 0; transform: translateX(var(--from)); }
+  to { opacity: 1; transform: none; }
+}
+@media (min-width: 768px) { .index > * { padding-left: var(--indent); } }
+.index-link {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  padding-block: 0.6rem;
+  transition: opacity 0.5s var(--ease-out), filter 0.5s var(--ease-out);
+}
+@media (min-width: 768px) { .index-link { gap: 1.25rem; padding-block: 0.9rem; } }
+.index-word { line-height: 0.95; transition: color 0.4s; }
+/* Leader: a tapered brush flick from the word out to its note, drawn in left to right */
+.index-leader {
+  flex: 1;
+  min-width: 1.5rem;
+  height: 7px;
+  align-self: center;
+  margin-top: 0.6em;
+  background: var(--muted);
+  opacity: 0.45;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 8' preserveAspectRatio='none'%3E%3Cpath d='M0 4.2 C 8 2.2, 30 2.6, 52 3.4 S 88 3.9, 100 4 C 88 4.6, 70 5.2, 50 5.1 S 10 6.4, 0 4.2 Z'/%3E%3C/svg%3E") 0 0 / 100% 100% no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 8' preserveAspectRatio='none'%3E%3Cpath d='M0 4.2 C 8 2.2, 30 2.6, 52 3.4 S 88 3.9, 100 4 C 88 4.6, 70 5.2, 50 5.1 S 10 6.4, 0 4.2 Z'/%3E%3C/svg%3E") 0 0 / 100% 100% no-repeat;
+  transform-origin: left;
+  animation: draw 1.4s var(--ease-expo) both;
+  animation-delay: calc(var(--enter) + var(--start, 0.45s) + 0.3s + var(--i, 0) * 120ms);
+  transition: background-color 0.4s, opacity 0.4s;
+}
+/* A huge outlined numeral that rises behind the entry you're on */
+.index-ghost {
+  position: absolute;
+  right: 12%;
+  top: 50%;
+  z-index: -1;
+  font-family: var(--font-display);
+  font-size: clamp(6rem, 15vw, 13rem);
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--line);
+  opacity: 0;
+  translate: 0 -30%;
+  transition: opacity 0.5s, translate 0.9s var(--ease-expo);
+  pointer-events: none;
+}
+.index-link:hover .index-word, .index-link:focus-visible .index-word { font-style: italic; color: var(--accent); }
+.index-link:hover .index-leader, .index-link:focus-visible .index-leader { background: var(--accent); opacity: 1; }
+.index-link:hover .index-ghost, .index-link:focus-visible .index-ghost { opacity: 1; translate: 0 -50%; }
+/* The other entries fall back while you look at one */
+.index:has(.index-link:hover) .index-link:not(:hover) { opacity: 0.25; filter: blur(1px); }
+
+/* The current (see Current): fine strands that flow down a page through its entries */
+.current {
+  -webkit-mask-image: linear-gradient(to bottom, #000 72%, transparent);
+  mask-image: linear-gradient(to bottom, #000 72%, transparent);
+}
+.current-strand {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 1;
+  stroke-linecap: round;
+  opacity: 0.5;
+  stroke-dasharray: 1;
+  animation: line-draw 2.6s cubic-bezier(0.65, 0, 0.35, 1) both;
+  animation-delay: calc(var(--enter) + 0.2s + var(--s) * 0.12s);
+}
+.current-strand-faint { opacity: 0.18; }
+.current-strand-rust { stroke: var(--accent); stroke-width: 0.8; opacity: 0.55; }
+@keyframes line-draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+/* Nodes: small rust rings that open where the current meets each entry */
+.current-node {
+  fill: var(--bg);
+  stroke: var(--accent);
+  stroke-width: 1.5;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: pop 0.6s var(--ease-expo) both;
+  animation-delay: calc(var(--enter) + 0.2s + var(--at, 0) * 2.6s);
+}
+
+/* Now playing (see NowPlaying): a pill in the bottom-right corner that plays and pauses the song */
+.now-playing {
+  position: fixed;
+  right: clamp(1rem, 3vw, 2rem);
+  bottom: clamp(1rem, 3vw, 2rem);
+  z-index: 40;
+  animation: page-enter 0.9s var(--ease-expo) calc(var(--enter) + 1.2s) both;
+}
+.now-playing-pill {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(244, 239, 230, 0.82);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  transition: border-color 0.3s;
+}
+.now-playing-pill:hover { border-color: var(--accent); }
+/* Equalizer: four rust bars that dance only while the song plays */
+.eq { display: inline-flex; align-items: flex-end; gap: 2px; height: 12px; }
+.eq span { width: 2px; height: 30%; background: var(--accent); border-radius: 1px; }
+.eq[data-playing] span { animation: eq 0.9s ease-in-out infinite alternate; }
+.eq[data-playing] span:nth-child(2) { animation-duration: 0.7s; animation-delay: -0.3s; }
+.eq[data-playing] span:nth-child(3) { animation-duration: 1.1s; animation-delay: -0.5s; }
+.eq[data-playing] span:nth-child(4) { animation-duration: 0.8s; animation-delay: -0.2s; }
+@keyframes eq { from { height: 20%; } to { height: 100%; } }
+
+/* Marquee band (see Marquee) */
+.marquee {
+  overflow: hidden;
+  border-block: 1px solid var(--line);
+  padding-block: 0.9rem;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+  mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+}
+.marquee-track { display: flex; width: max-content; animation: marquee 40s linear infinite; }
+.marquee:hover .marquee-track { animation-play-state: paused; }
+.marquee-run { display: flex; align-items: center; font-size: clamp(1.5rem, 3vw, 2.5rem); line-height: 1.1; }
+.marquee-mark { width: 0.4rem; height: 0.4rem; margin-inline: 2.25rem; border-radius: 50%; background: var(--accent); }
+@keyframes marquee { to { transform: translateX(-50%); } }
+
+/* Side rail (see SideRail): a vertical running head in the left margin, wide screens only */
+.side-rail { display: none; }
+@media (min-width: 1280px) {
+  .side-rail {
+    position: fixed;
+    left: 1.5rem;
+    top: 50%;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    translate: 0 -50%;
+    animation: page-enter 1s var(--ease-expo) calc(var(--enter) + 0.6s) both;
+  }
+  .side-rail .label { writing-mode: vertical-rl; rotate: 180deg; font-size: 0.625rem; }
+  .side-rail-line { position: relative; width: 1px; height: 7rem; overflow: hidden; background: var(--line); }
+  .side-rail-line > span { position: absolute; inset: 0; background: var(--accent); transform-origin: top; }
+  .side-rail-section { color: var(--ink); animation: page-enter 0.6s var(--ease-expo) both; }
+}
+
+/* An ellipsis that types itself out, pauses, and starts again */
+.typing span { animation: typing 2.6s infinite; }
+.typing span:nth-child(2) { animation-delay: 0.3s; }
+.typing span:nth-child(3) { animation-delay: 0.6s; }
+@keyframes typing {
+  0%, 12% { opacity: 0; }
+  22%, 82% { opacity: 1; }
+  92%, 100% { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .now-playing, .eq span, .current-strand, .current-node, .marquee-track, .typing span, .side-rail, .side-rail-section, .index > *, .index-leader { animation: none; }
+  .index-link, .index-ghost { transition: none; }
+  .curtain { display: none; }
+  .travertine { animation: none; }
+  .roll-char { transition: none; }
+  .page-enter, .header-in, .words .word > span, .full-stop, .rule-row, .rule-row::before,
+  .rule-row:last-child::after, .rise-in, .painted, .sketch, .blot, .brush-fill, .breathe,
+  .nav-link[aria-current="page"]::after { animation: none; }
+  .sweep::before, .nudge, .nudge-up { transition: none; }
+}
