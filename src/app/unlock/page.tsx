@@ -15,10 +15,10 @@ export default async function Unlock({ searchParams }: { searchParams: Promise<{
   const title = target.startsWith("/writing") || target.startsWith("/feed") ? "Writing" : target.startsWith("/projects") ? "Projects" : "Private";
 
   return (
-    <div className="wrap pt-16 md:pt-28">
+    <div className="wrap pt-[5vh] md:pt-[7vh]">
       <div className="grid grid-cols-12">
         <div className="legible relative z-10 col-[1/span_7] row-start-1 md:col-[1/span_6]">
-          <PageTitle text={title} href={title === "Private" ? undefined : `/${title.toLowerCase()}`} className="mb-16 md:mb-24" />
+          <PageTitle text={title} href={title === "Private" ? undefined : `/${title.toLowerCase()}`} className="mb-[6vh]" />
           <form action="/api/unlock" method="post">
             <input type="hidden" name="next" value={target} />
             <label htmlFor="password" className="label block">Password</label>

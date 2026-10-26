@@ -15,7 +15,7 @@ export default function Home() {
     <section className="relative">
       {/* Generative stone veins behind the whole page, full bleed */}
       <Travertine className="pointer-events-none absolute inset-y-0 left-1/2 w-screen -translate-x-1/2" />
-      <div className="wrap relative pt-12 pb-24 md:pt-24 md:pb-36">
+      <div className="wrap relative pt-[5vh] pb-[3vh] md:pt-[7vh]">
         {/* The page's <h1> is the name in the header (see Brand).
             The headline is set like a magazine opener: two lines, the second stepped in, with an italic turn. */}
         <div className="grid grid-cols-12 items-end gap-y-6">
@@ -27,19 +27,20 @@ export default function Home() {
               <span className="full-stop">.</span>
             </span>
           </p>
-          <p className="rise-in label col-span-12 md:col-span-2 md:pb-6 md:text-right" style={{ "--i": 3 } as React.CSSProperties}>
-            Index<br />
-            <span className="text-ink">(0{index.length})</span>
+          {/* Home is page (00); the other pages run (01) to (04) in nav order. Hidden on phones to save the room */}
+          <p className="rise-in label hidden md:col-span-2 md:block md:pb-6 md:text-right" style={{ "--i": 3 } as React.CSSProperties}>
+            Home<br />
+            <span className="text-ink">(00)</span>
           </p>
         </div>
 
-        <div className="rise-in mt-14 md:mt-20" style={{ "--i": 4 } as React.CSSProperties}>
+        <div className="rise-in mt-[5vh]" style={{ "--i": 4 } as React.CSSProperties}>
           <Marquee words={["Deep Tech", "AI", "Law"]} />
         </div>
 
         {/* Set like a book's contents page: each entry starts at its own indent, a leader line runs
             out to its note, and hovering one sets it in italic while the others fall back */}
-        <ul className="index mt-10 md:mt-16">
+        <ul className="index mt-[3vh]">
           {index.map((item, i) => (
             <li key={item.href} style={{ "--i": i } as React.CSSProperties}>
               <Link href={item.href} className="index-link group">

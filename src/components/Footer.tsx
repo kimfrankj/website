@@ -3,7 +3,7 @@ import { site, isPlaceholder } from "@/lib/site";
 export function Footer() {
   const links = Object.entries(site.links).filter(([, v]) => !isPlaceholder(v));
   return (
-    <footer className="wrap mt-32 border-t border-line py-10">
+    <footer className="vein-rule wrap mt-4 py-3">
       <div className="flex flex-col justify-between gap-4 sm:flex-row">
         <p className="label">© {new Date().getFullYear()} {site.name}</p>
         <ul className="flex gap-6">

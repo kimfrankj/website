@@ -12,6 +12,10 @@
   /* Shared easing: a quick start that glides to a stop */
   --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
   --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  /* Veins: three fine wavy strands (two ink, one rust) lifted from the home page's travertine,
+     tiled along horizontal lines and drifting slowly (see .index-leader, .marquee, .vein-rule) */
+  --vein: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='12' viewBox='0 0 240 12'%3E%3Cpath d='M0 6 C 40 3, 80 9, 120 6 S 200 3, 240 6' fill='none' stroke='%23221e19' stroke-opacity='0.5' stroke-width='0.8'/%3E%3Cpath d='M0 4 C 50 7, 90 2, 140 5 S 210 8, 240 4' fill='none' stroke='%23221e19' stroke-opacity='0.22' stroke-width='0.7'/%3E%3Cpath d='M0 8 C 60 9, 100 5, 160 8 S 220 7, 240 8' fill='none' stroke='%239c4426' stroke-opacity='0.55' stroke-width='0.6'/%3E%3C/svg%3E");
+  --vein-hot: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='12' viewBox='0 0 240 12'%3E%3Cpath d='M0 6 C 40 3, 80 9, 120 6 S 200 3, 240 6' fill='none' stroke='%239c4426' stroke-opacity='0.9' stroke-width='0.9'/%3E%3Cpath d='M0 4 C 50 7, 90 2, 140 5 S 210 8, 240 4' fill='none' stroke='%239c4426' stroke-opacity='0.4' stroke-width='0.7'/%3E%3Cpath d='M0 8 C 60 9, 100 5, 160 8 S 220 7, 240 8' fill='none' stroke='%23221e19' stroke-opacity='0.35' stroke-width='0.6'/%3E%3C/svg%3E");
   /* When page content starts entering: just as the curtain clears */
   --enter: 0.45s;
   color-scheme: light;
@@ -27,9 +31,10 @@
   --font-display: var(--font-instrument), "Times New Roman", serif;
   --font-sans: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
   --text-hero: clamp(2.75rem, 6.5vw, 5.5rem);
-  --text-title: clamp(3rem, 8vw, 7.5rem);
-  --text-mega: clamp(3rem, 9.5vw, 9rem);
-  --text-giant: clamp(2.75rem, 7.5vw, 7rem);
+  /* Display sizes follow the screen's height as well as its width, so each main page fits one screen */
+  --text-title: clamp(2.5rem, min(8vw, 11vh), 7.5rem);
+  --text-mega: clamp(2.5rem, min(9.5vw, 10.5vh), 9rem);
+  --text-giant: clamp(2rem, min(7.5vw, 7vh), 7rem);
   --text-lead: clamp(1.25rem, 2vw, 1.625rem);
 }
 
@@ -257,9 +262,8 @@ body::after {
 }
 .sweep:hover::before, .sweep:focus-visible::before { transform: none; transform-origin: left; }
 /* Arrows lean toward where they go */
-.nudge, .nudge-up { transition: transform 0.5s var(--ease-expo); }
+.nudge { transition: transform 0.5s var(--ease-expo); }
 .group:hover .nudge, .group:focus-visible .nudge { transform: translateX(0.4rem); }
-.group:hover .nudge-up, .group:focus-visible .nudge-up { transform: translate(0.2rem, -0.2rem); }
 
 /* On phones the words overlap the side painting a little; a soft halo of paper keeps them readable */
 @media (max-width: 767px) {
@@ -267,7 +271,9 @@ body::after {
 }
 
 /* Side paintings (see SidePicture): rise in, and reach off the right edge of the screen */
-.painted { animation: rise 1.4s var(--ease-out) calc(var(--enter) + 0.1s) both; }
+/* Never taller than the screen leaves room for: on short screens it narrows toward the words,
+   so no empty gap opens up between them */
+.painted { width: min(100%, calc((100svh - 11.5rem) * 0.8)); animation: rise 1.4s var(--ease-out) calc(var(--enter) + 0.1s) both; }
 .bleed-right { margin-right: calc(-1 * (max(0px, (100vw - 72rem) / 2) + clamp(1.25rem, 4vw, 4rem))); }
 @keyframes rise {
   from { opacity: 0; transform: translateY(24px); }
@@ -359,43 +365,57 @@ body::after {
   padding-block: 0.6rem;
   transition: opacity 0.5s var(--ease-out), filter 0.5s var(--ease-out);
 }
-@media (min-width: 768px) { .index-link { gap: 1.25rem; padding-block: 0.9rem; } }
+@media (min-width: 768px) { .index-link { gap: 1.25rem; padding-block: clamp(0.3rem, 1.2vh, 0.9rem); } }
 .index-word { line-height: 0.95; transition: color 0.4s; }
 /* Leader: a tapered brush flick from the word out to its note, drawn in left to right */
 .index-leader {
   flex: 1;
   min-width: 1.5rem;
-  height: 7px;
+  height: 12px;
   align-self: center;
   margin-top: 0.6em;
-  background: var(--muted);
-  opacity: 0.45;
-  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 8' preserveAspectRatio='none'%3E%3Cpath d='M0 4.2 C 8 2.2, 30 2.6, 52 3.4 S 88 3.9, 100 4 C 88 4.6, 70 5.2, 50 5.1 S 10 6.4, 0 4.2 Z'/%3E%3C/svg%3E") 0 0 / 100% 100% no-repeat;
-  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 8' preserveAspectRatio='none'%3E%3Cpath d='M0 4.2 C 8 2.2, 30 2.6, 52 3.4 S 88 3.9, 100 4 C 88 4.6, 70 5.2, 50 5.1 S 10 6.4, 0 4.2 Z'/%3E%3C/svg%3E") 0 0 / 100% 100% no-repeat;
+  background: var(--vein) repeat-x 0 50% / 240px 12px;
+  opacity: 0.75;
   transform-origin: left;
-  animation: draw 1.4s var(--ease-expo) both;
-  animation-delay: calc(var(--enter) + var(--start, 0.45s) + 0.3s + var(--i, 0) * 120ms);
-  transition: background-color 0.4s, opacity 0.4s;
+  animation: draw 1.4s var(--ease-expo) both, vein-flow 18s linear infinite;
+  animation-delay: calc(var(--enter) + var(--start, 0.45s) + 0.3s + var(--i, 0) * 120ms), 0s;
+  transition: opacity 0.4s;
 }
-/* A huge outlined numeral that rises behind the entry you're on */
+/* Veins drift along their line, like the travertine on the home page */
+@keyframes vein-flow { to { background-position-x: -240px; } }
+/* A horizontal rule drawn as veins */
+.vein-rule { position: relative; }
+.vein-rule::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -6px;
+  height: 12px;
+  background: var(--vein) repeat-x 0 50% / 240px 12px;
+  opacity: 0.6;
+  animation: vein-flow 24s linear infinite;
+}
+/* A huge outlined numeral that swells up behind the entry you're on */
 .index-ghost {
   position: absolute;
   right: 12%;
   top: 50%;
   z-index: -1;
   font-family: var(--font-display);
-  font-size: clamp(6rem, 15vw, 13rem);
+  font-size: clamp(5rem, min(15vw, 18vh), 13rem);
   line-height: 1;
   color: transparent;
   -webkit-text-stroke: 1px var(--line);
   opacity: 0;
-  translate: 0 -30%;
-  transition: opacity 0.5s, translate 0.9s var(--ease-expo);
+  translate: 0 -50%;
+  scale: 0.85;
+  transition: opacity 0.5s, scale 0.9s var(--ease-expo);
   pointer-events: none;
 }
 .index-link:hover .index-word, .index-link:focus-visible .index-word { font-style: italic; color: var(--accent); }
-.index-link:hover .index-leader, .index-link:focus-visible .index-leader { background: var(--accent); opacity: 1; }
-.index-link:hover .index-ghost, .index-link:focus-visible .index-ghost { opacity: 1; translate: 0 -50%; }
+.index-link:hover .index-leader, .index-link:focus-visible .index-leader { background-image: var(--vein-hot); opacity: 1; }
+.index-link:hover .index-ghost, .index-link:focus-visible .index-ghost { opacity: 1; scale: 1; }
 /* The other entries fall back while you look at one */
 .index:has(.index-link:hover) .index-link:not(:hover) { opacity: 0.25; filter: blur(1px); }
 
@@ -461,14 +481,26 @@ body::after {
 /* Marquee band (see Marquee) */
 .marquee {
   overflow: hidden;
-  border-block: 1px solid var(--line);
-  padding-block: 0.9rem;
+  position: relative;
+  padding-block: clamp(0.4rem, 1.2vh, 0.9rem);
   -webkit-mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
   mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
 }
+.marquee::before, .marquee::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 12px;
+  background: var(--vein) repeat-x 0 50% / 240px 12px;
+  opacity: 0.6;
+  animation: vein-flow 22s linear infinite;
+}
+.marquee::before { top: -6px; }
+.marquee::after { bottom: -6px; animation-direction: reverse; }
 .marquee-track { display: flex; width: max-content; animation: marquee 40s linear infinite; }
 .marquee:hover .marquee-track { animation-play-state: paused; }
-.marquee-run { display: flex; align-items: center; font-size: clamp(1.5rem, 3vw, 2.5rem); line-height: 1.1; }
+.marquee-run { display: flex; align-items: center; font-size: clamp(1.25rem, min(3vw, 4vh), 2.5rem); line-height: 1.1; }
 .marquee-mark { width: 0.4rem; height: 0.4rem; margin-inline: 2.25rem; border-radius: 50%; background: var(--accent); }
 @keyframes marquee { to { transform: translateX(-50%); } }
 
@@ -504,7 +536,7 @@ body::after {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .now-playing, .eq span, .current-strand, .current-node, .marquee-track, .typing span, .side-rail, .side-rail-section, .index > *, .index-leader { animation: none; }
+  .vein-rule::before, .marquee::before, .marquee::after, .now-playing, .eq span, .current-strand, .current-node, .marquee-track, .typing span, .side-rail, .side-rail-section, .index > *, .index-leader { animation: none; }
   .index-link, .index-ghost { transition: none; }
   .curtain { display: none; }
   .travertine { animation: none; }
@@ -512,5 +544,5 @@ body::after {
   .page-enter, .header-in, .words .word > span, .full-stop, .rule-row, .rule-row::before,
   .rule-row:last-child::after, .rise-in, .painted, .sketch, .blot, .brush-fill, .breathe,
   .nav-link[aria-current="page"]::after { animation: none; }
-  .sweep::before, .nudge, .nudge-up { transition: none; }
+  .sweep::before, .nudge { transition: none; }
 }

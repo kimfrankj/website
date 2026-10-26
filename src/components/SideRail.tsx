@@ -10,7 +10,7 @@ import { nav, site } from "@/lib/site";
  */
 export function SideRail() {
   const path = usePathname();
-  const section = nav.find((n) => path === n.href || path.startsWith(`${n.href}/`))?.label ?? "Index";
+  const section = nav.find((n) => path === n.href || path.startsWith(`${n.href}/`))?.label ?? "Home";
   const { scrollYProgress } = useScroll();
   const progress = useSpring(scrollYProgress, { stiffness: 120, damping: 24 });
 

@@ -81,8 +81,8 @@ export function Current() {
       });
       // Then it carries on past the last entry, down and out toward the painting
       const last = nodes[nodes.length - 1];
-      route.push({ x: last.x + (narrow ? 40 : 120), y: last.y + 110, bend: 1 });
-      route.push({ x: last.x + (narrow ? 140 : 360), y: last.y + 190, bend: 1 });
+      route.push({ x: last.x + (narrow ? 40 : 120), y: last.y + 40, bend: 1 });
+      route.push({ x: last.x + (narrow ? 140 : 360), y: last.y + 70, bend: 1 });
       // Keep it on screen where the margin is thin (phones)
       const minX = 10 - root.getBoundingClientRect().left;
       for (const p of route) p.x = Math.max(p.x, minX);
@@ -140,7 +140,7 @@ export function Current() {
   }, []);
 
   return (
-    <svg ref={svg} aria-hidden="true" className="current pointer-events-none absolute top-0 -z-10 h-[calc(100%+240px)] overflow-visible"
+    <svg ref={svg} aria-hidden="true" className="current pointer-events-none absolute top-0 -z-10 h-[calc(100%+80px)] overflow-visible"
       style={{ left: -PAD, width: `calc(100% + ${PAD}px)` }}>
       <g transform={`translate(${PAD} 0)`}>
         {STRANDS.map((s, i) => (

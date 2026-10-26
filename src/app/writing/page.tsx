@@ -15,7 +15,7 @@ export default function Writing() {
   const posts = getPosts();
 
   return (
-    <div className="wrap pt-16 md:pt-28">
+    <div className="wrap pt-[5vh] md:pt-[7vh]">
       {/* Same arrangement as About and Projects: title and content on the left, painted picture on the right */}
       <div className="grid grid-cols-12">
         <div className="legible relative z-10 col-[1/span_7] row-start-1 flex flex-col md:col-[1/span_6]">
@@ -23,7 +23,7 @@ export default function Writing() {
           <Current />
           <PageTitle text="Writing" href="/writing" />
 
-          <div className="flex flex-1 flex-col justify-center py-10">
+          <div className="flex flex-1 flex-col justify-center py-[4vh]">
             {posts.length === 0 ? (
               <p className="words display text-[length:clamp(1.5rem,5.8vw,4.5rem)]"><Words text="Coming soon." delay={250} /></p>
             ) : (

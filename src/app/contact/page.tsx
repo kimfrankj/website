@@ -9,28 +9,25 @@ export const metadata: Metadata = {
 };
 
 export default function Contact() {
-  const all: [string, string, string][] = [
-    ["Email", site.email, `mailto:${site.email}`],
-    ["LinkedIn", site.links.linkedin, site.links.linkedin],
-    ["X", site.links.x, site.links.x],
+  // [what the link says, where it goes]: each link is simply named, not spelled out as an address
+  const all: [string, string][] = [
+    ["Email", `mailto:${site.email}`],
+    ["LinkedIn", site.links.linkedin],
+    ["X", site.links.x],
   ];
 
-  const rows = all.filter(([, text]) => !isPlaceholder(text));
+  const rows = all.filter(([, href]) => !isPlaceholder(href));
 
   return (
-    <div className="wrap relative isolate pt-16 md:pt-28">
+    <div className="wrap relative isolate pt-[5vh] md:pt-[7vh]">
       <Current />
       <PageTitle text="Contact" href="/contact" />
-      <ul className="index mt-16 md:mt-24">
-        {rows.map(([label, text, href], i) => (
-          <li key={label} style={{ "--i": i } as React.CSSProperties}>
+      <ul className="index mt-[6vh]">
+        {rows.map(([text, href], i) => (
+          <li key={href} style={{ "--i": i } as React.CSSProperties}>
             <a data-node href={href} rel="noopener" className="index-link group">
-              <span className="label w-16 shrink-0 font-sans md:w-20">{label}</span>
-              <span className="index-word display min-w-0 break-all text-[length:clamp(1.5rem,4.6vw,4rem)]">
-                {text.replace(/^https?:\/\/(www\.)?/, "")}
-              </span>
+              <span className="index-word display text-giant">{text}</span>
               <span aria-hidden="true" className="index-leader" />
-              <span aria-hidden="true" className="nudge-up inline-block shrink-0 font-display text-2xl md:text-4xl">↗</span>
             </a>
           </li>
         ))}

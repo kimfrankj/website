@@ -27,12 +27,15 @@ export function SidePicture({
   alt,
   size,
   position = "50% 50%",
+  near = false,
 }: {
   src: string;
   alt: string;
   /** The image file's own width and height in pixels, to crop it the way object-fit: cover would. */
   size: [number, number];
   position?: string;
+  /** On wider screens, start a column closer to the words: for pages whose words stay narrow (About). */
+  near?: boolean;
 }) {
   const id = useId().replace(/[^a-zA-Z0-9]/g, "");
   const { props: img } = getImageProps({ src, alt: "", fill: true, sizes: "(min-width: 768px) 55vw, 70vw" });
@@ -44,7 +47,7 @@ export function SidePicture({
   const box = { width: iw * s, height: ih * s, x: (W - iw * s) * px, y: (H - ih * s) * py };
 
   return (
-    <Drift className="bleed-right pointer-events-none col-[6/span_7] row-start-1 md:col-[7/span_6] -mt-[18%] self-start">
+    <Drift className={`bleed-right pointer-events-none col-[6/span_7] row-start-1 -mt-[18%] self-start ${near ? "" : "md:col-[7/span_6]"}`}>
       <div className="painted relative aspect-[4/5]">
         <svg viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" role="img" aria-label={alt} className="absolute inset-0 h-full w-full overflow-visible">
           <defs>
