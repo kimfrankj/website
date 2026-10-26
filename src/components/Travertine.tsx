@@ -55,11 +55,18 @@ export function Travertine({ className = "" }: { className?: string }) {
       );
     };
 
+    let tick = 0;
     const step = () => {
       t += 0.0035;
-      // Fade old strokes back toward the paper so veins stay soft
-      ctx.fillStyle = `rgba(${BG}, 0.006)`;
-      ctx.fillRect(0, 0, w, h);
+      tick++;
+      // Fade old strokes back toward the paper so veins stay soft. A canvas stores whole colour steps,
+      // so a tiny fade every frame rounds to nothing on faint strokes and they pile up forever. Fading
+      // in bigger steps every 20 frames actually clears them (slowly, so veins linger), and a stronger
+      // pass every 10 seconds lifts the last faint haze, so the density levels off instead of crowding.
+      if (tick % 20 === 0) {
+        ctx.fillStyle = `rgba(${BG}, ${tick % 600 === 0 ? 0.25 : 0.05})`;
+        ctx.fillRect(0, 0, w, h);
+      }
       ctx.lineWidth = 0.7;
       for (const p of ps) {
         const a = angle(p.x, p.y);
