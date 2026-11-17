@@ -13,7 +13,7 @@
   --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
   --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
   /* Veins: three fine wavy strands (two ink, one rust) lifted from the home page's travertine,
-     tiled along horizontal lines and drifting slowly (see .index-leader, .marquee, .vein-rule) */
+     tiled along horizontal lines and drifting slowly (see .index-leader, .vein-rule) */
   --vein: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='12' viewBox='0 0 240 12'%3E%3Cpath d='M0 6 C 40 3, 80 9, 120 6 S 200 3, 240 6' fill='none' stroke='%23221e19' stroke-opacity='0.5' stroke-width='0.8'/%3E%3Cpath d='M0 4 C 50 7, 90 2, 140 5 S 210 8, 240 4' fill='none' stroke='%23221e19' stroke-opacity='0.22' stroke-width='0.7'/%3E%3Cpath d='M0 8 C 60 9, 100 5, 160 8 S 220 7, 240 8' fill='none' stroke='%239c4426' stroke-opacity='0.55' stroke-width='0.6'/%3E%3C/svg%3E");
   --vein-hot: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='12' viewBox='0 0 240 12'%3E%3Cpath d='M0 6 C 40 3, 80 9, 120 6 S 200 3, 240 6' fill='none' stroke='%239c4426' stroke-opacity='0.9' stroke-width='0.9'/%3E%3Cpath d='M0 4 C 50 7, 90 2, 140 5 S 210 8, 240 4' fill='none' stroke='%239c4426' stroke-opacity='0.4' stroke-width='0.7'/%3E%3Cpath d='M0 8 C 60 9, 100 5, 160 8 S 220 7, 240 8' fill='none' stroke='%23221e19' stroke-opacity='0.35' stroke-width='0.6'/%3E%3C/svg%3E");
   /* When page content starts entering: just as the curtain clears */
@@ -496,32 +496,6 @@ body::after {
 .eq[data-playing] span:nth-child(4) { animation-duration: 0.8s; animation-delay: -0.2s; }
 @keyframes eq { from { height: 20%; } to { height: 100%; } }
 
-/* Marquee band (see Marquee) */
-.marquee {
-  overflow: hidden;
-  position: relative;
-  padding-block: clamp(0.4rem, 1.2vh, 0.9rem);
-  -webkit-mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
-  mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
-}
-.marquee::before, .marquee::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 12px;
-  background: var(--vein) repeat-x 0 50% / 240px 12px;
-  opacity: 0.6;
-  animation: vein-flow 22s linear infinite;
-}
-.marquee::before { top: -6px; }
-.marquee::after { bottom: -6px; animation-direction: reverse; }
-.marquee-track { display: flex; width: max-content; animation: marquee 40s linear infinite; }
-.marquee:hover .marquee-track { animation-play-state: paused; }
-.marquee-run { display: flex; align-items: center; font-size: clamp(1.25rem, min(3vw, 4vh), 2.5rem); line-height: 1.1; }
-.marquee-mark { width: 0.4rem; height: 0.4rem; margin-inline: 2.25rem; border-radius: 50%; background: var(--accent); }
-@keyframes marquee { to { transform: translateX(-50%); } }
-
 /* Side rail (see SideRail): a vertical running head in the left margin, wide screens only */
 .side-rail { display: none; }
 @media (min-width: 1280px) {
@@ -555,7 +529,7 @@ body::after {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .vein-field::after, .vein-rule::before, .marquee::before, .marquee::after, .now-playing, .eq span, .current-strand, .current-node, .marquee-track, .typing span, .side-rail, .side-rail-section, .index > *, .index-leader { animation: none; }
+  .vein-field::after, .vein-rule::before, .now-playing, .eq span, .current-strand, .current-node, .typing span, .side-rail, .side-rail-section, .index > *, .index-leader { animation: none; }
   .index-link, .index-ghost { transition: none; }
   .curtain { display: none; }
   .travertine { animation: none; }

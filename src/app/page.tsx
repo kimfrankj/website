@@ -2,7 +2,6 @@ import Link from "next/link";
 import { Words } from "@/components/Words";
 import { Travertine } from "@/components/Travertine";
 import { Scramble } from "@/components/Scramble";
-import { Marquee } from "@/components/Marquee";
 
 const index = [
   { href: "/about", label: "About", note: "" },
@@ -29,13 +28,9 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="rise-in mt-[5vh]" style={{ "--i": 4 } as React.CSSProperties}>
-          <Marquee words={["Deep Tech", "Law", "AI"]} />
-        </div>
-
         {/* Set like a book's contents page: each entry starts at its own indent, a leader line runs
             out to its note, and hovering one sets it in italic while the others fall back */}
-        <ul className="index mt-[3vh]">
+        <ul className="index mt-[7vh]">
           {index.map((item, i) => (
             <li key={item.href} style={{ "--i": i } as React.CSSProperties}>
               <Link href={item.href} className="index-link group">
