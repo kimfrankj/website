@@ -57,6 +57,7 @@ export default function About() {
           alt="Painted portrait of Frank Kim, arms crossed, in a white shirt, leaning against a stone archway"
           position="50% 34%"
           near
+          tall={1.05}
         />
       </div>
     </div>

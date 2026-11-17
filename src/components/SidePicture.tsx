@@ -2,11 +2,11 @@ import { useId } from "react";
 import { getImageProps } from "next/image";
 import { Drift } from "@/components/Drift";
 
-// The canvas is 4:5; drawn in SVG units so brush strokes can be laid across it
-const W = 300, H = 375;
+// The canvas is 4:5 unless stretched (see `tall`); drawn in SVG units so brush strokes can be laid across it
+const W = 300, BASE_H = 375;
 
 // Blots of colour that bloom into the canvas one after another, from the middle outward,
-// like watercolour dropped onto wet paper: [x, y, radius] in canvas units
+// like watercolour dropped onto wet paper: [x, y, radius] in units of the 4:5 canvas
 const BLOTS = [
   [150, 175, 72], [100, 115, 56], [205, 120, 60], [120, 252, 62], [200, 262, 58], [150, 70, 52],
   [68, 190, 48], [236, 196, 50], [150, 322, 50], [88, 320, 40], [222, 330, 42], [150, 245, 60],
@@ -20,6 +20,7 @@ const BLOTS = [
  * and a last coat fills the heart of it, leaving the underdrawing showing around the ragged edges like an
  * unfinished canvas.
  * `position` chooses which part of the picture stays in view (like CSS object-position).
+ * `tall` stretches the canvas vertically (1.05 = 5% taller) without distorting the picture.
  * Without motion it simply shows the finished painting.
  */
 export function SidePicture({
@@ -28,6 +29,7 @@ export function SidePicture({
   size,
   position = "50% 50%",
   near = false,
+  tall = 1,
 }: {
   src: string;
   alt: string;
@@ -36,7 +38,10 @@ export function SidePicture({
   position?: string;
   /** On wider screens, start a column closer to the words: for pages whose words stay narrow (About). */
   near?: boolean;
+  /** Height multiplier for the canvas: 1 is 4:5, 1.05 is 5% taller. */
+  tall?: number;
 }) {
+  const H = BASE_H * tall;
   const id = useId().replace(/[^a-zA-Z0-9]/g, "");
   const { props: img } = getImageProps({ src, alt: "", fill: true, sizes: "(min-width: 768px) 55vw, 70vw" });
 
@@ -48,7 +53,7 @@ export function SidePicture({
 
   return (
     <Drift className={`bleed-right pointer-events-none col-[6/span_7] row-start-1 -mt-[18%] self-start ${near ? "" : "md:col-[7/span_6]"}`}>
-      <div className="painted relative aspect-[4/5]">
+      <div className="painted relative" style={{ aspectRatio: `${W} / ${H}` }}>
         <svg viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" role="img" aria-label={alt} className="absolute inset-0 h-full w-full overflow-visible">
           <defs>
             {/* Pencil: edges of the picture traced as dark lines on paper */}
@@ -77,7 +82,7 @@ export function SidePicture({
             <mask id={`${id}-paint`} maskUnits="userSpaceOnUse" x="-40" y="-40" width={W + 80} height={H + 80}>
               <g filter={`url(#${id}-blot)`} fill="#fff">
                 {BLOTS.map(([cx, cy, r], i) => (
-                  <circle key={i} cx={cx} cy={cy} r={r} className="blot" style={{ "--i": i } as React.CSSProperties} />
+                  <circle key={i} cx={cx} cy={cy * tall} r={r} className="blot" style={{ "--i": i } as React.CSSProperties} />
                 ))}
               </g>
               <ellipse cx={W / 2} cy={H * 0.48} rx={W * 0.36} ry={H * 0.38} fill="#fff" filter={`url(#${id}-coat)`} className="brush-fill" />
