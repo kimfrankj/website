@@ -21,6 +21,7 @@ const BLOTS = [
  * unfinished canvas.
  * `position` chooses which part of the picture stays in view (like CSS object-position).
  * `tall` stretches the canvas vertically (1.05 = 5% taller) without distorting the picture.
+ * `stretch` elongates the picture itself vertically (1.05 = 5% taller and narrower-looking).
  * Without motion it simply shows the finished painting.
  */
 export function SidePicture({
@@ -30,6 +31,7 @@ export function SidePicture({
   position = "50% 50%",
   near = false,
   tall = 1,
+  stretch = 1,
 }: {
   src: string;
   alt: string;
@@ -40,13 +42,15 @@ export function SidePicture({
   near?: boolean;
   /** Height multiplier for the canvas: 1 is 4:5, 1.05 is 5% taller. */
   tall?: number;
+  /** Vertical stretch applied to the image itself: 1 keeps its proportions, 1.05 elongates it 5%. */
+  stretch?: number;
 }) {
   const H = BASE_H * tall;
   const id = useId().replace(/[^a-zA-Z0-9]/g, "");
   const { props: img } = getImageProps({ src, alt: "", fill: true, sizes: "(min-width: 768px) 55vw, 70vw" });
 
   // Cover-crop: scale to fill the canvas, then shift by `position`
-  const [iw, ih] = size;
+  const [iw, ih] = [size[0], size[1] * stretch];
   const s = Math.max(W / iw, H / ih);
   const [px, py] = position.split(" ").map((v) => parseFloat(v) / 100);
   const box = { width: iw * s, height: ih * s, x: (W - iw * s) * px, y: (H - ih * s) * py };

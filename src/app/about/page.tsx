@@ -58,6 +58,7 @@ export default function About() {
           position="50% 34%"
           near
           tall={1.05}
+          stretch={1.05}
         />
       </div>
     </div>
